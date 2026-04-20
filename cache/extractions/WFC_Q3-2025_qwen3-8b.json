@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong financial results with net income and diluted earnings per share up from a year ago",
+    "Revenue increased 5% from a year ago with growth in both net interest income and fee-based revenue",
+    "Investment banking fees increased 25% from a year ago",
+    "Credit performance was strong and continued to improve",
+    "Capital return increased with higher common stock dividend and share repurchases"
+  ],
+  "risks": [
+    "Credit card portfolios are a drag on earnings and returns in the early years of investment",
+    "Potential for additional losses in commercial real estate",
+    "Severance expenses impacting noninterest income",
+    "Higher revenue-related compensation expenses",
+    "Uncertainty around the timing and extent of return on equity targets"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "capital",
+    "credit",
+    "efficiency",
+    "growth",
+    "returns"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-10-14"
+}

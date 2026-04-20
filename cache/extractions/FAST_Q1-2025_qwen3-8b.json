@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.3,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Sales grew 3.5% with 5% daily growth",
+    "Customer expo had record attendance",
+    "Dividend increased to $0.44",
+    "FMI device count grew 12.5%",
+    "Digital footprint increased to 61% of sales"
+  ],
+  "risks": [
+    "Under $5000 customer segment underperforming",
+    "Tariff uncertainty impacting pricing",
+    "Supply chain costs increasing",
+    "E-commerce performance needs improvement",
+    "Inventory growth may remain elevated"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "supply_chain",
+    "tariffs",
+    "digital_transformation",
+    "customer_relations",
+    "inventory_management"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-04-11"
+}

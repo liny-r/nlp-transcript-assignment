@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.3,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Increased common stock dividend from $0.30 to $0.35 per share",
+    "Repurchased $12 billion of common stock in 2023",
+    "CIB revenue grew 26% from a year ago",
+    "Launched new co-branded credit cards with Choice Hotels",
+    "Exceeded $150 million commitment to advance racial equity in home ownership"
+  ],
+  "risks": [
+    "Net loan charge-offs increased from historical low levels",
+    "Net interest income is expected to decline in 2024",
+    "Consumer deposit balances continue to decline",
+    "Credit card revenue declined due to promotional rates and rewards expense",
+    "Uncertainty around Federal Reserve interest rate actions"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "credit",
+    "capital",
+    "technology",
+    "efficiency",
+    "interest rates"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-01-17"
+}

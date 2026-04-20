@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Achieved $390 million in DRIVE-related savings in Q1",
+    "Narrowed FY '25 adjusted EPS outlook to $20 to $21",
+    "Successfully piloted new hold-to-match solution to lower last-mile costs",
+    "Launched FedEx International Deferred Freight service",
+    "Announced strategic alliance with Nimble to enhance e-commerce fulfillment"
+  ],
+  "risks": [
+    "U.S. domestic package market weaker than expected",
+    "International export demand surcharges tapering",
+    "Lower-than-expected revenue growth in FY '25",
+    "Challenging industrial economy impacting B2B volumes",
+    "U.S. Postal Service contract termination headwind in Q2"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "DRIVE",
+    "network transformation",
+    "international",
+    "pricing",
+    "e-commerce"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q1-2025",
+  "_call_date": "2024-09-19"
+}

@@ -1,0 +1,27 @@
+{
+  "overall_sentiment": 0.8,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Strong Q2 performance with $82 billion net inflows",
+    "Record AUM of over $10.6 trillion",
+    "Double-digit operating income growth",
+    "160 basis points margin expansion",
+    "Positive organic base fee growth of 3%"
+  ],
+  "risks": [
+    "$20 billion active fixed income redemption from a large insurance client",
+    "Institutional index net outflows of $35 billion",
+    "Institutional active net outflows of $2 billion"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "ETFs",
+    "private_markets",
+    "technology",
+    "AI",
+    "infrastructure"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q2-2024",
+  "_call_date": "2024-07-15"
+}

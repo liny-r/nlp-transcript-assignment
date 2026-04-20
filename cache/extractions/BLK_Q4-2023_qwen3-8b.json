@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Announced acquisition of GIP, creating a $150 billion infrastructure platform",
+    "Generated $289 billion in total net inflows in 2023",
+    "Achieved 6% annualized organic base fee growth in November and December 2023",
+    "Strong performance fees increased from a year ago",
+    "BlackRock's ETF net inflows of $186 billion in 2023"
+  ],
+  "risks": [
+    "Full year operating income declined 2% from 2022",
+    "Nonoperating results included $122 million of net investment income",
+    "Fourth quarter restructuring charge of $61 million",
+    "Uncertainty around tax legislation impacting effective tax rate",
+    "Potential outflows from rising rate sensitive strategies"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "infrastructure",
+    "private_markets",
+    "ETF",
+    "technology",
+    "capital_markets"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-01-12"
+}

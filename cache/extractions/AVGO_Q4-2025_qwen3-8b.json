@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "AI semiconductor revenue grew 65% year-over-year to $20 billion",
+    "Record $18 billion revenue in Q4 2025, above guidance",
+    "AI revenue expected to double year-on-year to $8.2 billion in Q1 2026",
+    "Acquired a fifth XPU customer with a $1 billion order",
+    "Strong backlog of $73 billion in AI-related orders"
+  ],
+  "risks": [
+    "Non-AI semiconductor revenue is flat year-over-year",
+    "Potential dilution of gross margins due to system sales",
+    "Supply chain challenges with advanced packaging",
+    "Uncertainty around OpenAI's contribution in fiscal 2026",
+    "Global minimum tax impacting non-GAAP tax rate"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "semiconductors",
+    "VMware",
+    "supply_chain",
+    "advanced_packaging"
+  ],
+  "_ticker": "AVGO",
+  "_quarter": "Q4-2025",
+  "_call_date": "2025-12-11"
+}

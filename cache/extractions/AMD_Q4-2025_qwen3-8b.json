@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record revenue and net income driven by high-performance computing and AI products",
+    "Significant server and PC processor share gains",
+    "Strong demand across data center, PC, gaming, and embedded markets",
+    "Record Instinct GPU revenue and expanding AI adoption",
+    "Successful launch of Ryzen AI 400 and Ryzen AI Halo platform"
+  ],
+  "risks": [
+    "Uncertainty around China MI308 sales and potential regulatory issues",
+    "Seasonal decline in Client and Gaming segment revenue",
+    "Potential supply chain constraints for server CPUs",
+    "Competition from ARM-based CPUs and other AI architectures",
+    "Inflationary pressures on memory costs"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "AI",
+    "data_center",
+    "server_cpu",
+    "chiplet_architecture",
+    "hbm"
+  ],
+  "_ticker": "AMD",
+  "_quarter": "Q4-2025",
+  "_call_date": "2026-02-03"
+}

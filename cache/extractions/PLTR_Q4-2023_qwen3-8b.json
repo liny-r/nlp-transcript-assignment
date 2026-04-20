@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Fourth quarter revenue grew 20% year-over-year and 9% sequentially to $608 million",
+    "Commercial business surpassed $1 billion in revenue over the last 12 months",
+    "Completed over 560 AIP bootcamps across 465 organizations",
+    "Signed multiple large deals with major companies including car rental, telecom, and pharmaceutical firms",
+    "Received a $330 million contract with the NHS to improve patient care"
+  ],
+  "risks": [
+    "U.S. government business results remained muted due to continuing resolution and timing of large potential contract awards",
+    "The Army's down selection for TITAN is expected in Q2 2024",
+    "The DoD is at the beginning of a long-term shift from hardware to software",
+    "Revenue from strategic commercial contracts is expected to decline in 2024",
+    "Global conflicts and geopolitical tensions may impact operations and revenue"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AIP",
+    "U.S. commercial",
+    "government",
+    "international",
+    "AI"
+  ],
+  "_ticker": "PLTR",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-02-05"
+}

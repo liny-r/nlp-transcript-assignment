@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record financing revenues in FICC",
+    "Strong performance in equities intermediation and financing",
+    "Record assets under supervision in Asset & Wealth Management",
+    "Significant growth in private banking and lending revenues",
+    "Positive momentum in Alternatives fundraising"
+  ],
+  "risks": [
+    "Narrowing consumer footprint reducing ROE",
+    "Regulatory uncertainty around Basel III revisions",
+    "M&A volumes still below 10-year averages",
+    "Potential competition from nonbank trading venues",
+    "Uncertainty around regulatory outcomes affecting capital requirements"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "regulation",
+    "capital",
+    "wealth_management",
+    "alternatives",
+    "markets"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-10-15"
+}

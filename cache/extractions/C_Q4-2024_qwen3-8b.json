@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong fourth quarter and full year results with 40% net income increase",
+    "Exceeded revenue target with 5% growth ex divestitures",
+    "Fee revenue up 17% and improved efficiency ratio by 340 bps",
+    "Announced $20 billion share repurchase program",
+    "Grew tangible book value per share by 4% and CET1 ratio above regulatory requirements"
+  ],
+  "risks": [
+    "Higher expenses in 2025 due to transformation and technology investments",
+    "Uncertainty around capital requirements and regulatory environment",
+    "Potential impact of lower interest rates on NII",
+    "Card late fee reduction and FX headwinds",
+    "Need to continue reducing stranded costs and legacy expenses"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "Transformation",
+    "Capital Returns",
+    "Efficiency",
+    "Global Expansion",
+    "Technology"
+  ],
+  "_ticker": "C",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-01-15"
+}

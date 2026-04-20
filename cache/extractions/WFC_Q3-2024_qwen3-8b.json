@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong capital position with CET1 ratio of 11.3%",
+    "Significant share repurchases totaling $15.6 billion in the first 3 quarters",
+    "Growth in credit card portfolio with balances growing for 13 consecutive quarters",
+    "Noninterest income growth of 12% year-over-year",
+    "Efficiency initiatives leading to expense declines"
+  ],
+  "risks": [
+    "Commercial loan demand remains weak due to economic uncertainty",
+    "Commercial real estate office portfolio still expects additional charge-offs",
+    "Deposit pricing adjustments in response to Fed rate cuts",
+    "Uncertainty around the economic outlook and election impact",
+    "Potential impact from outstanding litigation and regulatory matters"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "capital",
+    "credit",
+    "efficiency",
+    "noninterest_income",
+    "regulatory"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-10-11"
+}

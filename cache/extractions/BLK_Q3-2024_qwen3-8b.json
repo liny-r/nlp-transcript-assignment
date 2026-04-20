@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Generated $221 billion of net inflows, highest ever",
+    "Record quarterly revenue and operating income",
+    "Expanded margin by 350 basis points year-over-year",
+    "5% annualized organic base fee growth, highest in 3 years",
+    "Acquired Global Infrastructure Partners, tripling infrastructure AUM"
+  ],
+  "risks": [
+    "Nonoperating results included $108 million of net investment gains",
+    "Total expense was 8% higher year-over-year",
+    "Discrete tax expenses impacted third quarter results",
+    "Uncertainty around regulatory approvals for Preqin acquisition",
+    "Potential outflows in money market business"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "private_markets",
+    "technology",
+    "ETFs",
+    "AI",
+    "capital_markets"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-10-11"
+}

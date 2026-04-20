@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record net inflows of $641 billion in 2024",
+    "Double-digit growth in annual revenue, operating income, and earnings per share",
+    "7% annualized organic base fee growth in Q4, highest in 3 years",
+    "Successful integration of GIP and planned acquisitions of HPS and Preqin",
+    "Strong demand for Aladdin technology and whole portfolio solutions"
+  ],
+  "risks": [
+    "Nonoperating results included $7 million of net investment losses",
+    "Higher share count in the current quarter",
+    "Potential changes in tax legislation affecting effective tax rate",
+    "Market and regulatory uncertainties for planned acquisitions",
+    "Uncertainty around the impact of macroeconomic factors on fixed income flows"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "private_markets",
+    "technology",
+    "ETFs",
+    "fixed_income",
+    "capital_markets"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-01-15"
+}

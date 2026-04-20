@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Johnson & Johnson reported robust operational sales growth of 7% for 2024",
+    "SPRAVATO surpassed $1 billion in annual sales",
+    "27 approvals in major markets in 2024",
+    "Acquisition of Intra-Cellular Therapies announced",
+    "Adjusted operational earnings per share growth of nearly 9% for 2025"
+  ],
+  "risks": [
+    "StELARA biosimilar competition impacting growth",
+    "Macroeconomic pressures in China",
+    "Loss of exclusivity of STELARA",
+    "Foreign currency impact on sales",
+    "VARIPULSE investigation in the U.S."
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "innovation",
+    "R&D",
+    "acquisitions",
+    "biologics",
+    "global markets"
+  ],
+  "_ticker": "JNJ",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-01-22"
+}

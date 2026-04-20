@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "NIKE brand grew this quarter with a strong mix",
+    "North America delivered over 20% wholesale growth",
+    "Running business grew over 20% for the second consecutive quarter",
+    "NIKE Digital reduced promotional activity and is operating more strategically",
+    "Inventory is in a healthy and clean position in North America and EMEA"
+  ],
+  "risks": [
+    "China continues to face significant headwinds with a 16% revenue decline",
+    "Tariffs have added a significant headwind to gross margins",
+    "Inventory obsolescence in Greater China impacted gross margins",
+    "Earnings per share was $0.53, below expectations",
+    "The reset in China requires a fresh approach and new capabilities"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "sport",
+    "China",
+    "product",
+    "digital",
+    "pricing"
+  ],
+  "_ticker": "NKE",
+  "_quarter": "Q2-2026",
+  "_call_date": "2025-12-18"
+}

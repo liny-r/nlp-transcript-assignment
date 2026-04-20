@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Noninterest income growth due to higher equity markets and investments",
+    "Strong credit card spend increase of 14%",
+    "Successful repurchase of $6.1 billion in common stock",
+    "Improved credit quality with stable net charge-offs",
+    "Positive outlook on fee-based businesses and revenue growth"
+  ],
+  "risks": [
+    "Higher deposit costs and interest rate volatility",
+    "Potential regulatory actions due to ongoing risk and control work",
+    "Uncertainty in net interest income due to market conditions",
+    "Ongoing litigation and regulatory matters impacting operating losses",
+    "Market volatility and potential for further regulatory scrutiny"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "risk_and_control",
+    "capital_returns",
+    "noninterest_income",
+    "credit_quality",
+    "market_volatility"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q1-2024",
+  "_call_date": "2024-04-12"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Clients awarded nearly $700 billion in net new assets",
+    "9% organic base fee growth and 16% technology ACV expansion",
+    "Record $5 billion payout to shareholders in 2025",
+    "10% increase to 2026 dividend per share",
+    "Strong momentum and growth across all business segments"
+  ],
+  "risks": [
+    "Noncash mark-to-market loss linked to Circle investment",
+    "Potential impact of tax legislation on effective tax rate",
+    "Market volatility and potential redemptions in institutional index funds",
+    "Competition in insurance and private markets",
+    "Uncertainty around future performance fees and related compensation"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "private_markets",
+    "technology",
+    "dividend",
+    "ETFs",
+    "capital_markets"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q4-2025",
+  "_call_date": "2026-01-15"
+}

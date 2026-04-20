@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.95,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Revenue grew 63% year-over-year and 18% sequentially",
+    "Rule of 40 score soared to 114%",
+    "Closed highest TCV quarter ever at $2.8 billion",
+    "U.S. commercial business grew 121% year-over-year",
+    "Generated highest ever reported adjusted operating margin of 51%"
+  ],
+  "risks": [
+    "Revenue from strategic commercial contracts is expected to be less than half of 1% of full year revenue",
+    "Anticipated fourth quarter 2025 revenue from these contracts to be between $2 million to $4 million",
+    "Net dollar retention does not yet fully capture the acceleration in U.S. business over the past year",
+    "RPO is primarily comprised of commercial business and does not include government contracts with short terms",
+    "Stock-based compensation expense and equity-related employer payroll tax expense are significant"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "U.S. government",
+    "revenue growth",
+    "ontology",
+    "customer expansion"
+  ],
+  "_ticker": "PLTR",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-11-03"
+}

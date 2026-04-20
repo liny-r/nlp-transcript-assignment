@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Revenue growth in Markets up 15%",
+    "Strong performance in Investment Banking with 7% fee increase",
+    "Net income of $15 billion and EPS of $5.24",
+    "Positive outlook with updated guidance on NII and expenses",
+    "Robust credit quality with stable charge-off rates"
+  ],
+  "risks": [
+    "10% year-on-year revenue decline overall",
+    "Higher RWA impacting CET1 ratio",
+    "Lower deposit margin due to rate compression",
+    "Uncertainty around regulatory changes and their impact on lending",
+    "Potential for increased competition in fintech and private credit"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "regulation",
+    "capital allocation",
+    "markets",
+    "credit",
+    "AI"
+  ],
+  "_ticker": "JPM",
+  "_quarter": "Q2-2025",
+  "_call_date": "2025-07-15"
+}

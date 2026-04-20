@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.15,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Successful Onsite and FMI signings",
+    "AI-assisted sourcing tool development",
+    "Improved customer acquisition and execution",
+    "Strong operating cash flow and flexible balance sheet",
+    "Positive customer feedback on FMI technology"
+  ],
+  "risks": [
+    "Challenging industrial market conditions",
+    "Price deflation in fasteners and safety products",
+    "Slower-than-expected revenue growth",
+    "Macro uncertainty and potential prolonged weakness",
+    "Inventory management and cost control pressures"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "AI",
+    "supply_chain",
+    "industrial",
+    "customer_acquisition",
+    "cost_control"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q2-2024",
+  "_call_date": "2024-07-12"
+}

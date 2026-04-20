@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Achieved $2.2 billion in structural cost reduction",
+    "Delivered $4.3 billion in cash to stockholders",
+    "Optimized Network 2.0 with 2.5 million average daily volume",
+    "Improved U.S. domestic volumes with 6% growth",
+    "Achieved 5% growth in international air freight revenue"
+  ],
+  "risks": [
+    "B2B volumes remain pressured",
+    "China to U.S. trade lane is a material headwind",
+    "U.S. Postal Service contract expiration headwind",
+    "Global trade policy uncertainty",
+    "Freight segment operating margin decline"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "Network 2.0",
+    "Trade",
+    "Cost Reduction",
+    "Freight Spinoff",
+    "Digital Transformation"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q4-2025",
+  "_call_date": "2025-06-24"
+}

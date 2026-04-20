@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.2,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Revenue up 10% YoY",
+    "Consumer spend growth above last year's pace",
+    "Home Lending originations up 46% YoY",
+    "Strong performance in M&A and equity underwriting",
+    "AUM up 16% YoY"
+  ],
+  "risks": [
+    "Expenses up 14% YoY",
+    "CET1 ratio down 30 basis points",
+    "RWA up $60 billion",
+    "G-SIB surcharge increase expected",
+    "Potential impact of Middle East developments"
+  ],
+  "guidance": "mixed",
+  "themes": [
+    "regulation",
+    "capital",
+    "markets",
+    "credit",
+    "operations"
+  ],
+  "_ticker": "JPM",
+  "_quarter": "Q1-2026",
+  "_call_date": "2026-04-14"
+}

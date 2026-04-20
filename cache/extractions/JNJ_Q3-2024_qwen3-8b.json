@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong operational sales growth of 6.3%",
+    "FDA approval of RYBREVANT plus LAZCLUZE for EGFR-mutated lung cancer",
+    "FDA approval of TREMFYA for ulcerative colitis",
+    "Successful acquisition of Shockwave and V-Wave in MedTech",
+    "Increased adjusted operational EPS guidance for 2024"
+  ],
+  "risks": [
+    "Talc litigation settlement proposal impacting results",
+    "Biosimilar competition in Europe and anticipated U.S. entry in 2025",
+    "China VBP impacting sales and growth",
+    "Part D redesign negatively affecting STELARA sales",
+    "Acquired IP R&D expense reducing margins"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "innovative_medicine",
+    "medtech",
+    "regulatory_approvals",
+    "acquisitions",
+    "pipeline_advancements"
+  ],
+  "_ticker": "JNJ",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-10-15"
+}

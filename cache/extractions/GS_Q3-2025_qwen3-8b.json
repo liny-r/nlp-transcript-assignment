@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record $3.5 trillion in assets under supervision",
+    "Raised $33 billion in alternatives fundraising in the quarter",
+    "Announced acquisition of Industry Ventures, a leading venture capital platform",
+    "Strong M&A advisory performance with over $1 trillion in announced volumes for 2025",
+    "Record $1.8 trillion in client assets in wealth management"
+  ],
+  "risks": [
+    "Market operates in cycles and disciplined risk management is imperative",
+    "Potential for divergence in AI-driven ventures",
+    "Regulatory environment remains a factor",
+    "Credit risk management challenges in private credit",
+    "Uncertainty around regulatory changes and Basel III endgame"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "M&A",
+    "private credit",
+    "wealth management",
+    "regulatory"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-10-15"
+}

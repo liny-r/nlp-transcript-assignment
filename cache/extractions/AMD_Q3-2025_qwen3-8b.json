@@ -1,0 +1,32 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record revenue and profitability with 36% YoY growth",
+    "Strong demand across data center AI, server, and PC businesses",
+    "Significant growth in EPYC, Ryzen, and Instinct processor sales",
+    "Record cloud sales with over 1,350 public EPYC cloud instances",
+    "Major partnerships with OpenAI, Oracle, and other hyperscalers"
+  ],
+  "risks": [
+    "Revenue from MI308 shipments to China excluded from guidance",
+    "Potential supply chain constraints for components and interconnects",
+    "Uncertainty around customer adoption of MI400 Series and Helios",
+    "Competition from other GPU and ASIC vendors for large-scale deployments",
+    "Depreciation of GPUs over 5-6 years may affect long-term revenue"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "cloud",
+    "server",
+    "gpu",
+    "software",
+    "supply_chain",
+    "partnerships"
+  ],
+  "_ticker": "AMD",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-11-04"
+}

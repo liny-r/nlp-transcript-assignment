@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Revenue grew 39% year-over-year",
+    "U.S. revenue grew 55% year-over-year",
+    "U.S. commercial revenue grew 71% year-over-year",
+    "Rule of 40 score increased from 81 to 83",
+    "Closed $810 million in U.S. commercial TCV"
+  ],
+  "risks": [
+    "International commercial revenue declined 5% year-over-year",
+    "Headwinds in Europe",
+    "Uncertainty in European AI adoption",
+    "Potential challenges in reindustrialization",
+    "Uncertain future of Rule of 40 score"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "U.S. government",
+    "reindustrialization",
+    "Ontology",
+    "AIP"
+  ],
+  "_ticker": "PLTR",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-05-05"
+}

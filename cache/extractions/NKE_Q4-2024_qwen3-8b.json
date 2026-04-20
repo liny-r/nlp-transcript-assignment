@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.25,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Performance grew double digits in the quarter",
+    "New innovations like G.T. Cut, Sabrina 1, and Peg 41 received strong reviews",
+    "Air Max Dn became a top 10 lifestyle franchise",
+    "Pegasus 41 achieved strong sell-through in both wholesale and NIKE Direct",
+    "Confidence in scaling newness to offset planned reductions in classic franchises"
+  ],
+  "risks": [
+    "Lifestyle business declined in Q4",
+    "NIKE Digital declined 10%",
+    "Foreign exchange headwinds worsened",
+    "Planned reductions for classic franchises will impact growth",
+    "Lower NIKE Digital growth expected in the first half of fiscal '25"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "innovation",
+    "performance",
+    "digital",
+    "franchise_management",
+    "supply_chain"
+  ],
+  "_ticker": "NKE",
+  "_quarter": "Q4-2024",
+  "_call_date": "2024-06-27"
+}

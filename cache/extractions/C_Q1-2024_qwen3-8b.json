@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.45,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Organizational simplification completed, resulting in a cleaner structure and faster decision-making",
+    "Strong Q1 performance with net income of $3.4 billion and RoTCE of 7.6%",
+    "Services revenue up 8% year-over-year with strong fee growth",
+    "Investment Banking revenue growth of 35% and overall banking revenue growth of 49%",
+    "Positive client sentiment and strong balance sheet with CET1 ratio of 13.5%"
+  ],
+  "risks": [
+    "Credit card charge-offs remain elevated, with Retail Services NCLs above full-year guidance",
+    "Uncertainty around macroeconomic conditions and global rate trajectories",
+    "Potential for higher capital requirements due to ongoing transformation and regulatory changes",
+    "Challenges in achieving 4% to 5% medium-term revenue growth",
+    "Higher credit costs and inflationary pressures impacting returns"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "Transformation",
+    "Credit",
+    "Organizational Simplification",
+    "Client-Centric",
+    "Regulatory"
+  ],
+  "_ticker": "C",
+  "_quarter": "Q1-2024",
+  "_call_date": "2024-04-12"
+}

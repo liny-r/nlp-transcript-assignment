@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Revenue, gross margin, and earnings per share above guidance",
+    "Significant improvement in cash position and liquidity",
+    "Accelerated funding from the U.S. government, NVIDIA, and SoftBank Group",
+    "Successful collaboration with NVIDIA to create AI-focused products",
+    "Strong demand for Granite Rapids in hyperscale data centers"
+  ],
+  "risks": [
+    "Supply constraints on Intel 10 and Intel 7 limiting capacity",
+    "Lower gross margin in Q4 due to product mix and deconsolidation of Altera",
+    "Challenges in transitioning customers from older products to newer AI-focused offerings",
+    "Uncertainty around the timing and scale of 18A yields",
+    "High fixed costs and wafer costs impacting gross margins"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "x86",
+    "foundry",
+    "capex",
+    "semiconductor"
+  ],
+  "_ticker": "INTC",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-10-23"
+}

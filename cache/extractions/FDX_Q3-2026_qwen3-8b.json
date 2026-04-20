@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong Q3 financial performance with 8% year-over-year revenue growth",
+    "Adjusted operating income increased 7% year-over-year",
+    "FEC revenue grew 10% with 50 basis points margin expansion",
+    "Successful navigation of global trade policy changes and weather-related service constraints",
+    "Plans to spin off FedEx Freight on June 1 remain on track"
+  ],
+  "risks": [
+    "Freight results remain pressured due to LTL industry trends",
+    "Higher separation-related expenses impacting FEC",
+    "MD-11 fleet grounding leading to $120 million headwind",
+    "LTL market softness and continued demand pressure",
+    "Potential headwinds from global trade policy changes"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "network",
+    "digital",
+    "freight",
+    "B2B",
+    "capex"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q3-2026",
+  "_call_date": "2026-03-19"
+}

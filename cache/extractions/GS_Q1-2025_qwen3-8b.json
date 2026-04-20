@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record assets under supervision reached $3.2 trillion",
+    "29th consecutive quarter of long-term fee-based net inflows",
+    "Raised $19 billion in alternatives fundraising",
+    "Named World's Best Private Bank for 2025",
+    "Strong performance in FICC and equities financing"
+  ],
+  "risks": [
+    "Increased macroeconomic uncertainty and recession risks",
+    "Market volatility and trade war concerns",
+    "Potential slowdown in client activity due to policy uncertainty",
+    "Deleveraging impacting financing growth",
+    "Challenges in monetization environment"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "AI",
+    "capital",
+    "alternatives",
+    "wealth management",
+    "global markets"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-04-14"
+}

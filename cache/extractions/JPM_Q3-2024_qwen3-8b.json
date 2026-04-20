@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Record quarterly revenues in AWM",
+    "Strong referral growth in Wealth Management",
+    "Higher card NII due to higher revolving balances",
+    "Optimistic outlook on IB fees and Markets revenue",
+    "Record long-term net inflows in AWM"
+  ],
+  "risks": [
+    "Deposit margin compression",
+    "Net charge-offs up year-on-year",
+    "Sequential decline in NII ex Markets",
+    "Uncertainty around M&A and regulatory environment",
+    "Potential for lower deposit growth in 2025"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "NII",
+    "deposit margins",
+    "credit costs",
+    "capital deployment",
+    "AI"
+  ],
+  "_ticker": "JPM",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-10-11"
+}

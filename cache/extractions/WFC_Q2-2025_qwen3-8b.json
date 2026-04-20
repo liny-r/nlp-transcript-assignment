@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Lifting of the asset cap marks a pivotal milestone in transformation",
+    "Strong credit performance with lower net loan charge-offs",
+    "Increased dividend and stock repurchase program",
+    "Growth in fee-based income across segments",
+    "Improved customer satisfaction in digital and mobile services"
+  ],
+  "risks": [
+    "Economic uncertainty and potential downside scenarios",
+    "Moderate loan growth expectations",
+    "Potential impact of regulatory changes on capital requirements",
+    "Competition in commercial banking and loan markets",
+    "Uncertainty around future capital return and return targets"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "capital",
+    "credit",
+    "digital",
+    "regulation",
+    "growth"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q2-2025",
+  "_call_date": "2025-07-15"
+}

@@ -1,0 +1,27 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record AUM of nearly $10.5 trillion",
+    "$76 billion long-term net inflows",
+    "180 basis points of margin expansion",
+    "$67 billion ETF net inflows",
+    "$15 billion institutional active net inflows"
+  ],
+  "risks": [
+    "$13 billion institutional index net outflows",
+    "$19 billion cash management net outflows",
+    "Seasonal outflows from institutional money market funds"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "ETFs",
+    "private_markets",
+    "technology",
+    "AI",
+    "retirement_solutions"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q1-2024",
+  "_call_date": "2024-04-12"
+}

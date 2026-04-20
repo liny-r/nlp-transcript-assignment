@@ -1,0 +1,32 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record Q2 revenue of $30 billion, exceeding $28 billion outlook",
+    "Strong demand for Hopper and Blackwell platforms",
+    "Significant growth in Data Center revenue, up 154% YoY",
+    "NVIDIA H200 platform ramping with 40% more memory bandwidth",
+    "NVIDIA AI foundry service launched for enterprise generative AI"
+  ],
+  "risks": [
+    "Blackwell production ramp scheduled for Q4 with potential yield issues",
+    "Inventory provisions for low-yielding Blackwell material",
+    "Competitive China market with export controls",
+    "Uncertainty around long-term ROI for CapEx",
+    "Potential challenges with liquid cooling adoption"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "capex",
+    "china",
+    "networking",
+    "sovereign_ai",
+    "generative_ai",
+    "enterprise_ai"
+  ],
+  "_ticker": "NVDA",
+  "_quarter": "Q2-2025",
+  "_call_date": "2024-08-28"
+}

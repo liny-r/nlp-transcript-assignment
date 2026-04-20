@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.2,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Customer expo attendance is expected to double from last year",
+    "FMI Technology signings reached a record 105 devices per day",
+    "Onsite signings increased by 12% compared to the previous year",
+    "ECommerce is approaching 60% of sales with a target of 66% this year",
+    "Positive PMI reading in March indicates potential for improved demand"
+  ],
+  "risks": [
+    "Sluggish demand remains a core issue",
+    "Industrial production and key sectors like machinery are weaker",
+    "Second quarter expenses are expected to rise due to customer expo",
+    "Negative pricing impact on fastener sales",
+    "Uncertainty around the sustainability of growth without store closures"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "customer_acquisition",
+    "fastener",
+    "eCommerce",
+    "supply_chain",
+    "pricing"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q1-2024",
+  "_call_date": "2024-04-11"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Raised guidance for 2026",
+    "Strong operational sales growth of 6.4%",
+    "FDA approval of TECVAYLI plus DARZALEX FASPRO",
+    "ICOTYDE approved for first-line treatment of plaque psoriasis",
+    "TECNIS PureSee FDA approval for extended depth of focus intraocular lens"
+  ],
+  "risks": [
+    "StELARA decline due to biosimilar competition",
+    "Surgery growth impacted by divestitures",
+    "Competitive pressures in U.S. market",
+    "Uncertainty around future currency movements",
+    "Potential impact from volume-based procurement in China"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "innovative_medicine",
+    "oncology",
+    "immunology",
+    "medtech",
+    "capital_allocation"
+  ],
+  "_ticker": "JNJ",
+  "_quarter": "Q1-2026",
+  "_call_date": "2026-04-14"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record net revenues and earnings per share",
+    "Strong client engagement and digital channel growth",
+    "Record quarterly revenues in Global Banking & Markets",
+    "Significant inflows in Asset & Wealth Management",
+    "Successful acquisition of Innovator"
+  ],
+  "risks": [
+    "Macro environment volatility and geopolitical tensions",
+    "Private credit industry focus and regulatory scrutiny",
+    "Potential slowdown in IPO activity due to market conditions",
+    "Higher energy prices impacting inflation and growth",
+    "Uncertainty around the impact of AI-driven disruption"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "AI",
+    "private_credit",
+    "capital_markets",
+    "wealth_management",
+    "regulation"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q1-2026",
+  "_call_date": "2026-04-13"
+}

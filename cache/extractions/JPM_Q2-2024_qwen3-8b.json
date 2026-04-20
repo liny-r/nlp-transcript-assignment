@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record number of first-time investors in CCB",
+    "Strong net inflows across AWM",
+    "IB fees up 50% year-on-year",
+    "Markets revenue up 10% year-on-year",
+    "Dividend increase to $1.25 per share"
+  ],
+  "risks": [
+    "Higher deposit costs impacting NII",
+    "Credit costs up due to Card charge-offs",
+    "Deposit margin compression",
+    "Potential for NII normalization",
+    "Regulatory concerns in advisory space"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "capital",
+    "credit",
+    "NII",
+    "dividend",
+    "regulation"
+  ],
+  "_ticker": "JPM",
+  "_quarter": "Q2-2024",
+  "_call_date": "2024-07-12"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong performance in Q3 with new product innovations driving growth",
+    "Successful launch of Air Zoom Alphafly 3 with marathon world record",
+    "Positive consumer response to Air Max Dn and Dynamic Air technology",
+    "Strategic focus on sport and innovation aligning with brand strengths",
+    "Successful pitch for German football contract showcasing brand leadership"
+  ],
+  "risks": [
+    "Near-term headwinds from franchise life cycle management",
+    "Macro volatility impacting some geographies",
+    "Potential margin pressure from franchise management",
+    "Challenges in digital growth due to promotional environment",
+    "Inventory management complexities during product transition"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "innovation",
+    "sport",
+    "brand",
+    "digital",
+    "china"
+  ],
+  "_ticker": "NKE",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-03-21"
+}

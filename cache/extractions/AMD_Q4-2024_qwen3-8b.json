@@ -1,0 +1,32 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record annual revenue and net income growth",
+    "Significant share gains in server and PC markets",
+    "Strong adoption of EPYC and Ryzen processors",
+    "Successful launch of Instinct GPUs and AI instances",
+    "Positive customer feedback and strong demand for MI350 series"
+  ],
+  "risks": [
+    "Decline in Gaming segment revenue",
+    "Mixed demand in Embedded segment",
+    "Potential inventory normalization effects",
+    "Competition in server CPU market",
+    "Uncertainty in AI infrastructure investment timelines"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "Data Center",
+    "Server",
+    "ROCm",
+    "EPYC",
+    "Ryzen",
+    "Gaming",
+    "Embedded"
+  ],
+  "_ticker": "AMD",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-02-04"
+}

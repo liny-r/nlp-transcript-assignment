@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong financial results with 17% growth in diluted earnings per share",
+    "Significant headcount reduction over 25% since 2020",
+    "Growth in credit card accounts and balances",
+    "Increased deposit balances in both commercial and consumer businesses",
+    "Improved credit performance with lower net charge-offs"
+  ],
+  "risks": [
+    "Potential impact of interest rate changes on net interest income",
+    "Uncertainty around market volatility affecting trading revenue",
+    "Severance expenses impacting profitability",
+    "Credit risk in commercial real estate and industrial sectors",
+    "Regulatory and macroeconomic uncertainties"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "capital",
+    "credit",
+    "efficiency",
+    "growth",
+    "markets"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q4-2025",
+  "_call_date": "2026-01-15"
+}

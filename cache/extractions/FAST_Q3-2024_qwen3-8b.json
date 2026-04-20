@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Quarter finished stronger than it started despite hurricane impact",
+    "Transportation and distribution groups showed flexibility during hurricane",
+    "Onsite signings increased to 93 in the quarter",
+    "FMI Technology signings increased to 7,281 weighted devices",
+    "Digital footprint increased to 61.1% of sales"
+  ],
+  "risks": [
+    "Sluggish end markets and weak industrial production",
+    "Reseller end market weakened with daily sales declining",
+    "Lower supplier rebates impacting gross margin",
+    "Uncertainty over plant shutdowns during holiday seasons",
+    "Import duties increasing costs for moving product across borders"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "supply_chain",
+    "digital_transformation",
+    "customer_acquisition",
+    "inventory_management",
+    "geopolitical_risks"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-10-11"
+}

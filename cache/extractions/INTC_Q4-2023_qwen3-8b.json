@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Q4 revenue exceeded expectations and was at the higher end of guidance",
+    "Strong EPS upside due to operating leverage and expense management",
+    "Intel 3 achieved manufacturing readiness in Q4 as committed",
+    "Intel 20A and 18A processes are first in the industry with advanced features",
+    "Intel Foundry Services (IFS) has over $10 billion in lifetime deal value"
+  ],
+  "risks": [
+    "Lower Q1 revenue guidance due to discrete headwinds like Mobileye, PSG, and business exits",
+    "Significant drop in IFS revenue due to cyclical weakness in wafer equipment buying",
+    "Depreciation and variable factory start-up costs expected to grow in 2024",
+    "Potential challenges in achieving 60% gross margin due to 5 nodes in 4 years",
+    "Market share risks in the data center segment due to FPGA inventory correction"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "foundry",
+    "process technology",
+    "capital expenditures",
+    "operational efficiency"
+  ],
+  "_ticker": "INTC",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-01-25"
+}

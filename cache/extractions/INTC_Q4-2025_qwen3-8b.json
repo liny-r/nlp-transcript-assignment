@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.55,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Q4 revenue, gross margin, and EPS were all above guidance",
+    "Launched Core Ultra Series 3 ahead of schedule",
+    "Intel 18A process is now shipping with improving yields",
+    "Strong demand for traditional servers and AI infrastructure",
+    "Positive customer feedback and partnerships"
+  ],
+  "risks": [
+    "Supply constraints limiting ability to meet demand",
+    "Lower than expected gross margin due to Panther Lake mix",
+    "Challenges with yield improvements and capacity constraints",
+    "Uncertainty around 14A customer commitments",
+    "Potential impact of rising component pricing on revenue"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "foundry",
+    "semiconductor manufacturing",
+    "data center",
+    "client computing"
+  ],
+  "_ticker": "INTC",
+  "_quarter": "Q4-2025",
+  "_call_date": "2026-01-22"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Double-digit growth in Q4 with daily sales up just over 11%",
+    "Significant growth in contract customer count by 7%",
+    "Expanded FMI technology and digital footprint",
+    "Strong net sales of $2.03 billion in Q4",
+    "Record annual sales of $8.2 billion for 2025"
+  ],
+  "risks": [
+    "Decline in smaller customer sites",
+    "Gross margin decreased 50 basis points",
+    "Supplier rebate timing factors impacting Q4",
+    "Challenges in managing pricing and cost neutrality",
+    "Holiday timing impacting December sales"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "digital",
+    "key_accounts",
+    "technology",
+    "market_share",
+    "capital_allocation"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "2026_01_20",
+  "_call_date": null
+}

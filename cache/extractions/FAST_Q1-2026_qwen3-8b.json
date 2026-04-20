@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong Q1 sales growth of 12.4%",
+    "Expanded customer site presence and value-added services",
+    "Successful global customer expo with 3,000 attendees",
+    "Digital channels accounted for 61.5% of sales",
+    "FMI Technology adoption increased by 8%"
+  ],
+  "risks": [
+    "Pricing actions lagging behind cost increases",
+    "Tariff-related costs impacting margins",
+    "Uncertainty around tariff rulings and refunds",
+    "Customer mix affecting gross margin",
+    "Slower-than-expected pricing pass-through"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "digital",
+    "supply_chain",
+    "global_expansion",
+    "pricing",
+    "customer_relations"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q1-2026",
+  "_call_date": "2026-04-13"
+}

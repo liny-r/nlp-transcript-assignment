@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Running business grew over 20%",
+    "North America revenue grew 4%",
+    "Wholesale grew 5%",
+    "NIKE Brand store on Amazon drove stronger engagement and sales",
+    "Scary Good campaign in football"
+  ],
+  "risks": [
+    "Greater China revenue declined 10%",
+    "NIKE Digital declined 12%",
+    "Inventory decreased 2% versus the prior year",
+    "Tariffs increased gross margin headwind to 120 basis points",
+    "Sportswear business declined"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "sport",
+    "digital",
+    "china",
+    "innovation",
+    "tariffs"
+  ],
+  "_ticker": "NKE",
+  "_quarter": "Q1-2026",
+  "_call_date": "2025-09-30"
+}

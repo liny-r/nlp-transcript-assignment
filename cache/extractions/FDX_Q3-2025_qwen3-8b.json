@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Achieved $600 million in DRIVE savings",
+    "12% adjusted operating income growth compared to last year",
+    "Strong performance in Europe with improved service levels and profitable share growth",
+    "Successful Cyber Monday package handling with 70% increase over average daily volume",
+    "Onboarding nearly $400 million in new annualized health care revenue"
+  ],
+  "risks": [
+    "Lowering FY '25 adjusted EPS outlook to $18 to $18.60",
+    "Weakness in the industrial economy affecting B2B volumes",
+    "Severe weather events impacting results",
+    "Higher inflationary pressures on cost base",
+    "Uncertainty in global trade policies affecting demand"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "DRIVE",
+    "Network 2.0",
+    "Tricolor",
+    "Europe",
+    "Healthcare"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-03-20"
+}

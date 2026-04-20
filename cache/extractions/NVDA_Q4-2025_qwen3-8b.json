@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Blackwell revenue exceeded expectations with $11 billion in Q4",
+    "Data Center revenue grew 93% year-on-year to $35.6 billion",
+    "Blackwell production is in full gear across multiple configurations",
+    "NVIDIA's inference throughput tripled with NVIDIA TensorRT",
+    "Microsoft Bing achieved 5x speed up with NVIDIA TensorRT"
+  ],
+  "risks": [
+    "Networking revenue declined 3% sequentially",
+    "China data center solutions remain competitive with export controls",
+    "Gaming revenue decreased 22% sequentially",
+    "Gross margins are expected to be in the low 70s during Blackwell ramp",
+    "Tariff impact to broader semiconductor is an unknown"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "inference",
+    "blackwell",
+    "capex"
+  ],
+  "_ticker": "NVDA",
+  "_quarter": "Q4-2025",
+  "_call_date": "2025-02-26"
+}

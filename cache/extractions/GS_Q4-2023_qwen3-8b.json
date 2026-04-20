@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strategic focus narrowing with successful exits of non-core businesses",
+    "Record financing revenues across Global Banking & Markets",
+    "Surpassing $225 billion fundraising target for alternatives one year early",
+    "24th consecutive quarter of long-term fee-based net inflows",
+    "Improved client franchise with 350 basis points wallet share gains"
+  ],
+  "risks": [
+    "FICC revenues down 24% due to lower activity in rates and macro products",
+    "Potential slowdown in investment banking activity due to macroeconomic uncertainty",
+    "Higher funding costs impacting net interest income",
+    "Uncertainty around Basel III Endgame regulatory changes",
+    "Continued drag from legacy principal investments"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "strategic_focus",
+    "alternatives",
+    "capital_markets",
+    "client_relations",
+    "regulatory"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-01-16"
+}

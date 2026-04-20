@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong retail deposit share retention with fifth consecutive year leading the industry",
+    "Record AUM and client assets growth due to net inflows and higher market levels",
+    "Robust investment banking fees up 16% year-on-year with strong equity underwriting",
+    "Positive credit performance in both wholesale and consumer segments",
+    "Confidence in long-term trajectory of retail deposit growth despite macroeconomic shifts"
+  ],
+  "risks": [
+    "Elevated wholesale charge-offs due to fraud incidents",
+    "Potential for higher credit losses in a downturn due to normalized charge-off rates",
+    "Uncertainty around labor market and potential credit cycle deterioration",
+    "Higher expenses due to labor inflation and revenue-related costs",
+    "Challenges in AI-driven productivity gains impacting expense growth"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "credit",
+    "retail",
+    "markets",
+    "ai",
+    "capital"
+  ],
+  "_ticker": "JPM",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-10-14"
+}

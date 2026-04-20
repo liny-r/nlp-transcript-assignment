@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Generated strong quarterly and annual earnings with 27% increase in EPS",
+    "Improved returns and ROE by over 500 basis points",
+    "Achieved record revenues in FICC and equity financing",
+    "Raised $115 billion in alternatives",
+    "Announced $0.50 increase in quarterly dividend"
+  ],
+  "risks": [
+    "Potential for NIM compression in private banking and lending",
+    "Market volatility and macroeconomic uncertainty",
+    "Regulatory changes impacting capital requirements",
+    "Uncertainty around the impact of the Apple Card transition",
+    "Potential for reduced IPO activity compared to historical averages"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "AI",
+    "wealth_management",
+    "capital_light",
+    "regulatory",
+    "productivity"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q4-2025",
+  "_call_date": "2026-01-15"
+}

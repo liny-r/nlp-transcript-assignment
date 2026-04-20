@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.45,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Separation of FedEx Freight to unlock significant value for stockholders",
+    "Strong Q2 results with sequential improvement in DRIVE savings and adjusted operating profit",
+    "Successful implementation of DRIVE program with $540 million in savings",
+    "Positive outlook for the second half of FY '25 with adjusted EPS range of $19 to $20",
+    "Enhanced customer experience through improved service and technology"
+  ],
+  "risks": [
+    "Soft industrial economy negatively affecting B2B volumes",
+    "Competitive pricing environment pressuring margins",
+    "Challenging demand environment impacting freight segment",
+    "Uncertainty around the demand environment affecting future performance",
+    "Potential customer attrition due to business separation"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "separation",
+    "DRIVE",
+    "network optimization",
+    "revenue quality",
+    "capital allocation"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q2-2025",
+  "_call_date": "2024-12-19"
+}

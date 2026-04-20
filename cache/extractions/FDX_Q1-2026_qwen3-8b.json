@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Achieved $200 million in transformation-related savings",
+    "Grew adjusted operating income by 7%",
+    "Continuing to win new business in high-value verticals",
+    "Best Buy names FedEx as their primary national parcel carrier",
+    "Announced demand surcharges and a 5.9% general rate increase"
+  ],
+  "risks": [
+    "Continued weakness in the industrial economy",
+    "Pressure from the U.S. Postal Service contract expiration",
+    "Reduced international export demand",
+    "Challenges in the LTL market",
+    "Global trade environment headwinds"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "Network 2.0",
+    "AI",
+    "global trade",
+    "digital transformation",
+    "cost reduction"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q1-2026",
+  "_call_date": "2025-09-18"
+}

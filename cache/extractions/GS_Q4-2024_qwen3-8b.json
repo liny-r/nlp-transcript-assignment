@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong revenue growth with 16% increase to $53.5 billion",
+    "Improved ROE by over 500 basis points to 12.7%",
+    "Maintained #1 position in M&A advisory",
+    "Record $9.1 billion in durable financing revenues",
+    "Exceeded 2024 management and other fees target"
+  ],
+  "risks": [
+    "Regulatory uncertainty and potential for increased scrutiny",
+    "Potential drag from Platform Solutions on ROE",
+    "Uncertainty around regulatory changes impacting capital markets",
+    "Credit risk associated with financing business",
+    "Market volatility and potential for economic downturn"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "capital_markets",
+    "regulation",
+    "wealth_management",
+    "operational_efficiency",
+    "private_credit"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-01-15"
+}

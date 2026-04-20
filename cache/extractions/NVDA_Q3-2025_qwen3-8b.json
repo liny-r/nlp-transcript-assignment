@@ -1,0 +1,31 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Revenue of $35.1 billion, up 17% sequentially and 94% year-on-year",
+    "NVIDIA H200 sales increased significantly to double-digit billions",
+    "NVIDIA H200-powered cloud instances available from AWS, CoreWeave, and Microsoft Azure",
+    "NVIDIA AI Enterprise full year revenue expected to increase over 2x from last year",
+    "NVIDIA Blackwell demand is staggering with Oracle and Microsoft deploying at scale"
+  ],
+  "risks": [
+    "Supply constraints affecting Gaming revenue",
+    "Gross margins expected to moderate to the low 70s as Blackwell ramps",
+    "Blackwell ramping may cause sequential decline in Gaming revenue",
+    "China market remains competitive with export controls",
+    "Investor concerns about execution on roadmap and supply chain"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "cloud",
+    "blackwell",
+    "sovereign_ai",
+    "inference",
+    "training"
+  ],
+  "_ticker": "NVDA",
+  "_quarter": "Q3-2025",
+  "_call_date": "2024-11-20"
+}

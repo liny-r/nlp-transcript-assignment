@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record EPYC and Ryzen CPU sales",
+    "Strong demand for EPYC in cloud and enterprise workloads",
+    "Significant growth in Client and Gaming segments",
+    "Successful launch of Instinct MI350 series",
+    "Expansion of ROCm software stack with performance improvements"
+  ],
+  "risks": [
+    "U.S. export restrictions impacting MI308 sales to China",
+    "Inventory write-down related to export controls",
+    "Uncertainty around MI308 license approvals",
+    "Potential margin pressure from data center GPUs",
+    "Market share challenges in traditional enterprise servers"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "cloud",
+    "semiconductors",
+    "sovereign_ai"
+  ],
+  "_ticker": "AMD",
+  "_quarter": "Q2-2025",
+  "_call_date": "2025-08-05"
+}

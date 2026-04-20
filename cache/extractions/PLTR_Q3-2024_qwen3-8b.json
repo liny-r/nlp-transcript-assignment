@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Revenue grew 30% year-over-year in Q3",
+    "U.S. business achieved 44% year-over-year revenue growth",
+    "S&P 500 added Palantir to its index",
+    "Closed 104 deals over $1 million",
+    "Raised full year revenue guidance to $2.807 billion"
+  ],
+  "risks": [
+    "International commercial revenue declined 7% sequentially",
+    "Strategic commercial contracts revenue is expected to decline in Q4",
+    "Headwinds in Europe and Middle East",
+    "Uncertainty around stock-based compensation expenses",
+    "Market skepticism about AI value proposition"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "U.S. government",
+    "commercial",
+    "AIP",
+    "defense"
+  ],
+  "_ticker": "PLTR",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-11-04"
+}

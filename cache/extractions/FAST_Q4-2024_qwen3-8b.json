@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.2,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Raised quarterly dividend by 10%",
+    "Onsite program growth at 18% CAGR since 2017",
+    "Industrial Services revenue exceeded $100 million for the first time",
+    "E-procurement growth of 37.6%",
+    "Investor Day planned for March 2025"
+  ],
+  "risks": [
+    "EPS declined 2% to $0.46",
+    "December sales growth collapsed in the last 5 days",
+    "Gross margin down 70 basis points",
+    "SG&A increased to 25.9% of sales",
+    "Customer sentiment remains mixed with shutdowns"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "supply_chain",
+    "digital_transformation",
+    "customer_segmentation",
+    "capital_expenditure",
+    "dividend"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-01-17"
+}

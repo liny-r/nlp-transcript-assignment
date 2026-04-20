@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "U.S. commercial revenue grew 93% year-over-year",
+    "U.S. government revenue grew 53% year-over-year",
+    "Record-breaking quarterly revenue surpassing $1 billion",
+    "Highest TCV and ACV ever booked at $2.3 billion and $684 million",
+    "Rule of 40 score reached 94%, up 11 points quarter-over-quarter"
+  ],
+  "risks": [
+    "Seasonal ramp in expenses expected in Q3",
+    "Revenue from strategic commercial contracts is expected to be less than half of 1% of full year revenue",
+    "Uncertainty around future demand for AI-powered software capabilities",
+    "Potential challenges in maintaining growth rates in the back half of the year",
+    "Competition from hyperscaler stacks and other AI providers"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "U.S. government",
+    "enterprise software",
+    "ontology",
+    "revenue growth"
+  ],
+  "_ticker": "PLTR",
+  "_quarter": "Q2-2025",
+  "_call_date": "2025-08-04"
+}

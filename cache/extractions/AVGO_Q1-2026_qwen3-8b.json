@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record revenue of $19.3 billion in Q1 2026, up 29% YoY",
+    "AI semiconductor revenue grew 106% YoY to $8.4 billion",
+    "Guidance for Q2 2026 revenue of $22 billion, 47% YoY growth",
+    "AI networking revenue to grow to 40% of total AI revenue in Q2",
+    "Secured supply chain for AI components through 2028"
+  ],
+  "risks": [
+    "Non-AI semiconductor revenue flat YoY",
+    "Potential competition from COT initiatives",
+    "Gross margin concerns for rack shipments",
+    "Market uncertainty around hyperscaler ROI timelines",
+    "Fragmented customer engagement across multiple suppliers"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "semiconductors",
+    "networking",
+    "supply_chain",
+    "custom_accelerators"
+  ],
+  "_ticker": "AVGO",
+  "_quarter": "Q1-2026",
+  "_call_date": "2026-03-04"
+}

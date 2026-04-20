@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "DARZALEX continued strong growth with over 20% increase",
+    "RYBREVANT plus LAZCLUZE expanded indication in Europe",
+    "TREMFYA approved for Crohn's disease",
+    "CAPLYTA approved for depression in bipolar I and II",
+    "Johnson & Johnson increased dividend for 63rd consecutive year"
+  ],
+  "risks": [
+    "STELARA biosimilar competition impacting sales",
+    "Part D redesign affecting margins",
+    "Orthopedics sales decline due to one-time events",
+    "Tariffs impacting MedTech and pharmaceuticals",
+    "Talc bankruptcy ruling litigation"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "innovative_medicine",
+    "oncology",
+    "immunology",
+    "tariffs",
+    "manufacturing"
+  ],
+  "_ticker": "JNJ",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-04-15"
+}

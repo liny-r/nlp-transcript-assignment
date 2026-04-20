@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Revenue increased 21% year-over-year",
+    "U.S. commercial revenue grew 68% year-over-year",
+    "U.S. government revenue accelerated 8% quarter-over-quarter",
+    "AIP adoption driving significant customer growth and expansion",
+    "Awarded $178 million prime contract under TITAN program"
+  ],
+  "risks": [
+    "Revenue growth in international markets declined sequentially",
+    "Headwinds in Europe impacting growth",
+    "Strategic commercial contracts revenue expected to decline in Q2",
+    "Uncertainty around global geopolitical tensions",
+    "Investment in resources may lead to higher expenses"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AIP",
+    "U.S. commercial",
+    "U.S. government",
+    "defense",
+    "international"
+  ],
+  "_ticker": "PLTR",
+  "_quarter": "Q1-2024",
+  "_call_date": "2024-05-06"
+}

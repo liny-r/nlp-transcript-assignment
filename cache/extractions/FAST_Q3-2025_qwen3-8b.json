@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Delivered double-digit growth and expanded margins",
+    "Gained market share in a flat market",
+    "Strong daily sales growth in July",
+    "Significant growth in nontraditional markets like healthcare and education",
+    "Successful national account signings and deeper penetration in existing accounts"
+  ],
+  "risks": [
+    "Potential margin squeeze in Q4 due to price/cost pressures",
+    "Uncertainty around trade policy and tariffs",
+    "Higher organizational overhead costs",
+    "Limited visibility on fourth quarter demand",
+    "Inventory growth may remain elevated due to tariffs and inflation"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "pricing",
+    "technology",
+    "market expansion",
+    "supply chain",
+    "customer service"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-10-13"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "AI revenue surged 280% year-on-year to $3.1 billion",
+    "VMware integration progressing well with ABV growth from $1.2 billion to $1.9 billion",
+    "Raising fiscal 2024 revenue guidance to $51 billion",
+    "Networking revenue growth expected to reach 40% year-on-year",
+    "Strong customer adoption of VMware's self-service virtual private cloud"
+  ],
+  "risks": [
+    "Broadband revenue expected to decline high 30s year-on-year",
+    "Server storage revenue down 27% year-on-year with modest recovery expected",
+    "Wireless revenue flat year-on-year despite content increases",
+    "Cyclical weakness in semiconductor revenue from enterprises and telcos",
+    "Competition from NVIDIA in AI accelerators and Ethernet switching"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "VMware",
+    "networking",
+    "semiconductors",
+    "cloud"
+  ],
+  "_ticker": "AVGO",
+  "_quarter": "Q2-2024",
+  "_call_date": "2024-06-12"
+}

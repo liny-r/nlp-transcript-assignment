@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Revenue, gross margin and EPS above guide in Q4",
+    "Intel Foundry drove incremental operating efficiencies",
+    "Intel Products executed to drive revenue in the quarter",
+    "Intel Foundry achieved key grant-related milestones",
+    "Intel Foundry received $1.1 billion in grants in Q4"
+  ],
+  "risks": [
+    "Lower revenue at Mobileye and Altera",
+    "Forecasted decline in foundry services due to end of life on traditional packaging revenue",
+    "Lower gross margin due to Q3 impairments",
+    "Lower revenue and higher period charges impacting full year EPS",
+    "Macroeconomic uncertainty and inventory balancing pressures"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "foundry",
+    "capex",
+    "semiconductors",
+    "manufacturing"
+  ],
+  "_ticker": "INTC",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-01-30"
+}

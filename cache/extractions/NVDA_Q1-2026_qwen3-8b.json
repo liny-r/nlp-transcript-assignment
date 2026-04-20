@@ -1,0 +1,32 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Blackwell ramp drove 73% year-on-year increase in Data Center revenue",
+    "GB200 NVL introduced with significant performance improvements",
+    "Microsoft and other hyperscalers deploying thousands of Blackwell GPUs",
+    "NVIDIA Dynamo improved AI inference throughput by 30x",
+    "AI factories accelerating with nearly 100 projects in flight"
+  ],
+  "risks": [
+    "H20 export controls caused $4.5 billion charge and $8 billion revenue loss in Q2",
+    "China data center revenue expected to decline significantly",
+    "U.S. export controls limiting ability to serve China AI market",
+    "Inventory write-downs impacting financial results",
+    "Uncertainty around future product availability in China"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "China",
+    "Blackwell",
+    "data_center",
+    "export_controls",
+    "inference",
+    "sovereign_ai",
+    "networking"
+  ],
+  "_ticker": "NVDA",
+  "_quarter": "Q1-2026",
+  "_call_date": "2025-05-28"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Operating income growth and margin expansion in a declining revenue environment",
+    "Reaffirming the midpoint of fiscal '24 adjusted EPS range while narrowing the range",
+    "Significant progress on DRIVE initiatives delivering $550 million in benefits",
+    "Successful implementation of Network 2.0 in over 50 locations",
+    "Announcing the fdx Commerce platform for integrated data-driven commerce solutions"
+  ],
+  "risks": [
+    "International trade weakness constraining demand in international business",
+    "Inflationary pressures impacting Express business",
+    "Postal volume headwinds due to USPS contract negotiations",
+    "Continued volume softness and yield pressures at Express",
+    "Uncertainty around the USPS contract renewal and its impact on volume"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "DRIVE",
+    "Network 2.0",
+    "e-commerce",
+    "digital transformation",
+    "cost optimization"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q3-2024",
+  "_call_date": "2024-03-21"
+}

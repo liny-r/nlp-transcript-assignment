@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Delivered year-over-year operating profit growth and margin expansion in every quarter of FY '24",
+    "Lower CapEx and higher free cash flow, returning nearly $4 billion to stockholders",
+    "Meaningful improvement in return on invested capital",
+    "Achieved $1.8 billion in structural cost-out in FY '24",
+    "Expected to deliver adjusted EPS growth of 12% to 24% in FY '25"
+  ],
+  "risks": [
+    "Decline in revenue compared to initial growth expectations",
+    "International yield pressures from tapering export demand surcharges",
+    "Headwinds from the U.S. Postal Service contract termination",
+    "Uncertainty around the impact of trade policy changes on China e-commerce volumes",
+    "Potential network disruption from Network 2.0 integration"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "Network 2.0",
+    "DRIVE",
+    "e-commerce",
+    "freight",
+    "capital intensity"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q4-2024",
+  "_call_date": "2024-06-25"
+}

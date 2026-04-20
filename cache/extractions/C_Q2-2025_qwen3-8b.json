@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong revenue growth across 3 of 5 businesses with 8% overall revenue increase",
+    "Record equities revenue with significant improvement in sentiment",
+    "Positive operating leverage across all businesses",
+    "Successful execution of transformation initiatives with progress on risk and control",
+    "Capital return to shareholders with $3.75 billion in share repurchases year-to-date"
+  ],
+  "risks": [
+    "Macro uncertainty affecting client behavior and inflows",
+    "Potential for higher credit losses in the second half",
+    "Seasonality in revenue growth with a step-down in the second half",
+    "Regulatory uncertainty and potential changes in capital requirements",
+    "Ongoing transformation costs and stranded costs"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "digital assets",
+    "cross-border",
+    "capital returns",
+    "transformation"
+  ],
+  "_ticker": "C",
+  "_quarter": "Q2-2025",
+  "_call_date": "2025-07-15"
+}

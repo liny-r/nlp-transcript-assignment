@@ -1,0 +1,32 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Revenue increased 9% year-over-year to $5.8 billion",
+    "Data Center segment revenue increased 115% year-over-year to a record $2.8 billion",
+    "MI300 quarterly revenue exceeded $1 billion for the first time",
+    "Strong demand for Ryzen and EPYC processors",
+    "Expanded gross margin by more than 3 percentage points"
+  ],
+  "risks": [
+    "Gaming segment revenue declined 59% year-over-year",
+    "Embedded segment revenue decreased 41% year-over-year",
+    "Supply chain tightness expected through 2025",
+    "Competitive intensity in AI market",
+    "Potential for slower-than-expected customer adoption of MI300"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "Data Center",
+    "Ryzen",
+    "EPYC",
+    "ROCm",
+    "Cloud",
+    "Gaming",
+    "Embedded"
+  ],
+  "_ticker": "AMD",
+  "_quarter": "Q2-2024",
+  "_call_date": "2024-07-30"
+}

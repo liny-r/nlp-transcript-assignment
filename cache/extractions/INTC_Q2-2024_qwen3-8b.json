@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.15,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Accelerating actions to improve profitability and capital efficiency by more than $10 billion in 2025",
+    "Cost reduction plan with head count reduction of greater than 15% by the end of 2025",
+    "Expected reduction in OpEx to approximately $20 billion in 2024",
+    "Introduction of Panther Lake, first client CPU on Intel 18A",
+    "Strong ecosystem for AIPC with over 15 million Windows AIPC shipped"
+  ],
+  "risks": [
+    "Q3 revenue growth will be slower than expected due to inventory digestion and cyclical businesses",
+    "Lower-than-anticipated revenue in the back half of the year impacting gross margins",
+    "Competitive pricing and unfavorable product mix impacting margins",
+    "Challenges in the client business due to export controls and China market conditions",
+    "Uncertainty in the recovery of the traditional CPU market"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "capital efficiency",
+    "foundry",
+    "cost reduction",
+    "AIPC"
+  ],
+  "_ticker": "INTC",
+  "_quarter": "Q2-2024",
+  "_call_date": "2024-08-01"
+}

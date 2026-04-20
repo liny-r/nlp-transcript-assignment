@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.45,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong fee-based revenue growth across most categories",
+    "Improved credit card portfolio performance",
+    "Launch of 9 new credit cards since 2021",
+    "Positive momentum in investment banking fees",
+    "Strong capital position and dividend increase"
+  ],
+  "risks": [
+    "Lumpy commercial real estate office losses",
+    "Higher deposit costs and potential rate cuts",
+    "Regulatory risks and ongoing customer remediation",
+    "Slower loan demand and loan spread compression",
+    "Uncertainty around NII trough and 2024 guidance"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "credit",
+    "capital",
+    "fee-based revenue",
+    "regulatory"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q2-2024",
+  "_call_date": "2024-07-12"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.2,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Reinforcing brand identity and mission",
+    "Reinvesting in brand marketing and storytelling",
+    "Engaging with key partners and stakeholders",
+    "Launching new product lines like Vomero 18 and Pegasus Premium",
+    "Improving consumer engagement through events and campaigns"
+  ],
+  "risks": [
+    "Declining sales and revenue in key markets",
+    "Inventory overstock and markdown pressures",
+    "Reduced promotional activity impacting traffic",
+    "Challenges in repositioning NIKE Direct and wholesale",
+    "Short-term financial headwinds from restructuring"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "sport",
+    "brand",
+    "digital",
+    "supply_chain",
+    "partnerships"
+  ],
+  "_ticker": "NKE",
+  "_quarter": "Q2-2025",
+  "_call_date": "2024-12-19"
+}

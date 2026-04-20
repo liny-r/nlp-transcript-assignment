@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong sales growth in Innovative Medicine with 8.3% operational sales growth",
+    "CARVYKTI achieved 100% growth compared to the first quarter of 2023",
+    "DARZALEX growth was 21% driven by share gains",
+    "TECVAYLI sales increased to $133 million from $63 million",
+    "Positive top line results from FRONTIER 2 study for JNJ-2113"
+  ],
+  "risks": [
+    "Unfavorable patient mix in XARELTO expected to continue throughout the year",
+    "Competitive pressures impacting IMBRUVICA sales",
+    "TALVEY had an impact on TECVAYLI growth",
+    "Favorable patient mix in pulmonary hypertension is expected to lap in Q2 2024",
+    "Potential disruption in pulmonary arterial hypertension market with Merck's WINREVAIR"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "innovative_medicine",
+    "medtech",
+    "oncology",
+    "r&d",
+    "capital_allocation"
+  ],
+  "_ticker": "JNJ",
+  "_quarter": "Q1-2024",
+  "_call_date": "2024-04-16"
+}

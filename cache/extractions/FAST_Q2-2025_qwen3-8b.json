@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Revenue exceeded $2 billion for the first time in company history",
+    "8.6% sales growth, highest yearly growth since early 2023",
+    "Contract signings increased to 11.2% growth, outperforming expectations",
+    "Customer site performance improved with 11.6% revenue growth",
+    "Operating margin reached 21%, up 80 basis points year-over-year"
+  ],
+  "risks": [
+    "Market conditions remain sluggish",
+    "Tariff-related uncertainties impacting supply chain and pricing",
+    "Inventory growth may remain elevated due to tariffs and inflation",
+    "Potential for lower gross margin in the second half of the year",
+    "Uncertainty around trade policy impact on demand in 2025"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "supply_chain",
+    "contract_signings",
+    "digital_transformation",
+    "tariffs",
+    "customer_relationships"
+  ],
+  "_ticker": "FAST",
+  "_quarter": "Q2-2025",
+  "_call_date": "2025-07-14"
+}

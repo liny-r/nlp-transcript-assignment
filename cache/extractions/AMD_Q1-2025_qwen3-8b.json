@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Revenue and EPS both exceeded consensus estimates",
+    "Data Center segment revenue increased 57% year-over-year",
+    "Client segment revenue grew 68% year-over-year",
+    "Strong growth in AI accelerator and EPYC and Ryzen CPU sales",
+    "Significant expansion of enterprise adoption of EPYC instances"
+  ],
+  "risks": [
+    "Export controls for Instinct MI308X shipments to China",
+    "Sequential decline in Data Center segment revenue",
+    "Gaming revenue decreased 30% year-over-year",
+    "Inventory levels increased due to ramping of new products",
+    "Uncertainty around macroeconomic and regulatory environments"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "data_center",
+    "china",
+    "pricing",
+    "capex"
+  ],
+  "_ticker": "AMD",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-05-06"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.65,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong fee-based revenue growth of 15%",
+    "Increased common stock dividend by 15%",
+    "Reduced higher-cost CDs issued by corporate treasury",
+    "Completed 730 branch refurbishments in 2024",
+    "Grew mobile active customers by 5%"
+  ],
+  "risks": [
+    "Commercial real estate office losses are expected to be lumpy",
+    "Lower loan balances and loan spread compression impacting auto and personal lending",
+    "Credit card charge-offs increased due to higher losses in the credit card portfolio",
+    "Severance and net losses on the sale of debt securities impacting results",
+    "Uncertainty around interest rate changes and market conditions"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "credit",
+    "digital transformation",
+    "capital returns",
+    "risk management",
+    "fee-based revenue"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q4-2024",
+  "_call_date": "2025-01-15"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong revenue growth across all segments",
+    "Record assets under supervision in Asset & Wealth Management",
+    "Improved non-comp expenses and efficiency ratio",
+    "Positive outlook on AI integration and productivity gains",
+    "Confidence in the sustainability of the business model"
+  ],
+  "risks": [
+    "Uncertainty around the macroeconomic environment",
+    "Potential regulatory challenges with Basel III",
+    "Sustainability of the current revenue growth",
+    "Competition in the capital markets",
+    "Challenges in maintaining wallet share"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "capital_markets",
+    "AI",
+    "wealth_management",
+    "regulation",
+    "efficiency"
+  ],
+  "_ticker": "GS",
+  "_quarter": "Q1-2024",
+  "_call_date": "2024-04-15"
+}

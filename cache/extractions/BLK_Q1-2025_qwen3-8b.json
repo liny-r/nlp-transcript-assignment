@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record AUM of $11.6 trillion",
+    "6% organic base fee growth",
+    "Double-digit growth in revenue, operating income, and earnings per share",
+    "100 basis points of margin expansion",
+    "Successful integration of GIP and Preqin acquisitions"
+  ],
+  "risks": [
+    "Uncertainty in fiscal and monetary policy",
+    "Potential market volatility and economic downturn",
+    "Institutional index outflows",
+    "Regulatory and approval risks for HPS transaction",
+    "Global geopolitical tensions"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "private_markets",
+    "ETFs",
+    "technology",
+    "global_expansion",
+    "capital_markets"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-04-11"
+}

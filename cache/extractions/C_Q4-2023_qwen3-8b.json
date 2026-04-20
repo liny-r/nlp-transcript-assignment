@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.1,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Record year for services with 16% revenue growth",
+    "Completed divestitures of 9 of 14 international consumer franchises",
+    "Simplified organizational structure with $1 billion run rate savings",
+    "Grew tangible book value per share by 6%",
+    "Increased CET1 ratio to 13.3%"
+  ],
+  "risks": [
+    "Negative EPS of $1.16 due to external headwinds",
+    "Argentina devaluation caused $900 million revenue impact",
+    "Markets revenue decreased 6% to $18.9 billion",
+    "Banking revenue decreased 15% to $4.6 billion",
+    "Wealth revenues decreased 5% to $7.1 billion"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "restructuring",
+    "digital transformation",
+    "regulatory compliance",
+    "international operations",
+    "capital returns"
+  ],
+  "_ticker": "C",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-01-17"
+}

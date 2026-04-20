@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.3,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Revenue, gross margins, and EPS above guidance",
+    "Flattened leadership structure to improve decision-making",
+    "OpEx and CapEx targets reduced for 2025 and 2026",
+    "Strategic focus on AI and new computing paradigms",
+    "Positive customer feedback and collaboration"
+  ],
+  "risks": [
+    "Uncertain macroeconomic environment and potential recession",
+    "Potential pullback in investment due to higher costs",
+    "Tariff-related challenges and supply chain risks",
+    "Intel 7 manufacturing constraints",
+    "Competition from ARM and other foundries"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "AI",
+    "foundry",
+    "cost_reduction",
+    "manufacturing",
+    "capital_intensive"
+  ],
+  "_ticker": "INTC",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-04-24"
+}

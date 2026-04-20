@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong revenue growth across all businesses with 32% overall increase",
+    "Positive operating leverage in all 5 businesses and the firm overall",
+    "Capital return of over $17.5 billion, the most since the pandemic",
+    "Successful divestiture milestones including sale of Banamex stake",
+    "AI integration and adoption reaching above 70% globally"
+  ],
+  "risks": [
+    "Challenging year for commodities impacting fixed income",
+    "Revenue softness in retail services",
+    "Regulatory compliance and safety and soundness concerns",
+    "Market volatility and macroeconomic uncertainties",
+    "Potential for slower growth in certain regions like China and Europe"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "capital",
+    "regulatory",
+    "markets",
+    "transformation"
+  ],
+  "_ticker": "C",
+  "_quarter": "Q4-2025",
+  "_call_date": "2026-01-13"
+}

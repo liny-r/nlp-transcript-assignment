@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.45,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Revenue up 8% YoY to $46 billion",
+    "NIR ex Markets up 14%",
+    "Markets revenue up 21%",
+    "Strong AUM growth in Asset & Wealth Management",
+    "Capital distribution of $11 billion to shareholders"
+  ],
+  "risks": [
+    "Credit costs up $3.3 billion",
+    "Uncertainty in macroeconomic outlook",
+    "Potential for higher credit losses in a recession",
+    "Volatility in treasury markets",
+    "Regulatory uncertainty and potential reforms"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "credit",
+    "regulation",
+    "markets",
+    "capital",
+    "liquidity"
+  ],
+  "_ticker": "JPM",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-04-11"
+}

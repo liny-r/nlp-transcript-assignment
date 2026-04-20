@@ -1,0 +1,41 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "7% organic base fee growth",
+    "$650 billion net inflows over 12 months",
+    "record AUM of $12.5 trillion",
+    "$25.2 billion raised in GIP V",
+    "$116 billion net inflows excluding institutional index outflows",
+    "$68 billion total net inflows",
+    "$80 billion AUM for IBIT",
+    "$50 billion managed for Circle stablecoin cash reserves",
+    "$375 million share repurchases",
+    "$1.5 billion share repurchase target for 2025"
+  ],
+  "risks": [
+    "$48 billion institutional index outflows",
+    "lower performance fees",
+    "$165 billion client AUM from HPS added in July",
+    "$118 billion fee-paying AUM from HPS added in July",
+    "$450 million revenue from HPS in 2025",
+    "$225 million management fees from HPS in Q3 2025",
+    "$116 billion net inflows excluding institutional index outflows"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "private_markets",
+    "technology",
+    "ETFs",
+    "digital_assets",
+    "retirement",
+    "cash_management",
+    "acquisitions",
+    "AI",
+    "global_expansion",
+    "defined_contribution"
+  ],
+  "_ticker": "BLK",
+  "_quarter": "Q2-2025",
+  "_call_date": "2025-07-15"
+}

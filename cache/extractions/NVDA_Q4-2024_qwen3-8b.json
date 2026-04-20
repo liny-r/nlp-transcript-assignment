@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.95,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record Q4 revenue of $22.1 billion, up 22% sequentially and 265% year-on-year",
+    "Data Center revenue of $18.4 billion, up 27% sequentially and 409% year-on-year",
+    "Hopper GPU and InfiniBand networking drove significant growth",
+    "Collaboration with Google to optimize Gemma language model for NVIDIA GPUs",
+    "Strong demand for Hopper architecture products"
+  ],
+  "risks": [
+    "China Data Center revenue declined significantly due to export controls",
+    "Supply constraints for next-gen products like H200",
+    "Uncertainty around future ASIC market participation",
+    "Potential competition from alternative solutions in China",
+    "Seasonal decline in Gaming revenue"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "Data Center",
+    "China",
+    "Networking",
+    "Software"
+  ],
+  "_ticker": "NVDA",
+  "_quarter": "Q4-2024",
+  "_call_date": "2024-02-21"
+}

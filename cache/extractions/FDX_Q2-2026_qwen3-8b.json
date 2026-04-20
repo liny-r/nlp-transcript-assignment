@@ -1,0 +1,30 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong Q2 revenue growth",
+    "High single-digit revenue growth",
+    "Margin expansion",
+    "High teens adjusted EPS growth",
+    "Successful navigation of multiple external headwinds",
+    "Raised adjusted EPS outlook to $17.80 to $19"
+  ],
+  "risks": [
+    "MD-11 grounding impacting Q2 adjusted operating income by about $25 million",
+    "Pressure on freight results due to lower volumes",
+    "Lower average daily shipments at FedEx Freight",
+    "Global trade policy changes impacting business",
+    "Challenging market environment for FedEx Freight"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "network_transformation",
+    "ai",
+    "international",
+    "b2b",
+    "capex"
+  ],
+  "_ticker": "FDX",
+  "_quarter": "Q2-2026",
+  "_call_date": "2025-12-18"
+}

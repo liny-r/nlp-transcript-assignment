@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Strong operational sales growth across multiple brands including DARZALEX, CARVYKTI, and TREMFYA",
+    "Announced separation of Orthopaedics business into DePuy Synthes, a leading orthopaedics company",
+    "Successful launch of INLEXZO, a drug releasing system for bladder cancer treatment",
+    "Positive results from RYBREVANT plus LAZCLUZE in lung cancer",
+    "Significant growth in MedTech with Shockwave and Abiomed businesses"
+  ],
+  "risks": [
+    "STEELARA loss of exclusivity impacting sales",
+    "Potential competition from biosimilar products",
+    "Impact of Part D redesign on sales",
+    "Uncertainty around future regulatory approvals",
+    "Market volatility and macroeconomic factors affecting MedTech"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "innovation",
+    "medtech",
+    "oncology",
+    "immunology",
+    "cardiovascular"
+  ],
+  "_ticker": "JNJ",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-10-14"
+}

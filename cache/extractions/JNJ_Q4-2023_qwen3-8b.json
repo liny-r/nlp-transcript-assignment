@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Strong operational sales growth in Innovative Medicine and MedTech",
+    "Positive Phase III readouts for multiple in-line and pipeline medicines",
+    "Successful integration of Abiomed and recent acquisition of Laminar",
+    "High expectations for 2024 data readouts for key assets",
+    "Confidence in 2024 guidance and long-term financial targets"
+  ],
+  "risks": [
+    "Negative impact from loss of exclusivity of ZYTIGA in Europe",
+    "Potential headwinds from STELARA biosimilars in Europe",
+    "Inflationary pressures affecting MedTech inventory",
+    "Impact of Russia sanctions on international sales",
+    "Uncertainty around currency movements affecting sales growth"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "Innovative Medicine",
+    "MedTech",
+    "Clinical Trials",
+    "R&D",
+    "Capital Allocation"
+  ],
+  "_ticker": "JNJ",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-01-23"
+}

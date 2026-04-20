@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Successful Super Bowl and NBA All-Star Weekend campaigns",
+    "Strong consumer response to new product launches like Peg Premium and Vomero 18",
+    "Progress in elevating brand storytelling and market presence",
+    "Positive momentum in running and performance segments",
+    "Successful retail and digital initiatives in key cities"
+  ],
+  "risks": [
+    "Decline in classic footwear franchises",
+    "Inventory overhang and markdowns",
+    "Wholesale channel headwinds",
+    "Currency and macroeconomic uncertainties",
+    "Challenges in China market"
+  ],
+  "guidance": "lowered",
+  "themes": [
+    "brand",
+    "product",
+    "digital",
+    "supply_chain",
+    "china"
+  ],
+  "_ticker": "NKE",
+  "_quarter": "Q3-2025",
+  "_call_date": "2025-03-20"
+}

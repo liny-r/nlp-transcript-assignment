@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.75,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Record data center segment annual revenue",
+    "Strong top line and bottom line growth in the fourth quarter",
+    "MI300 GPU revenue exceeded $400 million",
+    "Significant customer adoption of EPYC CPUs for inferencing workloads",
+    "Positive response to MI300 GPUs from cloud and enterprise customers"
+  ],
+  "risks": [
+    "Decline in Gaming segment revenue",
+    "Embedded segment revenue decreased year-over-year",
+    "Inventory reduction by customers impacting Embedded segment",
+    "Potential headwinds from first half of 2024",
+    "Significant double-digit decline in Gaming segment revenue"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "cloud",
+    "EPYC",
+    "MI300"
+  ],
+  "_ticker": "AMD",
+  "_quarter": "Q4-2023",
+  "_call_date": "2024-01-30"
+}

@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.45,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "Solid first quarter results with diluted earnings per share up 16%",
+    "Fee-based revenue growth across many businesses",
+    "Continued credit performance improvements",
+    "Successful resolution of 5 consent orders",
+    "Active capital return to shareholders"
+  ],
+  "risks": [
+    "Lower net interest income due to lower rates",
+    "Uncertainty around regulatory changes and economic outlook",
+    "Potential for slower loan growth",
+    "Market volatility impacting trading and investment income",
+    "Challenges in maintaining growth in a more regulated environment"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "Regulatory",
+    "Credit",
+    "Fee-based revenue",
+    "Capital returns",
+    "Market volatility"
+  ],
+  "_ticker": "WFC",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-04-11"
+}

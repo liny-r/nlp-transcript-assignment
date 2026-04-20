@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.25,
+  "sentiment_bucket": "neutral",
+  "wins": [
+    "Repositioning of NIKE Direct as a premium destination",
+    "Successful global After Dark run series and increased sell-through",
+    "Positive feedback from wholesale partners on new product launches",
+    "Progress in rebalancing sportswear and performance product lines",
+    "Improved inventory management and progress in cleaning up marketplace"
+  ],
+  "risks": [
+    "Revenue decline of 12% in Q4",
+    "Gross margin decline of 440 basis points",
+    "Continued headwinds from classic footwear franchises",
+    "Tariff impact of $1 billion",
+    "Inventory remains elevated in several regions"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "sport",
+    "digital",
+    "tariffs",
+    "product",
+    "marketplace"
+  ],
+  "_ticker": "NKE",
+  "_quarter": "Q4-2025",
+  "_call_date": "2025-06-26"
+}

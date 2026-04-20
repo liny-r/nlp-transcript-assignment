@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
+  "wins": [
+    "AI revenue growth of 77% year-on-year",
+    "Reaffirmation of $60 billion to $90 billion SAM for 3 hyperscale customers in 2027",
+    "R&D investments in 2-nanometer AI XPU packaging and 100-terabit Tomahawk 6 switch",
+    "Strong Q1 revenue growth of 25% year-on-year",
+    "Positive outlook for Q2 AI revenue growth to $4.4 billion"
+  ],
+  "risks": [
+    "Non-AI semiconductor revenue is expected to be flattish sequentially",
+    "Uncertainty around new regulations impacting AI design wins",
+    "Potential delays in reenactment of Section 174 affecting cash taxes",
+    "High capital expenditures and debt servicing costs",
+    "Dependence on a few key hyperscale customers"
+  ],
+  "guidance": "reaffirmed",
+  "themes": [
+    "AI",
+    "hyperscalers",
+    "R&D",
+    "networking",
+    "semiconductors"
+  ],
+  "_ticker": "AVGO",
+  "_quarter": "Q1-2025",
+  "_call_date": "2025-03-06"
+}

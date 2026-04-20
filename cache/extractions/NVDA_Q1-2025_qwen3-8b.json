@@ -1,0 +1,32 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record Q1 revenue of $26 billion, up 262% YoY",
+    "Strong Data Center growth driven by Hopper GPU demand",
+    "Meta and Tesla adopt NVIDIA AI infrastructure",
+    "Blackwell GPU in full production with strong demand",
+    "NVIDIA Inference Microservices (NIM) launched"
+  ],
+  "risks": [
+    "China market remains competitive due to export controls",
+    "H200 supply constrained despite strong demand",
+    "Sovereign AI market still in early stages",
+    "Competition from other GPU and ASIC providers",
+    "High demand may exceed supply for Blackwell and H200 into next year"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "china",
+    "blackwell",
+    "hopper",
+    "sovereign_ai",
+    "networking",
+    "capex"
+  ],
+  "_ticker": "NVDA",
+  "_quarter": "Q1-2025",
+  "_call_date": "2024-05-22"
+}

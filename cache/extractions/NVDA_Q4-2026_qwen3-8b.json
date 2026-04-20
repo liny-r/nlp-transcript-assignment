@@ -1,0 +1,29 @@
+{
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "very_bullish",
+  "wins": [
+    "Record revenue of $68 billion, up 73% YoY",
+    "Data center revenue of $194 billion, up 68% YoY",
+    "Networking revenue up more than 3.5x YoY",
+    "Strong demand for Blackwell architecture",
+    "Significant growth in physical AI revenue"
+  ],
+  "risks": [
+    "Supply constraints for Gaming in Q1 and beyond",
+    "Uncertainty around China market access",
+    "Potential CapEx growth slowdown for cloud providers",
+    "Competition from Chinese AI firms",
+    "Uncertainty around future CapEx for cloud providers"
+  ],
+  "guidance": "raised",
+  "themes": [
+    "AI",
+    "data_center",
+    "networking",
+    "sovereign_ai",
+    "capex"
+  ],
+  "_ticker": "NVDA",
+  "_quarter": "Q4-2026",
+  "_call_date": "2026-02-25"
+}
