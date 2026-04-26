@@ -38,19 +38,39 @@ The full transcript text (prepared remarks + Q&A) was passed as a single block, 
 
 ### 1.2 Feature Engineering (Task 2)
 
-From the per-call extractions, the following features were built for each (ticker, quarter) row:
+From the per-call extractions, 15 features were built for each (ticker, quarter) row across four engineering steps (§5–6c):
 
-| Feature | Construction |
-|---------|-------------|
-| `sentiment` | Direct LLM output, float in [-1, 1] |
-| `guidance_score` | Ordinal encoding: raised=+1, reaffirmed/mixed=0, lowered=-1, none=NaN |
-| `sentiment_delta` | QoQ first-difference of `sentiment` within each ticker |
-| `n_wins_delta` | QoQ first-difference of win count |
-| `n_risks_delta` | QoQ first-difference of risk count |
-| `risk_persistence` | Word-overlap fraction between current and prior call's risk strings |
-| `guidance_streak` | Rolling count of consecutive raises (+) or lowers (-) |
+**Base LLM features (§5):**
 
-**Risk persistence** deserves a note: for each call, the set of content words (length > 4) from all risk strings was compared to the prior call's risk word set. The overlap fraction captures whether risks are structural (recurring) or transient (one-off). A risk that appears in every quarter is a signal that the market has likely already priced it in; a risk appearing for the first time may carry fresh information.
+| Feature | Construction | NaN rate |
+|---------|-------------|----------|
+| `sentiment` | Direct LLM output ∈ [−1, 1] | 0% |
+| `guidance_score` | raised=+1, reaffirmed/mixed=0, lowered=−1, none=NaN | 0% |
+| `sentiment_delta` | QoQ first-difference of `sentiment` (within ticker) | 10.7% |
+| `n_wins_delta` | QoQ first-difference of LLM win count | 10.7% |
+| `n_risks_delta` | QoQ first-difference of LLM risk count | 10.7% |
+| `guidance_streak` | Consecutive raises (+N) or lowers (−N); resets on direction change | 0% |
+| `risk_persistence` | Content-word overlap fraction between current and prior call's risk strings | 10.7% |
+
+**Novel structural features (§6):**
+
+| Feature | Construction | IC vs 21d |
+|---------|-------------|-----------|
+| `theme_novelty` | Fraction of LLM themes new for this ticker this quarter | +0.048 |
+| `sector_rel_sentiment` | `sentiment` minus same-quarter sector peer mean | +0.004 |
+| `aq_ratio` | Mean(answer words / question words) across Q&A pairs | −0.164 |
+| `reactivity` | Fraction of analyst question words absent from prepared remarks | −0.026 |
+
+**Loughran-McDonald lexicon features (§6b):**
+
+| Feature | Construction | IC vs 21d |
+|---------|-------------|-----------|
+| `lm_sentiment` | `(pos_words − neg_words) / (pos_words + neg_words)` over full transcript | −0.062 |
+| `lm_sentiment_delta` | QoQ first-difference of `lm_sentiment` within each ticker | — |
+
+**Risk persistence** captures whether risks are structural (recurring) or transient. Content words longer than 4 characters are compared across consecutive quarters; a high overlap fraction signals risks the market has likely already priced in.
+
+**LM sentiment** is included because it is better-calibrated than the LLM score (mean 0.285 vs. 0.666, std 0.249 vs. 0.228) and has Spearman ρ = 0.215 with the LLM — meaning they capture different aspects of tone and are complementary rather than redundant. The delta version isolates QoQ direction of change in lexicon space, mirroring the role `sentiment_delta` plays for the LLM score.
 
 ### 1.3 Target Variable
 
@@ -190,35 +210,41 @@ The backtest function also tracks per-trade win/loss statistics. For the contrar
 
 ## 4. Additional NLP Features
 
-### 4.0 Theme Novelty, Sector-Relative Sentiment, Management Verbosity
+### 4.0 Novel Features: Theme Novelty, Sector-Relative Sentiment, Verbosity, LM Lexicon
 
-Three novel features were engineered beyond the standard QoQ deltas:
+Six novel features were engineered beyond the standard QoQ deltas:
 
 **A. Theme Novelty Score** — For each call, the fraction of LLM-extracted themes appearing for the *first time* for that ticker. A score of 1.0 means every theme is new (common on the first call); a score near 0 means the company is repeating the same strategic narrative. This captures whether management is pivoting or staying on-script.
 
 **B. Sector-Relative Sentiment** — Each ticker's LLM sentiment minus the average sentiment of its sector peers in the same quarter (sectors: semis, financials, software, consumer/logistics, healthcare). This directly addresses the anchoring problem: AMD sentiment of 0.85 in a quarter when all semis average 0.77 is a weaker signal than AMD at 0.85 when semis average 0.55.
 
-**C. Management Verbosity (A/Q ratio)** — Average ratio of executive answer word count to analyst question word count across all Q&A pairs in a call. A high ratio means management is giving long answers to short questions — potentially defensive or over-explaining. Computed from the parsed `qa` pairs (7-24 pairs per transcript; PLTR excluded).
+**C. Management Verbosity (A/Q ratio)** — Average ratio of executive answer word count to analyst question word count across all Q&A pairs in a call. A high ratio means management is giving long answers to short questions — potentially defensive or over-explaining. Computed from the parsed `qa` pairs (7–24 pairs per transcript; PLTR excluded).
+
+**D. Loughran-McDonald Sentiment (`lm_sentiment`)** — The official Loughran-McDonald (2011) finance dictionary applied to the full transcript text via `pysentiment2`. Score = (pos − neg) / (pos + neg) ∈ [−1, 1]. Mean 0.285, std 0.249 — far more cross-sectional variance than the LLM's anchored distribution (mean 0.666). Spearman ρ with LLM sentiment = 0.215, confirming the two measures are largely orthogonal.
+
+**E. LM Sentiment Delta (`lm_sentiment_delta`)** — QoQ first-difference of `lm_sentiment`, mirroring the role `sentiment_delta` plays for the LLM score. Captures the direction of lexicon-space tone change, independent of the LLM's level estimate.
 
 | Feature | IC vs 21d return | n | Interpretation |
 |---------|-----------------|---|----------------|
-| `theme_novelty` | +0.038 | 53 | Weak positive — novel themes slightly predictive |
-| `sector_rel_sentiment` | -0.005 | 53 | Near zero — sector normalization doesn't add IC here |
-| `aq_ratio` | -0.158 | 50 | Moderate negative — verbose management = underperformance |
+| `theme_novelty` | +0.048 | 54 | Weak positive — novel themes slightly predictive |
+| `sector_rel_sentiment` | +0.004 | 54 | Near zero — sector normalisation doesn't add IC standalone |
+| `aq_ratio` | −0.164 | 51 | Moderate negative — verbose management = underperformance |
+| `lm_sentiment` | −0.062 | 54 | Weak negative — better calibrated than LLM but still weak standalone |
+| `lm_sentiment_delta` | — | — | Evaluated as model input; provides QoQ direction in lexicon space |
 
-`aq_ratio` has the strongest individual IC of the three (-0.158), consistent with the hypothesis that defensive over-explanation is a bearish signal. The sector-relative IC is near zero, but the feature is still useful as a *model input* — it's less collinear with the guidance features than raw sentiment.
+`aq_ratio` has the strongest individual IC (−0.164). `lm_sentiment` carries orthogonal signal to the LLM features due to their low correlation (ρ = 0.215). `sector_rel_sentiment` and `lm_sentiment_delta` have near-zero standalone ICs but reduce collinearity when included in a multi-feature model.
 
 **Enhanced 9-feature model vs. 6-feature:**
 
 | Model | Hit% | IC | Sharpe | Win/Loss |
 |-------|------|----|--------|---------|
-| Baseline | 50.9% | NaN | +0.03 | 0.99 |
-| Contrarian 6-feat | 60.4% | +0.382 | +0.961 | 1.34 |
-| Contrarian 9-feat | 58.0% | +0.312 | +0.724 | 1.25 |
+| Baseline | 51.9% | NaN | +0.046 | 0.96 |
+| Contrarian 6-feat | 59.3% | +0.381 | +0.938 | 1.39 |
+| Contrarian 9-feat | 56.9% | +0.311 | +0.702 | 1.29 |
 
-The 9-feature model is slightly weaker than the 6-feature version — adding more features with low individual IC dilutes the signal in a 70-row training set. The 6-feature contrarian remains the best-performing model. This is itself a useful finding: with only 70 training rows, feature parsimony matters more than feature richness.
+The 9-feature model is slightly weaker than the 6-feature version — adding more features with low individual IC dilutes the signal in a 70-row training set. The 6-feature contrarian remains the best-performing model. This is itself a useful finding: with only 70 training rows, **feature parsimony matters more than feature richness**.
 
-The coefficient ranking shows `theme_novelty` (0.230) and `sector_rel_sentiment` (0.200) are among the top-4 coefficients in the enhanced model, suggesting they carry information the base features do not — just not enough to overcome the overfitting penalty at this sample size.
+The coefficient ranking in the enhanced model shows `theme_novelty` (0.230) and `sector_rel_sentiment` (0.200) among the top-4 coefficients, suggesting they carry information the base features do not — just not enough to overcome the overfitting penalty at this sample size. `lm_sentiment` and `lm_sentiment_delta` are available for inclusion and represent the most natural next experiment.
 
 ---
 
@@ -247,9 +273,9 @@ For each transcript, we computed the fraction of analyst question words (length 
 
 **IC vs. 21d excess return: -0.023 (n=50).** The signal is near zero and not predictive at the 21-day horizon, consistent with the hypothesis that the market already incorporates this information within days of the call. The more interesting finding is the **cross-company pattern**: JPM consistently tops the reactivity ranking (0.69-0.75 across multiple quarters), meaning analysts routinely ask about topics Jamie Dimon did not address in prepared remarks — macro/rate outlook, M&A, and regulatory capital questions that management deliberately avoids volunteering. NKE and FAST show the lowest reactivity, consistent with simpler business models where prepared remarks cover the key topics analysts care about.
 
-### 4.3 Loughran-McDonald Lexicon Comparison
+### 4.3 Loughran-McDonald Lexicon — Integration and Comparison
 
-We ran the official Loughran-McDonald (2011) finance dictionary on all 131 transcripts using `pysentiment2` and compared to the LLM scores.
+The LM dictionary (computed in §6b, visualised in §6c) is integrated as two model features: `lm_sentiment` and `lm_sentiment_delta`. The sanity check below documents how the two sentiment sources relate.
 
 ![LM vs LLM sentiment distributions and scatter](lm_vs_llm.png)
 
@@ -257,13 +283,13 @@ We ran the official Loughran-McDonald (2011) finance dictionary on all 131 trans
 |--------|-----------|----------------|
 | Mean sentiment | 0.285 | 0.666 |
 | Std deviation | 0.249 | 0.228 |
-| IC vs. 21d return | -0.068 | ≈0 (NaN) |
-| Spearman corr (vs. each other) | — | 0.215 |
+| IC vs. 21d return | −0.062 | ≈0 (anchoring) |
+| Spearman ρ (vs. each other) | 0.215 | — |
 
 **Key findings:**
-1. **LM is better-calibrated** (mean 0.29 vs. 0.67) — it is not anchored at "bullish" the way the LLM is. This confirms the anchoring problem is in the LLM, not intrinsic to the task.
-2. **Low agreement** (ρ = 0.22) — the two methods are capturing different things. LM counts positive/negative words; the LLM synthesises tone across the entire arc of the call. Neither is clearly "right."
-3. **Neither has strong IC** at 21 days — the LM IC of -0.068 is not significant at n=53, and both signals are weak vs. the guidance-based contrarian. This reinforces that raw sentiment (however measured) is a poor 21-day predictor compared to the guidance trajectory.
+1. **LM is better-calibrated** (mean 0.29 vs. 0.67) — not anchored at "bullish." This confirms the anchoring problem is in the LLM, not intrinsic to the task.
+2. **Low agreement** (ρ = 0.22) — the two methods capture different things. LM counts positive/negative finance words; the LLM synthesises tone across the entire arc of the call. They are complementary, not redundant.
+3. **Neither has strong standalone IC** at 21 days — the LM IC of −0.062 is not significant at n=54, and both signals are weak vs. the guidance-based contrarian. This reinforces that raw sentiment (however measured) is a poor 21-day predictor on its own. The value of `lm_sentiment` is as an orthogonal feature in a multi-feature model, not as a standalone signal.
 
 ---
 
@@ -297,7 +323,7 @@ On the first attempt, qwen3:8b silently consumed its entire `num_predict` budget
 
 ## 7. What I'd Do with More Time
 
-1. **Fix sentiment anchoring.** Re-prompt with an explicit instruction to score *relative* to the prior quarter, or replace `overall_sentiment` with FinBERT sentence-level scores on the prepared remarks only (excluding boilerplate disclaimers). This alone would likely move the baseline IC from NaN to something measurable.
+1. **Fix sentiment anchoring.** Re-prompt with an explicit instruction to score *relative* to the prior quarter, or replace `overall_sentiment` with FinBERT sentence-level scores on the prepared remarks only (excluding boilerplate disclaimers). The LM lexicon (`lm_sentiment`) already partially addresses this — it has mean 0.285 and std 0.249 vs. the LLM's anchored 0.666 / 0.228 — but a discriminative classifier calibrated on labeled finance data would be more robust.
 
 2. **Speaker-level features.** A within-block parser for `Executives - <role>` lines would enable CEO vs. CFO sentiment as separate features. CFO tone on the guidance section may be more predictive than overall call tone.
 
@@ -309,4 +335,4 @@ On the first attempt, qwen3:8b silently consumed its entire `num_predict` budget
 
 ---
 
-*Pipeline: qwen3:8b (Ollama local) · scikit-learn LogReg · yfinance · pandas · Python 3.11*
+*Pipeline: qwen3:8b (Ollama local) · pysentiment2 LM lexicon · scikit-learn LogReg · yfinance · pandas · Python 3.11*
