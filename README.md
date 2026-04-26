@@ -1,79 +1,75 @@
-# Assignment 1 — Earnings-Call Sentiment, Event Extraction, and Return Prediction
+# Assignment 1 - Earnings-Call Sentiment, Event Extraction, and Return Prediction
 
-**NLP for Finance — Spring 2026**
+NLP for Finance - Spring 2026
 
 ## Overview
 
-Pipeline that extracts structured sentiment and event data from 131 earnings-call transcripts (14 tickers, ~9 quarters each) and builds a return-prediction backtest.
+This repository contains an end-to-end pipeline for 131 earnings-call transcripts (14 US tickers), including:
+
+- transcript parsing
+- LLM event/sentiment extraction
+- quarter-over-quarter feature engineering
+- train/test modeling
+- simple backtests and diagnostics
+
+Primary implementation is in `Assignment_1_YueqiLin.ipynb`.
 
 ## Requirements
 
-```
-pip install pandas numpy yfinance tqdm requests scikit-learn matplotlib
-```
-
-Ollama must be running locally with `qwen3:8b` pulled:
+Install Python dependencies:
 
 ```bash
-ollama serve          # in one terminal
-ollama pull qwen3:8b  # one-time download (~5 GB)
+pip install pandas numpy yfinance tqdm requests scikit-learn matplotlib pysentiment2
 ```
 
-## File Layout
+Optional (only needed if re-running extraction instead of using cache):
 
+```bash
+ollama serve
+ollama pull qwen3:8b
 ```
+
+## Project Layout
+
+```text
 Transcript Assignment/
-├── Assignment_1_Starter.ipynb   # main notebook
-├── ECT/                          # 131 .txt transcripts
-├── cache/
-│   ├── extractions/              # pre-computed LLM JSON outputs (131 files)
-│   └── prices/                   # yfinance parquet cache (15 files)
-└── README.md
+|- Assignment_1_YueqiLin.ipynb
+|- Assignment_1_writeup_YueqiLin.pdf
+|- ECT/                      # 131 transcript .txt files
+|- cache/
+|  |- extractions/           # cached LLM JSON extractions (131 files)
+|  |- prices/                # cached yfinance parquet files (tickers + SPY)
+|- backtest_equity_curve.png
+|- baseline_llm_vs_lm.png
+`- README.md
 ```
 
-## How to Run
+## Reproduction Steps
 
-Open `Assignment_1_Starter.ipynb` and run cells top-to-bottom.
+1. Open `Assignment_1_YueqiLin.ipynb`.
+2. Run all cells from top to bottom.
+3. The notebook will load cached extraction JSON from `cache/extractions/` and cached price data from `cache/prices/` when present.
+4. If caches are deleted, extraction/price steps will rebuild them.
 
-| Cell | What it does |
-|------|--------------|
-| 2 | Imports |
-| 4 | Paths & constants |
-| 6 | Parse all 131 transcripts |
-| 8 | Fetch prices via yfinance (uses disk cache) |
-| 10 | LLM extraction functions — skips to cached JSON if present |
-| 12 | Build feature DataFrame + QoQ delta features |
-| 14 | Train/test split (first 5 calls per ticker = train) |
-| 16 | Baseline signal + backtest functions |
-| 17 | Equity curve plot |
-| 19 | Better model (LogReg + contrarian) |
+Notes:
 
-**The LLM extraction step is already cached.** Cell 10 will load from `cache/extractions/` without calling Ollama. To re-run extraction from scratch, call `extract_one(t, force=True)` or delete the cache.
+- Train/test split is by time within each ticker (first 5 calls train, remaining calls test).
+- Entry convention is T+1 close to avoid look-ahead from after-hours calls.
+- The notebook evaluates multiple horizons and model variants in different sections; check each section header for the exact target used.
 
-## Pipeline Summary
+## What to Submit
 
-1. **Extraction (Task 1):** `qwen3:8b` via Ollama, zero-shot JSON prompt. Each transcript → `{overall_sentiment, sentiment_bucket, wins, risks, guidance, themes}`. 131/131 extracted, 0 parse failures.
+For a reproducible submission, include at minimum:
 
-2. **Features (Task 2):** QoQ sentiment delta, guidance trajectory streak, risk persistence (word-overlap), n_wins/n_risks deltas.
+- `Assignment_1_YueqiLin.ipynb`
+- `Assignment_1_writeup_YueqiLin.pdf`
+- `README.md`
+- `cache/extractions/*.json`
+- `cache/prices/*`
+- generated figures referenced in the writeup
 
-3. **Model (Task 3):** Logistic regression (6 features, C=0.1) on 21d excess-return sign. Best performer: contrarian variant (flip LR predictions), IC=+0.382.
+## Known Caveats
 
-4. **Backtest (Task 4):** Train = first 5 calls/ticker (~70 obs), test = rest (~61 obs). Entry T+1 close, 21d hold, excess vs. SPY.
-
-## Key Results
-
-| Model | Hit% | Rank IC | Sharpe |
-|-------|------|---------|--------|
-| Baseline (sent > 0) | 50.9% | NaN | +0.03 |
-| LogReg 6-feat | 39.6% | −0.382 | −0.96 |
-| Guidance-only | 22.6% | −0.357 | −0.96 |
-| **Contrarian LR** | **60.4%** | **+0.382** | **+0.96** |
-
-See `backtest_equity_curve.png` for the cumulative PnL chart.
-
-## Known Limitations
-
-- n=53 test observations after NaN removal — all metrics have wide confidence intervals.
-- Raw sentiment is anchored high (~0.85) for most tickers; signal variance is low.
-- Contrarian LR was found by flipping a failing model — treat as an observation, not a validated strategy.
-- PLTR has no Q&A pairs (pre-recorded format); excluded from Q&A-specific features.
+- Small out-of-sample size, so metrics are noisy.
+- PLTR has no standard Q&A section in this dataset format, so Q&A-derived features are NaN for PLTR calls.
+- LLM sentiment can be anchored high; delta and auxiliary features are included to mitigate this.

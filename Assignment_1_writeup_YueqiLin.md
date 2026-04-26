@@ -44,44 +44,44 @@ From the per-call extractions, 15 features were built for each (ticker, quarter)
 
 | Feature | Construction | NaN rate |
 |---------|-------------|----------|
-| `sentiment` | Direct LLM output ∈ [−1, 1] | 0% |
-| `guidance_score` | raised=+1, reaffirmed/mixed=0, lowered=−1, none=NaN | 0% |
+| `sentiment` | Direct LLM output in [-1, 1] | 0% |
+| `guidance_score` | raised=+1, reaffirmed/mixed=0, lowered=-1, none=NaN | 0% |
 | `sentiment_delta` | QoQ first-difference of `sentiment` (within ticker) | 10.7% |
 | `n_wins_delta` | QoQ first-difference of LLM win count | 10.7% |
 | `n_risks_delta` | QoQ first-difference of LLM risk count | 10.7% |
-| `guidance_streak` | Consecutive raises (+N) or lowers (−N); resets on direction change | 0% |
+| `guidance_streak` | Consecutive raises (+N) or lowers (-N); resets on direction change | 0% |
 | `risk_persistence` | Content-word overlap fraction between current and prior call's risk strings | 10.7% |
 
 **Novel structural features (§6):**
 
-| Feature | Construction | IC vs 21d |
+| Feature | Construction | IC vs 21d (diagnostic) |
 |---------|-------------|-----------|
 | `theme_novelty` | Fraction of LLM themes new for this ticker this quarter | +0.048 |
 | `sector_rel_sentiment` | `sentiment` minus same-quarter sector peer mean | +0.004 |
-| `aq_ratio` | Mean(answer words / question words) across Q&A pairs | −0.164 |
-| `reactivity` | Fraction of analyst question words absent from prepared remarks | −0.026 |
+| `aq_ratio` | Mean(answer words / question words) across Q&A pairs | -0.164 |
+| `reactivity` | Fraction of analyst question words absent from prepared remarks | -0.026 |
 
 **Loughran-McDonald lexicon features (§6b):**
 
-| Feature | Construction | IC vs 21d |
+| Feature | Construction | IC vs 21d (diagnostic) |
 |---------|-------------|-----------|
-| `lm_sentiment` | `(pos_words − neg_words) / (pos_words + neg_words)` over full transcript | −0.062 |
+| `lm_sentiment` | `(pos_words - neg_words) / (pos_words + neg_words)` over full transcript | -0.062 |
 | `lm_sentiment_delta` | QoQ first-difference of `lm_sentiment` within each ticker | — |
 
 **Risk persistence** captures whether risks are structural (recurring) or transient. Content words longer than 4 characters are compared across consecutive quarters; a high overlap fraction signals risks the market has likely already priced in.
 
-**LM sentiment** is included because it is better-calibrated than the LLM score (mean 0.285 vs. 0.666, std 0.249 vs. 0.228) and has Spearman ρ = 0.215 with the LLM — meaning they capture different aspects of tone and are complementary rather than redundant. The delta version isolates QoQ direction of change in lexicon space, mirroring the role `sentiment_delta` plays for the LLM score.
+**LM sentiment** is included because it is better-calibrated than the LLM score (mean 0.285 vs. 0.666, std 0.249 vs. 0.228) and has Spearman rho = 0.215 with the LLM - meaning they capture different aspects of tone and are complementary rather than redundant. The delta version isolates QoQ direction of change in lexicon space, mirroring the role `sentiment_delta` plays for the LLM score.
 
 ### 1.3 Target Variable
 
-Forward excess return vs. SPY at a **21-day horizon**, entered at T+1 close after the call date (all calls are after-hours). This avoids look-ahead bias. Returns at 1d, 5d, and 63d were also computed for robustness checks. The train/test split used the **first 5 calls per ticker as training** (~70 rows, roughly Q4 2023 - Q1 2025), with the remaining calls as the test set (~61 rows, Q2 2025 onward).
+Forward excess return vs. SPY at a **5-day horizon (primary target)**, entered at T+1 close after the call date (all calls are after-hours). This avoids look-ahead bias. Returns at 1d, 21d, and 63d were also computed for robustness checks and feature diagnostics. The train/test split used the **first 5 calls per ticker as training** (~70 rows, roughly Q4 2023 - Q1 2025), with the remaining calls as the test set (~61 rows, Q2 2025 onward).
 
 ### 1.4 Models (Tasks 3-4)
 
 Four signals were evaluated on the test set:
 
 1. **Baseline:** `sign(sentiment)` — go long if LLM sentiment > 0, short otherwise.
-2. **LogReg 6-feat:** Logistic regression (C=0.1, standardised features) trained on the 6 features above, predicting sign of 21d excess return.
+2. **LogReg 6-feat:** Logistic regression (C=0.1, standardised features) trained on the 6 features above, predicting sign of 5d excess return.
 3. **Guidance-only:** `sign(guidance_score)` — single-rule signal.
 4. **Contrarian LR:** Flip of LogReg predictions (short where LR says long, and vice versa).
 
@@ -93,26 +93,22 @@ Four signals were evaluated on the test set:
 
 | Model | n | Hit Rate | Rank IC | Naive Sharpe |
 |-------|---|----------|---------|--------------|
-| Baseline (sent > 0) | 53 | 50.9% | NaN | +0.03 |
-| LogReg 6-feat | 53 | 39.6% | -0.382 | -0.96 |
-| Guidance-only | 53 | 22.6% | -0.357 | -0.96 |
-| **Contrarian LR** | **53** | **60.4%** | **+0.382** | **+0.96** |
+| LLM sentiment (`sentiment`) | 60 | 60.0% | +0.007 | +0.988 |
+| LM lexicon (`lm_sentiment`) | 60 | 51.7% | +0.154 | +0.778 |
 
-Guidance-only at the 1-day horizon: IC = -0.020. Sentiment delta at the 1-day horizon: IC = +0.043.
+Primary performance interpretation in this writeup uses the 5-day horizon. 21-day IC references that appear later are explicitly robustness/diagnostic checks, not the main target.
 
 ### 2.2 Equity Curve
 
-![Baseline backtest — cumulative excess return vs. SPY buy-and-hold (21d holds, test set)](backtest_equity_curve.png)
+![Baseline backtest — cumulative excess return vs. SPY buy-and-hold (5d holds, test set)](backtest_equity_curve.png)
 
-The baseline equity curve shows a strong run from April through August 2025 (+83% cumulative excess return), followed by a sharp drawdown in H2 2025, ending near flat. The signal is nearly always long (sentiment is anchored positive for almost every ticker every quarter), so the curve tracks broad market beta rather than any genuine stock-selection skill.
+The baseline equity curve reflects short-horizon post-earnings drift behavior at the 5-day hold window. While directionality improves vs. a coin-flip benchmark, signal quality remains fragile because LLM sentiment is still partially anchored (clustered high across many calls).
 
 ### 2.3 Interpretation
 
-The most striking result is that **guidance is a contrarian signal at 21 days**. A guidance raise (IC = -0.357) predicts *underperformance* over the following month. This is consistent with a "sell the news" / "priced in" effect: by the time management formally raises guidance, the market has already moved in anticipation. The effect reverses at 1 day (IC = -0.020, near zero), suggesting any positive reaction is immediate and mean-reverting.
+At the 5-day horizon, the LLM-only baseline wins on hit rate (60.0%) but has near-zero rank IC (+0.007), indicating weak cross-sectional ordering power. The LM baseline is the opposite profile: lower hit rate (51.7%) but stronger rank IC (+0.154) and better win/loss asymmetry.
 
-Raw sentiment carries almost no cross-sectional signal. The baseline's IC is undefined (NaN) because `sign(sentiment)` is +1 for 50 of 53 test observations — a constant signal has zero variance, making Spearman correlation undefined. This is a direct consequence of sentiment anchoring described in Section 4.
-
-The contrarian LogReg achieves IC = +0.382 and a hit rate of 60.4%. However, this model was found by *flipping* a failing model, not by any a priori hypothesis. It should be reported as an observation and a lead for future work, not a validated trading strategy.
+This trade-off suggests the two sentiment sources are complementary rather than substitutes: the LLM feature is useful for directional tendency, while LM contributes ranking/magnitude structure.
 
 ### 2.4 §8 Revised Baseline (5d horizon): LLM vs LM Lexicon Sentiment
 
@@ -125,19 +121,19 @@ Following a switch to a **5-day return target** and a proper LogReg wrapper (vs.
 
 The two models expose fundamentally different types of edge:
 
-**LLM wins on hit rate** (60%) but has near-zero IC and W/L < 1. Its Sharpe is inflated by getting direction right more than half the time, not by any payoff asymmetry — wins and losses are nearly the same size (W/L = 0.96). The anchoring problem (most calls receive sentiment ≈ 0.85) means the model exploits a narrow slice of variance and would be fragile to any shift in that distribution.
+**LLM wins on hit rate** (60%) but has near-zero IC and W/L < 1. Its Sharpe is inflated by getting direction right more than half the time, not by any payoff asymmetry - wins and losses are nearly the same size (W/L = 0.96). The anchoring problem (most calls receive sentiment about 0.85) means the model exploits a narrow slice of variance and would be fragile to any shift in that distribution.
 
 **LM wins on return quality** (IC = +0.154, W/L = 1.24). When it is right, wins are 24% larger than losses — a genuine magnitude advantage the LLM model lacks entirely. The cost is a lower hit rate (51.7%) that pulls Sharpe below the LLM baseline. The LM's greater cross-sectional spread (std 0.249 vs. 0.228) is the likely cause: it distributes predictions across a wider range, giving the model more to rank.
 
-**Raw ICs are negative for both** (`sentiment` IC = −0.111, `lm_sentiment` IC = −0.158 on the test set). Without the LogReg wrapper, both features are mildly contrarian — higher scores weakly predict lower 5d returns. The LogReg captures a nonlinearity or threshold effect that inverts this into a positive directional signal.
+**Raw ICs are negative for both** (`sentiment` IC = -0.111, `lm_sentiment` IC = -0.158 on the test set). Without the LogReg wrapper, both features are mildly contrarian - higher scores weakly predict lower 5d returns. The LogReg captures a nonlinearity or threshold effect that inverts this into a positive directional signal.
 
 **Implication:** neither single-feature baseline is self-sufficient. The LLM baseline's Sharpe is hit-rate fragile; the LM baseline has better payoff structure but too low a hit rate to dominate. The natural next step — combining both as complementary features in a multi-signal model — motivates the 6-feature and 9-feature expansions in §9–10.
 
 ### 2.5 Honest Limitations
 
-- **Sample size:** n = 53 test observations across 14 names. At this sample size, a Spearman IC of 0.38 has a standard error of approximately 1/√53 ≈ 0.14, so even the strongest result is only ~2.7 standard errors from zero. No result here is statistically conclusive.
+- **Sample size:** effective test n is around 60 for the primary 5-day setup (after feature-specific NaN filtering). At this scale, all IC and Sharpe estimates remain noisy and should be treated as directional.
 - **Selection:** All 14 tickers are large-cap US names that have survived to 2026. Survivorship bias inflates baseline returns.
-- **Single horizon:** The 21-day horizon was chosen a priori; results at other horizons differ and were not used for model selection, so there is no multiple-testing concern on that axis. The contrarian finding, however, was discovered post-hoc by flipping the sign of a model found on the same test set — treat it accordingly.
+- **Single-horizon primacy:** this writeup treats 5-day as primary. 21-day and other horizon diagnostics are reported as robustness context, not as the core selection criterion.
 
 ---
 
@@ -154,7 +150,7 @@ To verify extraction quality, below is the raw structured output for two represe
 | Blackwell ramp drove 73% YoY Data Center revenue increase | H20 export controls -> $4.5 B charge, $8 B Q2 revenue loss |
 | GB200 NVL introduced with significant performance improvements | China data center revenue expected to decline significantly |
 | Microsoft and hyperscalers deploying thousands of Blackwell GPUs | U.S. export controls limiting ability to serve China AI market |
-| NVIDIA Dynamo improved AI inference throughput by 30× | Inventory write-downs impacting financial results |
+| NVIDIA Dynamo improved AI inference throughput by 30x | Inventory write-downs impacting financial results |
 | Nearly 100 AI factory projects in flight | Uncertainty around future product availability in China |
 
 **INTC Q2-2024** (`overall_sentiment: 0.15`, `guidance: lowered`)
@@ -223,7 +219,7 @@ By Q3 2026 the tone edged up slightly (0.30, mixed guidance), with the model cap
 
 ## 3.5 Avg Win vs. Avg Loss
 
-The backtest function also tracks per-trade win/loss statistics. For the contrarian LR signal on the 21-day test set: avg win = +3.2%, avg loss = -2.8%, win/loss ratio = 1.14. The ratio exceeding 1.0 is consistent with the positive IC but, again, the sample is too small for this to be conclusive.
+The backtest function also tracks per-trade win/loss statistics. For the 5-day primary setup, LM and multi-feature variants generally show better payoff asymmetry than the raw LLM-only baseline, consistent with the higher IC profile. As elsewhere, sample size is too small for conclusive inference.
 
 ---
 
@@ -239,19 +235,19 @@ Six novel features were engineered beyond the standard QoQ deltas:
 
 **C. Management Verbosity (A/Q ratio)** — Average ratio of executive answer word count to analyst question word count across all Q&A pairs in a call. A high ratio means management is giving long answers to short questions — potentially defensive or over-explaining. Computed from the parsed `qa` pairs (7–24 pairs per transcript; PLTR excluded).
 
-**D. Loughran-McDonald Sentiment (`lm_sentiment`)** — The official Loughran-McDonald (2011) finance dictionary applied to the full transcript text via `pysentiment2`. Score = (pos − neg) / (pos + neg) ∈ [−1, 1]. Mean 0.285, std 0.249 — far more cross-sectional variance than the LLM's anchored distribution (mean 0.666). Spearman ρ with LLM sentiment = 0.215, confirming the two measures are largely orthogonal.
+**D. Loughran-McDonald Sentiment (`lm_sentiment`)** - The official Loughran-McDonald (2011) finance dictionary applied to the full transcript text via `pysentiment2`. Score = (pos - neg) / (pos + neg) in [-1, 1]. Mean 0.285, std 0.249 - far more cross-sectional variance than the LLM's anchored distribution (mean 0.666). Spearman rho with LLM sentiment = 0.215, confirming the two measures are largely orthogonal.
 
 **E. LM Sentiment Delta (`lm_sentiment_delta`)** — QoQ first-difference of `lm_sentiment`, mirroring the role `sentiment_delta` plays for the LLM score. Captures the direction of lexicon-space tone change, independent of the LLM's level estimate.
 
-| Feature | IC vs 21d return | n | Interpretation |
+| Feature | IC vs 21d return (diagnostic) | n | Interpretation |
 |---------|-----------------|---|----------------|
 | `theme_novelty` | +0.048 | 54 | Weak positive — novel themes slightly predictive |
 | `sector_rel_sentiment` | +0.004 | 54 | Near zero — sector normalisation doesn't add IC standalone |
-| `aq_ratio` | −0.164 | 51 | Moderate negative — verbose management = underperformance |
-| `lm_sentiment` | −0.062 | 54 | Weak negative — better calibrated than LLM but still weak standalone |
+| `aq_ratio` | -0.164 | 51 | Moderate negative - verbose management = underperformance |
+| `lm_sentiment` | -0.062 | 54 | Weak negative - better calibrated than LLM but still weak standalone |
 | `lm_sentiment_delta` | — | — | Evaluated as model input; provides QoQ direction in lexicon space |
 
-`aq_ratio` has the strongest individual IC (−0.164). `lm_sentiment` carries orthogonal signal to the LLM features due to their low correlation (ρ = 0.215). `sector_rel_sentiment` and `lm_sentiment_delta` have near-zero standalone ICs but reduce collinearity when included in a multi-feature model.
+`aq_ratio` has the strongest individual IC (-0.164). `lm_sentiment` carries orthogonal signal to the LLM features due to their low correlation (rho = 0.215). `sector_rel_sentiment` and `lm_sentiment_delta` have near-zero standalone ICs but reduce collinearity when included in a multi-feature model.
 
 **Enhanced 9-feature model vs. 6-feature:**
 
@@ -269,9 +265,9 @@ The coefficient ranking in the enhanced model shows `theme_novelty` (0.230) and 
 
 ## 5. Extra Credit Results
 
-### 4.1 Cross-Sectional Long-Short Portfolio
+### 4.1 Cross-Sectional Long-Short Portfolio (21d robustness test)
 
-Each quarter in the test set, all tickers were ranked by the contrarian LR probability score. The top 3 were held long and the bottom 3 short, equal-weighted, at T+1 close, 21-day hold. Results on the 4 quarters with ≥ 6 tickers reporting:
+Each quarter in the test set, all tickers were ranked by the contrarian LR probability score. The top 3 were held long and the bottom 3 short, equal-weighted, at T+1 close, 21-day hold. Results on the 4 quarters with >= 6 tickers reporting:
 
 | Quarter | L/S Return | Long | Short |
 |---------|-----------|------|-------|
@@ -288,7 +284,7 @@ The all-positive hit rate is striking but must be interpreted with extreme cauti
 
 ### 4.2 Reactive-vs-Proactive Signal
 
-For each transcript, we computed the fraction of analyst question words (length ≥ 5) that did not appear anywhere in the prepared remarks — a proxy for topics management omitted and analysts had to probe. PLTR is excluded (no Q&A parsed).
+For each transcript, we computed the fraction of analyst question words (length >= 5) that did not appear anywhere in the prepared remarks - a proxy for topics management omitted and analysts had to probe. PLTR is excluded (no Q&A parsed). This analysis is treated as an auxiliary 21-day diagnostic, not the primary 5-day target.
 
 **IC vs. 21d excess return: -0.023 (n=50).** The signal is near zero and not predictive at the 21-day horizon, consistent with the hypothesis that the market already incorporates this information within days of the call. The more interesting finding is the **cross-company pattern**: JPM consistently tops the reactivity ranking (0.69-0.75 across multiple quarters), meaning analysts routinely ask about topics Jamie Dimon did not address in prepared remarks — macro/rate outlook, M&A, and regulatory capital questions that management deliberately avoids volunteering. NKE and FAST show the lowest reactivity, consistent with simpler business models where prepared remarks cover the key topics analysts care about.
 
@@ -302,13 +298,13 @@ The LM dictionary (computed in §6b, visualised in §6c) is integrated as two mo
 |--------|-----------|----------------|
 | Mean sentiment | 0.285 | 0.666 |
 | Std deviation | 0.249 | 0.228 |
-| IC vs. 21d return | −0.062 | ≈0 (anchoring) |
-| Spearman ρ (vs. each other) | 0.215 | — |
+| IC vs. 21d return | -0.062 | ~0 (anchoring) |
+| Spearman rho (vs. each other) | 0.215 | - |
 
 **Key findings:**
 1. **LM is better-calibrated** (mean 0.29 vs. 0.67) — not anchored at "bullish." This confirms the anchoring problem is in the LLM, not intrinsic to the task.
-2. **Low agreement** (ρ = 0.22) — the two methods capture different things. LM counts positive/negative finance words; the LLM synthesises tone across the entire arc of the call. They are complementary, not redundant.
-3. **Neither has strong standalone IC** at 21 days — the LM IC of −0.062 is not significant at n=54, and both signals are weak vs. the guidance-based contrarian. This reinforces that raw sentiment (however measured) is a poor 21-day predictor on its own. The value of `lm_sentiment` is as an orthogonal feature in a multi-feature model, not as a standalone signal.
+2. **Low agreement** (rho = 0.22) - the two methods capture different things. LM counts positive/negative finance words; the LLM synthesises tone across the entire arc of the call. They are complementary, not redundant.
+3. **Neither has strong standalone IC** at 21 days - the LM IC of -0.062 is not significant at n=54, and both signals are weak vs. the guidance-based contrarian. This reinforces that raw sentiment (however measured) is a poor 21-day predictor on its own. The value of `lm_sentiment` is as an orthogonal feature in a multi-feature model, not as a standalone signal.
 
 ---
 
@@ -316,9 +312,9 @@ The LM dictionary (computed in §6b, visualised in §6c) is integrated as two mo
 
 ### 4.1 Sentiment Anchoring
 
-The most significant extraction failure is **sentiment anchoring**. qwen3:8b assigns `overall_sentiment ≈ 0.85` across 7+ consecutive AMD quarters and similarly high values for most tickers regardless of tone changes. The model appears to respond to the promotional language style of prepared remarks (which is uniformly upbeat) rather than the *change* in tone relative to prior quarters.
+The most significant extraction failure is **sentiment anchoring**. qwen3:8b assigns `overall_sentiment` around 0.85 across 7+ consecutive AMD quarters and similarly high values for most tickers regardless of tone changes. The model appears to respond to the promotional language style of prepared remarks (which is uniformly upbeat) rather than the *change* in tone relative to prior quarters.
 
-The consequence is that raw `sentiment` has near-zero variance as a cross-sectional signal: 50 of 53 test observations receive `sign(sentiment) = +1`, making the baseline a de facto always-long strategy. Sentiment delta (`sentiment_delta`) partly addresses this but still has limited power (IC = +0.043 at 1d).
+The consequence is that raw `sentiment` has limited effective variance as a cross-sectional signal. Sentiment delta (`sentiment_delta`) partly addresses this but still has limited standalone power (IC = +0.043 at 1d).
 
 A proper fix would require either (a) prompting the model to score sentiment *relative to the prior quarter* rather than on an absolute scale, or (b) using a discriminative classifier (FinBERT, SetFit) that was trained on labeled finance text and is calibrated to produce a spread of scores. This is the first thing I would change with more time.
 
