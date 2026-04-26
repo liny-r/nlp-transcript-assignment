@@ -114,7 +114,26 @@ Raw sentiment carries almost no cross-sectional signal. The baseline's IC is und
 
 The contrarian LogReg achieves IC = +0.382 and a hit rate of 60.4%. However, this model was found by *flipping* a failing model, not by any a priori hypothesis. It should be reported as an observation and a lead for future work, not a validated trading strategy.
 
-### 2.4 Honest Limitations
+### 2.4 §8 Revised Baseline (5d horizon): LLM vs LM Lexicon Sentiment
+
+Following a switch to a **5-day return target** and a proper LogReg wrapper (vs. the raw `sign(sentiment)` rule above), §8 reports two 1-feature baselines on the same train/test split (n=60 test observations):
+
+| Model | Hit% | Rank IC | Naive Sharpe | W/L |
+|-------|------|---------|--------------|-----|
+| LLM sentiment (`sentiment`) | **60.0%** | +0.007 | **+0.988** | 0.96 |
+| LM lexicon sentiment (`lm_sentiment`) | 51.7% | **+0.154** | +0.778 | **1.24** |
+
+The two models expose fundamentally different types of edge:
+
+**LLM wins on hit rate** (60%) but has near-zero IC and W/L < 1. Its Sharpe is inflated by getting direction right more than half the time, not by any payoff asymmetry — wins and losses are nearly the same size (W/L = 0.96). The anchoring problem (most calls receive sentiment ≈ 0.85) means the model exploits a narrow slice of variance and would be fragile to any shift in that distribution.
+
+**LM wins on return quality** (IC = +0.154, W/L = 1.24). When it is right, wins are 24% larger than losses — a genuine magnitude advantage the LLM model lacks entirely. The cost is a lower hit rate (51.7%) that pulls Sharpe below the LLM baseline. The LM's greater cross-sectional spread (std 0.249 vs. 0.228) is the likely cause: it distributes predictions across a wider range, giving the model more to rank.
+
+**Raw ICs are negative for both** (`sentiment` IC = −0.111, `lm_sentiment` IC = −0.158 on the test set). Without the LogReg wrapper, both features are mildly contrarian — higher scores weakly predict lower 5d returns. The LogReg captures a nonlinearity or threshold effect that inverts this into a positive directional signal.
+
+**Implication:** neither single-feature baseline is self-sufficient. The LLM baseline's Sharpe is hit-rate fragile; the LM baseline has better payoff structure but too low a hit rate to dominate. The natural next step — combining both as complementary features in a multi-signal model — motivates the 6-feature and 9-feature expansions in §9–10.
+
+### 2.5 Honest Limitations
 
 - **Sample size:** n = 53 test observations across 14 names. At this sample size, a Spearman IC of 0.38 has a standard error of approximately 1/√53 ≈ 0.14, so even the strongest result is only ~2.7 standard errors from zero. No result here is statistically conclusive.
 - **Selection:** All 14 tickers are large-cap US names that have survived to 2026. Survivorship bias inflates baseline returns.
