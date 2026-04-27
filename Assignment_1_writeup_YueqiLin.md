@@ -73,7 +73,7 @@ The full transcript text (prepared remarks + Q&A) was passed as a single block, 
 
 ### 1.2 Feature Engineering (Task 2)
 
-From the per-call extractions, 17 features were built for each (ticker, quarter) row across four engineering steps (§5–6e):
+From the per-call extractions, 17 features were built for each (ticker, quarter) row across four feature-engineering steps:
 
 **Base LLM features (§5):**
 
@@ -149,7 +149,7 @@ All models evaluated on the same test set (first 5 calls per ticker = train; rem
 
 ### 2.2 Equity Curve
 
-![Final model backtest — cumulative return vs SPY buy-and-hold (5d holds, test set)](backtest_equity_curve.png)
+![Final model backtest — cumulative return vs SPY buy-and-hold (5d holds, test set)](figures/backtest_equity_curve.png)
 
 The left panel shows cumulative raw returns: strategy +9.1% vs. SPY +46.0% over the same windows. This gap is not a fair comparison — it is inflated by two artefacts: (1) short positions lose in raw terms when a stock rises even if it underperforms SPY (the model correctly predicts *relative* underperformance but the raw PnL is negative); and (2) the SPY figure double-counts by compounding the same weekly SPY return multiple times for the overlapping earnings windows of different tickers. The right panel shows per-call excess PnL in excess space, where the correct benchmark is zero — the model generated +0.39% excess return per call on average.
 
@@ -223,9 +223,9 @@ To assess whether non-NLP signals add incremental predictive power, two pre-earn
 
 The L1 penalty eliminates `analyst_buy_pct` (raw IC = +0.014; zero incremental value) and `mom_20d_xs` (high raw IC but unstable direction) in favour of `mom_60d_xs` (+0.319). The 60-day window captures the persistent relative-strength trend rather than the volatile short-term pre-earnings move. The positive coefficient is consistent with post-earnings momentum drift theory. The combined model improves on NLP-only across all three metrics (+47% IC, +108% Sharpe, +4.1 pp hit rate), confirming that the NLP context stabilises the external signal — the combined model assigns the correct positive sign to momentum whereas the external-only model inverted it.
 
-![External signal integration — cumulative excess return comparison](external_signal_comparison.png)
+![External signal integration — cumulative excess return comparison](figures/external_signal_comparison.png)
 
-![Combined model coefficients with external features](external_signal_coefs.png)
+![Combined model coefficients with external features](figures/external_signal_coefs.png)
 
 ### 2.6 Honest Limitations
 
@@ -283,7 +283,7 @@ Each quarter in the test set, all tickers were ranked by the §9a LogReg probabi
 
 **Mean quarterly L/S return: +0.49% | Hit rate: 60% (3/5) | Annualised Sharpe: 0.26**
 
-![Cross-sectional long-short quarterly returns](ls_portfolio.png)
+![Cross-sectional long-short quarterly returns](figures/ls_portfolio.png)
 
 The long-short structure removes market beta, which is meaningful: these returns are not inflated by the 2025 bull market. Two quarters show negative L/S returns, consistent with the modest IC of the underlying signal. At n=5 quarters a 60% hit rate is statistically indistinguishable from a coin flip. The result is directionally encouraging — the model has some cross-sectional discriminatory power — but far too small a sample to claim skill.
 
@@ -297,7 +297,7 @@ For each transcript, we computed the fraction of analyst question words (length 
 
 The LM dictionary (computed in §6b, visualised in §6c) is integrated as two model features: `lm_sentiment` and `lm_sentiment_delta`. The sanity check below documents how the two sentiment sources relate.
 
-![LM vs LLM sentiment distributions and scatter](lm_vs_llm.png)
+![LM vs LLM sentiment distributions and scatter](figures/lm_vs_llm.png)
 
 
 | Metric                        | LM Lexicon | LLM (qwen3:8b) |

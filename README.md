@@ -8,7 +8,7 @@ End-to-end pipeline for 131 earnings-call transcripts (14 US tickers, ~9–10 qu
 
 - Transcript parsing (prepared remarks + Q&A separation, speaker labelling)
 - LLM event/sentiment extraction via qwen3:8b (Ollama local)
-- Quarter-over-quarter feature engineering (18 features)
+- Quarter-over-quarter feature engineering (17 features)
 - Train/test modelling with GridSearchCV (LogReg L1/L2, GBC, Ridge, Lasso)
 - Backtest: directional accuracy, rank IC, Sharpe, equity curve vs. SPY
 
@@ -46,10 +46,13 @@ Transcript Assignment/
 ├── Assignment_1_YueqiLin.ipynb       # main notebook
 ├── Assignment_1_writeup_YueqiLin.md  # PDF writeup source
 ├── README.md
-├── backtest_equity_curve.png          # §12 equity curve figure
-├── baseline_llm_vs_lm.png            # §8b sentiment comparison figure
-├── lm_vs_llm.png                     # §6c LM vs LLM scatter figure
-├── ls_portfolio.png                   # §11 long-short portfolio figure
+├── figures/                          # report/backtest figures
+│   ├── backtest_equity_curve.png
+│   ├── baseline_llm_vs_lm.png
+│   ├── lm_vs_llm.png
+│   ├── ls_portfolio.png
+│   ├── external_signal_comparison.png
+│   └── external_signal_coefs.png
 ├── ECT/                              # 131 transcript .txt files (not included in zip)
 └── cache/
     ├── extractions/      # cached LLM JSON extractions (131 files, ~4 MB)
@@ -92,7 +95,7 @@ Transcript Assignment/
 | Guidance schema | Structured list `[{line, direction}]` | Retains per-line detail lost in scalar "raised/lowered" |
 | Horizon | 5-day excess return vs. SPY | Short enough to isolate post-earnings drift; excess removes beta |
 | Train/test split | First 5 calls per ticker = train | Time-based split; no future data leaks into training |
-| Final model | LogReg C=0.5 L1 (18 input features, 4 active) | Highest test-set IC (+0.151) at n=46; L1 handles small-n overfitting |
+| Final model | LogReg C=0.5 L1 (17 input features, 4 active) | Highest test-set IC (+0.151) at n=46; L1 handles small-n overfitting |
 
 ---
 
