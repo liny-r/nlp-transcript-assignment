@@ -149,9 +149,9 @@ All models evaluated on the same test set (first 5 calls per ticker = train; rem
 
 ### 2.2 Equity Curve
 
-![Final model backtest — cumulative return vs SPY buy-and-hold (5d holds, test set)](figures/backtest_equity_curve.png)
+![Baseline model equity curve — cumulative excess return vs. SPY buy-and-hold (5d holds, test set)](figures/backtest_equity_curve.png)
 
-The left panel shows cumulative raw returns: strategy +9.1% vs. SPY +46.0% over the same windows. This gap is not a fair comparison — it is inflated by two artefacts: (1) short positions lose in raw terms when a stock rises even if it underperforms SPY (the model correctly predicts *relative* underperformance but the raw PnL is negative); and (2) the SPY figure double-counts by compounding the same weekly SPY return multiple times for the overlapping earnings windows of different tickers. The right panel shows per-call excess PnL in excess space, where the correct benchmark is zero — the model generated +0.39% excess return per call on average.
+The figure shows the cumulative excess return of the LLM sentiment baseline (1-feature LogReg) alongside the SPY buy-and-hold raw return over the test window. The two y-axes are not directly comparable — the strategy line is cumulative excess PnL while the SPY line is raw cumulative return — which inflates the apparent gap. The correct benchmark for an excess-return strategy is a flat zero line; the strategy's **+0.39% average excess return per call** is the relevant headline. The large SPY raw return (+46% over the same window) reflects sustained 2024–2025 broad-market strength that a long/short excess-return strategy should not be compared against directly.
 
 ### 2.3 Baseline Decomposition
 
@@ -167,7 +167,7 @@ The two 1-feature baselines expose complementary failure modes:
 
 The §9a Full-Feature LogReg is the primary deliverable for Task 4:
 
-- **Signal:** `lr13.predict()` → +1 (long) or −1 (short) per test call
+- **Signal:** `lr13.predict()` -> +1 (long) or −1 (short) per test call
 - **Entry:** T+1 close after the call date
 - **Hold:** 5 trading days
 - **Avg excess return/call:** +0.39% (above SPY)
@@ -326,7 +326,7 @@ A proper fix would require either (a) prompting the model to score sentiment *re
 
 ### 5.2 LogReg Overfitting
 
-An early-iteration 6-feature LogReg (before GridSearchCV was introduced) achieved a strongly negative test-set IC — *worse* than random. With 70 training rows and 6 features, the model had sufficient capacity to overfit the training set's noise, learning the wrong sign of the true feature-return relationships. The fix was switching from a fixed C=1.0 to a GridSearchCV over C ∈ {0.001 … 5.0} with L1/L2 penalty — which selected C=0.5, L1, zeroing out 13 of 17 features and producing the final model's IC=+0.151. This was the single most impactful modelling change in the pipeline.
+An early-iteration 6-feature LogReg (before GridSearchCV was introduced) achieved a strongly negative test-set IC — *worse* than random. With 70 training rows and 6 features, the model had sufficient capacity to overfit the training set's noise, learning the wrong sign of the true feature-return relationships. The fix was switching from a fixed C=1.0 to a GridSearchCV over C in {0.001 … 5.0} with L1/L2 penalty — which selected C=0.5, L1, zeroing out 13 of 17 features and producing the final model's IC=+0.151. This was the single most impactful modelling change in the pipeline.
 
 ### 5.3 PLTR — No Q&A Pairs
 
@@ -484,7 +484,7 @@ One genuine bright spot isolated by the extraction across multiple quarters: **R
 
 JPM provides a useful cross-sector contrast: a financials name whose sentiment alternates with macro conditions rather than following a product cycle. The extraction correctly captures this by using finance-specific guidance language — NII (net interest income), NII ex Markets, Card net charge-off rate — rather than the revenue/EPS/margin format used for tech companies. This demonstrates that the zero-shot prompt generalises across sectors without requiring sector-specific tuning.
 
-The pattern from Q4-2023 through Q4-2025 is an alternating 0.35 ↔ 0.65 oscillation driven by rate and credit cycles: strong quarters (0.65) when IB fees were up, consumer spending was resilient, and NII guidance was raised; weaker quarters (0.35) when deposit margin compression, higher credit costs, or macro uncertainty dominated. The model correctly identified "NII ex Markets" as the key guidance line — the metric Jamie Dimon actually guides to — and tracked its direction across quarters.
+The pattern from Q4-2023 through Q4-2025 is an alternating 0.35 <-> 0.65 oscillation driven by rate and credit cycles: strong quarters (0.65) when IB fees were up, consumer spending was resilient, and NII guidance was raised; weaker quarters (0.35) when deposit margin compression, higher credit costs, or macro uncertainty dominated. The model correctly identified "NII ex Markets" as the key guidance line — the metric Jamie Dimon actually guides to — and tracked its direction across quarters.
 
 The sharpest signal in the JPM dataset is Q1-2026, where sentiment crashed to **0.15** — matching NKE's worst quarter and the joint low for the entire dataset. The extraction flagged: expenses up 14% year-on-year, CET1 ratio down 30 basis points, and "geopolitical uncertainty and tariff risks" as the dominant themes. This call coincided with the early-2026 tariff escalation under the new administration. Notably, JPM's revenue guidance was reaffirmed (not lowered) — the concern was on the cost and capital side, not top-line. The LLM correctly separated these: revenue was a win, cost trajectory was a risk.
 
