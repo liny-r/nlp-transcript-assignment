@@ -120,7 +120,7 @@ The LLM extraction returns a structured list of `{line, direction}` objects per 
 
 ### 1.3 Target Variable
 
-Forward excess return vs. SPY at a **5-day horizon (primary target)**, entered at T+1 close after the call date (all calls are after-hours). This avoids look-ahead bias. Returns at 1d, 21d, and 63d were also computed for robustness checks and feature diagnostics. The train/test split used the **first 5 calls per ticker as training** (~~70 rows, roughly Q4 2023 - Q1 2025), with the remaining calls as the test set (~~61 rows, Q2 2025 onward).
+Forward excess return vs. SPY at a **5-day horizon (primary target)**, entered at T+1 close after the call date (all calls are after-hours). This avoids look-ahead bias. Returns at 1d, 21d, and 63d were also computed for robustness checks and feature diagnostics. The train/test split used the **first 5 calls per ticker as training** (~70 rows, roughly Q4 2023 - Q1 2025), with the remaining calls as the test set (~61 rows, Q2 2025 onward).
 
 ### 1.4 Models (Tasks 3–4)
 
