@@ -6,21 +6,42 @@
     "Generated $205 billion of net inflows in the third quarter",
     "8% organic base fee growth over the last 12 months",
     "Acquired HPS and ElmTree, announced $80 billion SMA solution with Citi Wealth",
-    "Expanded capabilities across private markets, digital assets, data and technology"
+    "Onboarded a $30 billion pension mandate"
   ],
   "risks": [
     "Nonoperating results included $84 million of net investment losses",
     "Higher share count due to GIP and HPS transactions",
     "Potential changes in tax legislation affecting effective tax rate",
     "Market volatility impacting performance fees",
-    "Regulatory and legislative uncertainties in retirement markets"
+    "Credit risks in private credit markets"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "ETFs",
+    "AI",
     "private_markets",
     "digital_assets",
-    "AI",
+    "ETFs",
     "retirement"
   ],
   "_ticker": "BLK",

@@ -2,20 +2,41 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "very_bullish",
   "wins": [
-    "Record revenue and net income driven by high-performance computing and AI products",
+    "Record revenue and net income in 2025",
     "Significant server and PC processor share gains",
     "Strong demand across data center, PC, gaming, and embedded markets",
-    "Record Instinct GPU revenue and expanding AI adoption",
-    "Successful launch of Ryzen AI 400 and Ryzen AI Halo platform"
+    "Record Instinct GPU revenue",
+    "Expanded ROCm ecosystem and AI software stack"
   ],
   "risks": [
-    "Uncertainty around China MI308 sales and potential regulatory issues",
-    "Seasonal decline in Client and Gaming segment revenue",
-    "Potential supply chain constraints for server CPUs",
-    "Competition from ARM-based CPUs and other AI architectures",
-    "Inflationary pressures on memory costs"
+    "Uncertainty around China MI308 sales",
+    "Potential inflationary costs impacting client market",
+    "Seasonal decline in Client and Gaming segment",
+    "Competition in x86 vs ARM architecture",
+    "Supply chain constraints for HBM and wafers"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",

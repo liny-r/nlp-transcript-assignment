@@ -3,25 +3,46 @@
   "sentiment_bucket": "bullish",
   "wins": [
     "Running business grew over 20%",
-    "North America revenue grew 4%",
-    "Wholesale grew 5%",
-    "NIKE Brand store on Amazon drove stronger engagement and sales",
-    "Scary Good campaign in football"
+    "North America teams made progress",
+    "NIKE Brand store on Amazon drove stronger engagement",
+    "Successful launch of Scary Good campaign in football",
+    "Positive consumer response to SKIMS collaboration"
   ],
   "risks": [
-    "Greater China revenue declined 10%",
-    "NIKE Digital declined 12%",
-    "Inventory decreased 2% versus the prior year",
-    "Tariffs increased gross margin headwind to 120 basis points",
-    "Sportswear business declined"
+    "Greater China business declined 10%",
+    "NIKE Digital faces promotional headwinds",
+    "Classic footwear franchises continue to decline",
+    "Tariff costs increased to $1.5 billion annually",
+    "Inventory clearance remains a challenge"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "sport",
     "digital",
     "china",
     "innovation",
-    "tariffs"
+    "brand"
   ],
   "_ticker": "NKE",
   "_quarter": "Q1-2026",

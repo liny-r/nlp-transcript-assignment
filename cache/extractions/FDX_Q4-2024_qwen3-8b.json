@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.75,
+  "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Delivered year-over-year operating profit growth and margin expansion in every quarter of FY '24",
-    "Lower CapEx and higher free cash flow, returning nearly $4 billion to stockholders",
-    "Meaningful improvement in return on invested capital",
-    "Achieved $1.8 billion in structural cost-out in FY '24",
-    "Expected to deliver adjusted EPS growth of 12% to 24% in FY '25"
+    "Strong Q4 and full year results with adjusted operating income at record highs",
+    "Achieved $4 billion in DRIVE cost savings ahead of schedule",
+    "Positive revenue growth inflection in Q4",
+    "Improved service and speed advantages attracting customers",
+    "Successful integration of One FedEx and Network 2.0"
   ],
   "risks": [
     "Decline in revenue compared to initial growth expectations",
-    "International yield pressures from tapering export demand surcharges",
-    "Headwinds from the U.S. Postal Service contract termination",
-    "Uncertainty around the impact of trade policy changes on China e-commerce volumes",
+    "Headwinds from USPS contract termination in Q2",
+    "International yield pressures from increased capacity in global air cargo market",
+    "Uncertainty around demand environment and macroeconomic factors",
     "Potential network disruption from Network 2.0 integration"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
-    "Network 2.0",
-    "DRIVE",
-    "e-commerce",
-    "freight",
-    "capital intensity"
+    "network",
+    "cost_reduction",
+    "digital_transformation",
+    "e_commerce",
+    "international"
   ],
   "_ticker": "FDX",
   "_quarter": "Q4-2024",

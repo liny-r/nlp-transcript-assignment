@@ -1,23 +1,52 @@
 {
-  "overall_sentiment": 0.8,
+  "overall_sentiment": 0.85,
   "sentiment_bucket": "bullish",
   "wins": [
-    "AI revenue quadrupled year-on-year",
-    "Strong bookings at VMware driving revenue growth",
-    "Reiterated fiscal 2024 guidance for software revenue of $20 billion",
-    "Reiterated fiscal 2024 guidance for consolidated revenue of $50 billion"
+    "AI revenue quadrupled year-on-year to $2.3 billion",
+    "Software bookings to grow to over $3 billion in Q2",
+    "Reiterated full year guidance for software revenue of $20 billion",
+    "Reiterated full year guidance for consolidated revenue of $50 billion",
+    "Reiterated full year adjusted EBITDA guidance of 60%"
   ],
   "risks": [
-    "Broadband revenue down 30% year-on-year",
-    "Server storage revenue declining mid-20% year-on-year",
-    "Wireless revenue flat year-on-year"
+    "Broadband revenue to decline 30% year-on-year",
+    "Server storage revenue to decline mid-20% year-on-year",
+    "Wireless revenue to be flat year-on-year",
+    "VMware's contribution to revenue is a key factor",
+    "Market conditions for telco spending remain weak"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "AI",
-    "software",
+    "VMware",
+    "cloud",
     "semiconductors",
-    "VMware"
+    "data centers"
   ],
   "_ticker": "AVGO",
   "_quarter": "Q1-2024",

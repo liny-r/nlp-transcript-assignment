@@ -4,24 +4,45 @@
   "wins": [
     "Strong Q1 results with net income of $4.1 billion and EPS of $1.96",
     "Services recorded its highest first quarter revenue in a decade",
-    "TTS continued momentum in U.S. dollar clearing and cross-border activity",
-    "Security Services grew assets under custody and administration to $26 trillion",
-    "M&A revenue nearly doubled due to leading role in major transactions"
+    "M&A revenue nearly doubled",
+    "Capital returned to shareholders with $2.8 billion in capital returns",
+    "Positive operating leverage across all 5 businesses"
   ],
   "risks": [
     "Uncertainty in macroeconomic outlook and potential credit risks",
     "Potential impact of SCB results on buyback pace",
     "Uncertainty in the macro environment affecting client behavior",
-    "Credit losses and ACL build due to macroeconomic deterioration",
-    "Possible impact of geopolitical tensions on global trade and operations"
+    "Credit risk from card portfolios and macroeconomic deterioration",
+    "Potential for increased provisioning due to unemployment rate changes"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "AI",
-    "global trade",
-    "capital returns",
-    "credit risk",
-    "regulatory changes"
+    "globalization",
+    "capital_returns",
+    "regulatory_changes",
+    "credit_risk"
   ],
   "_ticker": "C",
   "_quarter": "Q1-2025",

@@ -3,25 +3,50 @@
   "sentiment_bucket": "bullish",
   "wins": [
     "Strong capital position with CET1 ratio of 11.3%",
-    "Significant share repurchases totaling $15.6 billion in the first 3 quarters",
-    "Growth in credit card portfolio with balances growing for 13 consecutive quarters",
-    "Noninterest income growth of 12% year-over-year",
-    "Efficiency initiatives leading to expense declines"
+    "Significant share repurchases totaling $15.6 billion",
+    "Growth in credit card portfolio with 13 consecutive quarters of growth",
+    "Improved credit performance in commercial real estate and industrial loans",
+    "Launch of new co-branded credit cards with Expedia and Volkswagen"
   ],
   "risks": [
     "Commercial loan demand remains weak due to economic uncertainty",
-    "Commercial real estate office portfolio still expects additional charge-offs",
+    "Office market remains weak with continued charge-offs in commercial real estate",
     "Deposit pricing adjustments in response to Fed rate cuts",
-    "Uncertainty around the economic outlook and election impact",
+    "Uncertainty around economic conditions and election outcomes",
     "Potential impact from outstanding litigation and regulatory matters"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "mixed"
+    }
+  ],
   "themes": [
     "capital",
     "credit",
-    "efficiency",
-    "noninterest_income",
-    "regulatory"
+    "technology",
+    "regulatory",
+    "consumer"
   ],
   "_ticker": "WFC",
   "_quarter": "Q3-2024",

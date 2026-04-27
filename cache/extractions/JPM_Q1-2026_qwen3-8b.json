@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.2,
+  "overall_sentiment": 0.15,
   "sentiment_bucket": "neutral",
   "wins": [
-    "Revenue up 10% YoY",
-    "Consumer spend growth above last year's pace",
-    "Home Lending originations up 46% YoY",
-    "Strong performance in M&A and equity underwriting",
-    "AUM up 16% YoY"
+    "Revenue up 10% year-on-year",
+    "Consumer spend growth continues above last year's pace",
+    "Home Lending originations increased 46% year-on-year",
+    "IB fees up 28% year-on-year",
+    "Long-term net inflows were $54 billion"
   ],
   "risks": [
-    "Expenses up 14% YoY",
+    "Expenses up 14% year-on-year",
     "CET1 ratio down 30 basis points",
     "RWA up $60 billion",
-    "G-SIB surcharge increase expected",
-    "Potential impact of Middle East developments"
+    "Potential for higher credit costs",
+    "G-SIB surcharge increase"
   ],
-  "guidance": "mixed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "regulation",
     "capital",
+    "regulation",
     "markets",
     "credit",
-    "operations"
+    "technology"
   ],
   "_ticker": "JPM",
   "_quarter": "Q1-2026",

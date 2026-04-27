@@ -3,25 +3,46 @@
   "sentiment_bucket": "very_bullish",
   "wins": [
     "Record net inflows of $641 billion in 2024",
-    "Double-digit growth in annual revenue, operating income, and earnings per share",
-    "7% annualized organic base fee growth in Q4, highest in 3 years",
-    "Successful integration of GIP and planned acquisitions of HPS and Preqin",
-    "Strong demand for Aladdin technology and whole portfolio solutions"
+    "7% annualized organic base fee growth in Q4 2024",
+    "Full year revenue up 14% YoY to $20.4 billion",
+    "Operating income up 23% YoY to $8.1 billion",
+    "Earnings per share up 15% YoY to $43.61"
   ],
   "risks": [
     "Nonoperating results included $7 million of net investment losses",
-    "Higher share count in the current quarter",
-    "Potential changes in tax legislation affecting effective tax rate",
-    "Market and regulatory uncertainties for planned acquisitions",
-    "Uncertainty around the impact of macroeconomic factors on fixed income flows"
+    "Higher share count in Q4 due to GIP transaction",
+    "Uncertainty around tax rate changes and discrete items",
+    "Integration challenges with GIP, HPS, and Preqin",
+    "Market volatility and potential impact on AUM"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "private_markets",
-    "technology",
     "ETFs",
-    "fixed_income",
-    "capital_markets"
+    "technology",
+    "capital_markets",
+    "dividend_growth"
   ],
   "_ticker": "BLK",
   "_quarter": "Q4-2024",

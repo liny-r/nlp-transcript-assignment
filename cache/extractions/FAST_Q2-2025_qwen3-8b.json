@@ -2,24 +2,45 @@
   "overall_sentiment": 0.75,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Revenue exceeded $2 billion for the first time in company history",
-    "8.6% sales growth, highest yearly growth since early 2023",
-    "Contract signings increased to 11.2% growth, outperforming expectations",
-    "Customer site performance improved with 11.6% revenue growth",
-    "Operating margin reached 21%, up 80 basis points year-over-year"
+    "Revenue increased 8.6% to over $2 billion",
+    "Contract signings grew to 11.2% in 2024",
+    "Customer site performance improved with 17.7% increase in total sales per site",
+    "Operating margin reached 21%",
+    "E-commerce grew 13.5% and reached 30% of sales"
   ],
   "risks": [
     "Market conditions remain sluggish",
-    "Tariff-related uncertainties impacting supply chain and pricing",
-    "Inventory growth may remain elevated due to tariffs and inflation",
-    "Potential for lower gross margin in the second half of the year",
-    "Uncertainty around trade policy impact on demand in 2025"
+    "Tariffs and trade policy create uncertainty",
+    "Inventory growth may remain elevated",
+    "Pricing actions may need to increase in the second half of 2025",
+    "Supply chain costs have increased"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "supply_chain",
-    "contract_signings",
     "digital_transformation",
+    "contract_signings",
     "tariffs",
     "customer_relationships"
   ],

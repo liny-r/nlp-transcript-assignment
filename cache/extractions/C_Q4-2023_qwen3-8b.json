@@ -4,24 +4,45 @@
   "wins": [
     "Record year for services with 16% revenue growth",
     "Completed divestitures of 9 of 14 international consumer franchises",
-    "Simplified organizational structure with $1 billion run rate savings",
-    "Grew tangible book value per share by 6%",
+    "Gained over 100 basis points in share in security services since 2021",
+    "USPB had a bright spot with every product up double digits in the quarter",
     "Increased CET1 ratio to 13.3%"
   ],
   "risks": [
     "Negative EPS of $1.16 due to external headwinds",
-    "Argentina devaluation caused $900 million revenue impact",
+    "Argentina devaluation caused $900 million negative revenue impact",
     "Markets revenue decreased 6% to $18.9 billion",
-    "Banking revenue decreased 15% to $4.6 billion",
+    "Banking revenues decreased 15% to $4.6 billion",
     "Wealth revenues decreased 5% to $7.1 billion"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
-    "restructuring",
-    "digital transformation",
-    "regulatory compliance",
-    "international operations",
-    "capital returns"
+    "simplification",
+    "regulatory",
+    "digital",
+    "international",
+    "capital"
   ],
   "_ticker": "C",
   "_quarter": "Q4-2023",

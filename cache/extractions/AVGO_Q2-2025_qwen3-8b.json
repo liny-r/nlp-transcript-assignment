@@ -1,27 +1,48 @@
 {
   "overall_sentiment": 0.85,
-  "sentiment_bucket": "bullish",
+  "sentiment_bucket": "very_bullish",
   "wins": [
-    "Record $15 billion revenue up 20% YoY",
     "AI semiconductor revenue up 46% YoY",
     "Tomahawk 6 switch announced with 102.4 terabits per second capacity",
     "Infrastructure software revenue up 25% YoY",
-    "Guidance for Q3 revenue at $15.8 billion up 21% YoY"
+    "Q3 revenue guidance of $15.8 billion, up 21% YoY",
+    "XPU demand expected to accelerate into 2026"
   ],
   "risks": [
-    "Non-AI semiconductor revenue down 5% YoY",
-    "Free cash flow impacted by increased interest expense",
-    "Uncertainty around export controls and geopolitical factors",
-    "Potential for slower growth in non-AI semiconductors",
-    "Dependence on a small number of hyperscale customers"
+    "Non-AI semiconductor revenue remains flat",
+    "Gross margin expected to decline sequentially",
+    "Uncertainty around export controls",
+    "Potential for slower growth in certain segments",
+    "Debt repayment and capital allocation priorities"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
-    "semiconductors",
-    "infrastructure_software",
     "networking",
-    "VMware"
+    "VMware",
+    "capex",
+    "infrastructure"
   ],
   "_ticker": "AVGO",
   "_quarter": "Q2-2025",

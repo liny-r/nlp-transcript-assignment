@@ -5,26 +5,47 @@
     "Record annual revenue and net income growth",
     "Significant share gains in server and PC markets",
     "Strong adoption of EPYC and Ryzen processors",
-    "Successful launch of Instinct GPUs and AI instances",
-    "Positive customer feedback and strong demand for MI350 series"
+    "Expansion of Data Center AI business to over $5 billion",
+    "Successful product launches and customer wins"
   ],
   "risks": [
-    "Decline in Gaming segment revenue",
-    "Mixed demand in Embedded segment",
-    "Potential inventory normalization effects",
-    "Competition in server CPU market",
-    "Uncertainty in AI infrastructure investment timelines"
+    "Gaming segment revenue decline",
+    "Embedded segment revenue decline",
+    "Potential inventory normalization impact",
+    "Competitive pricing pressures in server CPU market",
+    "Uncertainty in sequential revenue growth"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "Data Center",
     "Server",
-    "ROCm",
-    "EPYC",
+    "GPU",
     "Ryzen",
-    "Gaming",
-    "Embedded"
+    "EPYC",
+    "Cloud",
+    "HPC"
   ],
   "_ticker": "AMD",
   "_quarter": "Q4-2024",

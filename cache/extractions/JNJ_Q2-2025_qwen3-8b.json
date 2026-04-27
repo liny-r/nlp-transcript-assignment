@@ -2,31 +2,47 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "very_bullish",
   "wins": [
-    "Raised full year sales and EPS guidance",
-    "Strong operational sales growth across both Innovative Medicine and MedTech",
-    "Significant growth in key brands like DARZALEX, CARVYKTI, and TREMFYA",
-    "Positive momentum in Cardiovascular, Surgery, and Vision segments",
-    "Successful product launches like TAR-200 and Ethicon 4000 stapler"
+    "Raised full year sales guidance by $2 billion",
+    "Raised full year EPS guidance by $0.25",
+    "Strong operational sales growth of 4.6% across the business",
+    "Double-digit growth across 13 brands",
+    "Received FDA priority review for TAR-200"
   ],
   "risks": [
-    "STELEARA biosimilar competition impacting sales",
-    "Part D redesign affecting certain product lines",
-    "Tariff impacts on MedTech business",
-    "China VBP (Value-Based Pricing) affecting results",
+    "STELEARA biosimilar competition impacting growth",
+    "Part D redesign affecting margins",
+    "China VBP impacting performance",
+    "Tariff impact on MedTech business",
     "Uncertainty around future currency movements"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "sales",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "Innovative Medicine",
-    "MedTech",
-    "Oncology",
-    "Immunology",
-    "Neuroscience",
-    "Cardiovascular",
-    "Surgery",
-    "Vision",
-    "AI",
-    "Pricing"
+    "innovative_medicine",
+    "medtech",
+    "oncology",
+    "immunology",
+    "neuroscience",
+    "cardiovascular",
+    "pricing",
+    "tariffs",
+    "regulatory"
   ],
   "_ticker": "JNJ",
   "_quarter": "Q2-2025",

@@ -2,26 +2,51 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Johnson & Johnson reported robust operational sales growth of 7% for 2024",
-    "SPRAVATO surpassed $1 billion in annual sales",
-    "27 approvals in major markets in 2024",
-    "Acquisition of Intra-Cellular Therapies announced",
-    "Adjusted operational earnings per share growth of nearly 9% for 2025"
+    "SPRAVATO approved as first and only monotherapy for treatment-resistant depression",
+    "TREMFYA approved for ulcerative colitis",
+    "RYBREVANT/LAZCLUZE showed significant improvement in overall survival in first-line treatment of advanced or metastatic non-small cell lung cancer",
+    "Intra-Cellular Therapies acquisition announced for mental health innovation",
+    "VARIPULSE Pulsed Field Ablation Platform approved in several major markets"
   ],
   "risks": [
-    "StELARA biosimilar competition impacting growth",
+    "StELARA biosimilar competition in the U.S. starting in January 2025",
     "Macroeconomic pressures in China",
-    "Loss of exclusivity of STELARA",
-    "Foreign currency impact on sales",
-    "VARIPULSE investigation in the U.S."
+    "VARIPULSE investigation ongoing in the U.S.",
+    "Foreign currency impact on sales estimated at $1.7 billion or 2.0%",
+    "Loss of SPINRAZA tender in Europe"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "other",
+      "direction": "mixed"
+    }
+  ],
   "themes": [
     "innovation",
-    "R&D",
-    "acquisitions",
     "biologics",
-    "global markets"
+    "acquisitions",
+    "regulatory",
+    "globalization"
   ],
   "_ticker": "JNJ",
   "_quarter": "Q4-2024",

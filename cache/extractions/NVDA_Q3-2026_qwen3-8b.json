@@ -6,24 +6,43 @@
     "Blackwell and Rubin revenue visibility of $0.5 trillion from start of 2026 to end of 2026",
     "GB300 ramp contributing 2/3 of Blackwell revenue",
     "Collaborations with OpenAI, Anthropic, and HUMAIN for AI infrastructure",
-    "NVIDIA's CUDA ecosystem driving adoption and TCO advantages"
+    "NVIDIA's CUDA ecosystem and long useful life of GPUs"
   ],
   "risks": [
     "H20 sales were approximately $50 million, with purchase orders not materializing due to geopolitical issues",
-    "Uncertainty around supply chain constraints and potential bottlenecks",
-    "China's restrictions on data center compute products",
-    "Rising input costs impacting gross margins",
-    "Market competition in AI infrastructure and GPU manufacturing"
+    "Uncertainty around supply chain constraints for China market",
+    "Potential for supply to lag demand over the next 12-18 months",
+    "Input costs rising, impacting gross margins",
+    "OpEx growth due to increased investments in innovation"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",
     "cuda",
     "supply_chain",
-    "collaborations",
-    "infrastructure",
-    "scaling_laws"
+    "enterprise"
   ],
   "_ticker": "NVDA",
   "_quarter": "Q3-2026",

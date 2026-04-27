@@ -4,24 +4,49 @@
   "wins": [
     "Strong revenue growth across all businesses with 32% overall increase",
     "Positive operating leverage in all 5 businesses and the firm overall",
-    "Capital return of over $17.5 billion, the most since the pandemic",
-    "Successful divestiture milestones including sale of Banamex stake",
-    "AI integration and adoption reaching above 70% globally"
+    "Significant capital return with $13.5 billion in share repurchases and dividend increases",
+    "Successful divestiture of Banamex stake and progress on international simplification",
+    "AI integration and operational transformation leading to improved efficiency and client experience"
   ],
   "risks": [
-    "Challenging year for commodities impacting fixed income",
-    "Revenue softness in retail services",
-    "Regulatory compliance and safety and soundness concerns",
-    "Market volatility and macroeconomic uncertainties",
-    "Potential for slower growth in certain regions like China and Europe"
+    "Challenging macroeconomic environment with potential for slower growth",
+    "Commodities sector underperformance impacting fixed income revenues",
+    "Market volatility and potential for lower returns in certain segments",
+    "Regulatory uncertainties and ongoing compliance requirements",
+    "Potential for slower growth in retail services despite strong returns"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
-    "capital",
-    "regulatory",
-    "markets",
-    "transformation"
+    "capital_return",
+    "regulatory_compliance",
+    "digital_transformation",
+    "global_growth"
   ],
   "_ticker": "C",
   "_quarter": "Q4-2025",

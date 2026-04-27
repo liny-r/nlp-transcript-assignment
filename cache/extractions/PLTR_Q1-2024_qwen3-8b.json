@@ -2,26 +2,46 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "very_bullish",
   "wins": [
-    "Revenue increased 21% year-over-year",
-    "U.S. commercial revenue grew 68% year-over-year",
-    "U.S. government revenue accelerated 8% quarter-over-quarter",
-    "AIP adoption driving significant customer growth and expansion",
-    "Awarded $178 million prime contract under TITAN program"
+    "Revenue growth of 21% year-over-year",
+    "68% year-over-year growth in U.S. commercial revenue",
+    "131% year-over-year growth in U.S. commercial TCV",
+    "U.S. government revenue increased 8% quarter-over-quarter",
+    "Record GAAP net income of $106 million"
   ],
   "risks": [
-    "Revenue growth in international markets declined sequentially",
-    "Headwinds in Europe impacting growth",
-    "Strategic commercial contracts revenue expected to decline in Q2",
-    "Uncertainty around global geopolitical tensions",
-    "Investment in resources may lead to higher expenses"
+    "3% sequential decline in international commercial revenue",
+    "Headwinds in Europe affecting 16% of business",
+    "Revenue from strategic commercial contracts expected to decline in Q2",
+    "Uncertainty in global geopolitical conflicts impacting government business"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "adjusted_income_from_operations",
+      "direction": "raised"
+    },
+    {
+      "line": "U.S._commercial_revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "adjusted_income_from_operations",
+      "direction": "raised"
+    },
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
-    "AIP",
+    "AI",
     "U.S. commercial",
-    "U.S. government",
-    "defense",
-    "international"
+    "government",
+    "Europe",
+    "pricing"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q1-2024",

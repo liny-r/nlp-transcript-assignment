@@ -4,24 +4,45 @@
   "wins": [
     "Achieved $2.2 billion in structural cost reduction",
     "Delivered $4.3 billion in cash to stockholders",
-    "Optimized Network 2.0 with 2.5 million average daily volume",
-    "Improved U.S. domestic volumes with 6% growth",
-    "Achieved 5% growth in international air freight revenue"
+    "Expanded adjusted operating margin by 60 basis points",
+    "Strong performance in the face of major headwinds",
+    "Network 2.0 optimization progress"
   ],
   "risks": [
     "B2B volumes remain pressured",
-    "China to U.S. trade lane is a material headwind",
+    "China to U.S. trade lane continues to be pressured",
     "U.S. Postal Service contract expiration headwind",
     "Global trade policy uncertainty",
-    "Freight segment operating margin decline"
+    "Industrial economy remains weak"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
-    "Network 2.0",
-    "Trade",
-    "Cost Reduction",
-    "Freight Spinoff",
-    "Digital Transformation"
+    "network_optimization",
+    "trade_policy",
+    "cost_reduction",
+    "digital_transformation",
+    "global_supply_chain"
   ],
   "_ticker": "FDX",
   "_quarter": "Q4-2025",

@@ -2,25 +2,46 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strong year-on-year growth in Global Banking & Markets and Asset & Wealth Management",
+    "Strong year-on-year revenue growth in Global Banking & Markets and Asset & Wealth Management",
     "Record $3.2 billion in private banking and lending revenues",
-    "Raised $36 billion in alternatives fundraising year-to-date",
-    "Improved standing with 118 of top 150 clients",
-    "9% increase in quarterly dividend"
+    "Improved standing among top 150 clients",
+    "Exceeded $36 billion in alternatives fundraising year-to-date",
+    "Record $2.9 trillion in assets under supervision"
   ],
   "risks": [
-    "Operating below 10-year averages in M&A activity",
-    "High geopolitical instability and inflation concerns",
+    "Still operating below 10-year average in M&A activity",
+    "Geopolitical instability and inflation concerns",
     "Uncertainty around SCB and Basel III Endgame",
-    "Moderating capital return activities",
-    "Stress test results not reflecting strategic evolution"
+    "Potential for slower growth in private equity-related M&A",
+    "Pressure on sponsors to monetize assets"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
+    "capital_markets",
     "alternatives",
-    "capital markets",
-    "M&A",
+    "wealth_management",
     "regulatory"
   ],
   "_ticker": "GS",

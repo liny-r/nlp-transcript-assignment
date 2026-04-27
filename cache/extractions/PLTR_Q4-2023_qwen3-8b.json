@@ -2,26 +2,45 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "very_bullish",
   "wins": [
-    "Fourth quarter revenue grew 20% year-over-year and 9% sequentially to $608 million",
-    "Commercial business surpassed $1 billion in revenue over the last 12 months",
+    "U.S. commercial revenue grew 70% year-over-year",
     "Completed over 560 AIP bootcamps across 465 organizations",
-    "Signed multiple large deals with major companies including car rental, telecom, and pharmaceutical firms",
-    "Received a $330 million contract with the NHS to improve patient care"
+    "Signed multiple large deals with major companies",
+    "GAAP profitability for fifth consecutive quarter",
+    "Record TCV booked in U.S. commercial segment"
   ],
   "risks": [
-    "U.S. government business results remained muted due to continuing resolution and timing of large potential contract awards",
-    "The Army's down selection for TITAN is expected in Q2 2024",
-    "The DoD is at the beginning of a long-term shift from hardware to software",
-    "Revenue from strategic commercial contracts is expected to decline in 2024",
-    "Global conflicts and geopolitical tensions may impact operations and revenue"
+    "U.S. government results remain muted due to timing of contract awards",
+    "Continuing resolution impacting government business",
+    "Uncertainty around reacceleration of U.S. government business in 2024"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "AIP",
+    "AI",
     "U.S. commercial",
     "government",
-    "international",
-    "AI"
+    "AIP",
+    "international"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q4-2023",

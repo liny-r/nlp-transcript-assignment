@@ -4,24 +4,45 @@
   "wins": [
     "Solid first quarter results with diluted earnings per share up 16%",
     "Fee-based revenue growth across many businesses",
-    "Continued credit performance improvements",
-    "Successful resolution of 5 consent orders",
-    "Active capital return to shareholders"
+    "Credit performance improved with lower net charge-offs",
+    "Active return of $4.8 billion to shareholders",
+    "Progress on closing 5 consent orders"
   ],
   "risks": [
-    "Lower net interest income due to lower rates",
+    "Net interest income declined due to lower rates",
+    "Loan growth remains modest",
     "Uncertainty around regulatory changes and economic outlook",
-    "Potential for slower loan growth",
-    "Market volatility impacting trading and investment income",
-    "Challenges in maintaining growth in a more regulated environment"
+    "Potential for further credit deterioration in a slowing economy",
+    "Volatility in interest rates and market conditions"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
-    "Regulatory",
-    "Credit",
-    "Fee-based revenue",
-    "Capital returns",
-    "Market volatility"
+    "regulatory",
+    "credit",
+    "capital",
+    "fee-based",
+    "interest rates"
   ],
   "_ticker": "WFC",
   "_quarter": "Q1-2025",

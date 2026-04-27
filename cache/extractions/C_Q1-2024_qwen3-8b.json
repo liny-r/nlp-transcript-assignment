@@ -2,26 +2,47 @@
   "overall_sentiment": 0.45,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Organizational simplification completed, resulting in a cleaner structure and faster decision-making",
-    "Strong Q1 performance with net income of $3.4 billion and RoTCE of 7.6%",
-    "Services revenue up 8% year-over-year with strong fee growth",
-    "Investment Banking revenue growth of 35% and overall banking revenue growth of 49%",
-    "Positive client sentiment and strong balance sheet with CET1 ratio of 13.5%"
+    "Strong performance in Services with 8% revenue growth",
+    "Services fees up 10% year-over-year",
+    "Investment Banking revenue growth of 35%",
+    "Banking revenue growth of 49%",
+    "Positive client sentiment and strong balance sheet"
   ],
   "risks": [
-    "Credit card charge-offs remain elevated, with Retail Services NCLs above full-year guidance",
-    "Uncertainty around macroeconomic conditions and global rate trajectories",
-    "Potential for higher capital requirements due to ongoing transformation and regulatory changes",
-    "Challenges in achieving 4% to 5% medium-term revenue growth",
-    "Higher credit costs and inflationary pressures impacting returns"
+    "Credit card charge-offs higher than expected",
+    "Uncertainty around revenue targets and macroeconomic conditions",
+    "Potential for higher late fees impacting NII",
+    "Regulatory and capital requirements evolving",
+    "Challenges in wealth management business"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "Transformation",
     "Credit",
-    "Organizational Simplification",
-    "Client-Centric",
-    "Regulatory"
+    "Regulatory",
+    "Capital",
+    "Client-centric"
   ],
   "_ticker": "C",
   "_quarter": "Q1-2024",

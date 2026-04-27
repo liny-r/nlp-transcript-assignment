@@ -2,26 +2,43 @@
   "overall_sentiment": 0.45,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Separation of FedEx Freight to unlock significant value for stockholders",
+    "Separation of FedEx Freight to unlock value and enhance competitiveness",
     "Strong Q2 results with sequential improvement in DRIVE savings and adjusted operating profit",
-    "Successful implementation of DRIVE program with $540 million in savings",
-    "Positive outlook for the second half of FY '25 with adjusted EPS range of $19 to $20",
-    "Enhanced customer experience through improved service and technology"
+    "Positive outlook for December peak season with strong volume and surcharge capture",
+    "Successful implementation of DRIVE and Network 2.0 initiatives",
+    "Confidence in the separation process and continued customer service"
   ],
   "risks": [
-    "Soft industrial economy negatively affecting B2B volumes",
-    "Competitive pricing environment pressuring margins",
-    "Challenging demand environment impacting freight segment",
-    "Uncertainty around the demand environment affecting future performance",
-    "Potential customer attrition due to business separation"
+    "Soft industrial economy impacting B2B volumes and LTL markets",
+    "Challenging demand environment and pricing pressures",
+    "Uncertainty around the global industrial production recovery",
+    "Potential customer attrition due to business separation",
+    "Revised FY '25 adjusted EPS outlook to $19 to $20"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "separation",
-    "DRIVE",
-    "network optimization",
-    "revenue quality",
-    "capital allocation"
+    "network_optimization",
+    "revenue_quality",
+    "capital_allocation",
+    "supply_chain"
   ],
   "_ticker": "FDX",
   "_quarter": "Q2-2025",

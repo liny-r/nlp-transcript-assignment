@@ -4,24 +4,45 @@
   "wins": [
     "Strong revenue growth across all segments",
     "Record assets under supervision in Asset & Wealth Management",
-    "Improved non-comp expenses and efficiency ratio",
-    "Positive outlook on AI integration and productivity gains",
-    "Confidence in the sustainability of the business model"
+    "Improved performance in FICC and equities financing",
+    "Successful execution of strategic objectives",
+    "Positive outlook on AI-driven productivity gains"
   ],
   "risks": [
-    "Uncertainty around the macroeconomic environment",
-    "Potential regulatory challenges with Basel III",
-    "Sustainability of the current revenue growth",
-    "Competition in the capital markets",
-    "Challenges in maintaining wallet share"
+    "Uncertainty around the Basel III proposal's impact on financing revenues",
+    "Potential challenges in sustaining high growth in private credit",
+    "Market volatility and macroeconomic headwinds",
+    "Regulatory pressures on securities financing risk weightings",
+    "Sustainability of non-comp expense reductions"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "capital_markets",
     "AI",
+    "capital_markets",
     "wealth_management",
     "regulation",
-    "efficiency"
+    "productivity"
   ],
   "_ticker": "GS",
   "_quarter": "Q1-2024",

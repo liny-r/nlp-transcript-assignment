@@ -6,22 +6,43 @@
     "DARZALEX growth of 21.3%",
     "CARVYKTI sales growth of 59.9%",
     "TECVAYLI sales growth of 43.5%",
-    "RYBREVANT submission for subcutaneous formulation"
+    "Positive results for nipocalimab in Sjogren's disease and myasthenia gravis"
   ],
   "risks": [
     "Decline in other neuroscience",
     "Unfavorable patient mix in XARELTO",
     "Competitive pressures in IMBRUVICA",
     "MedTech growth below expectations",
-    "Impact of VBP in China"
+    "Potential impact from STELARA biosimilars in Europe"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "innovative_medicine",
     "medtech",
-    "regulatory",
     "pricing",
-    "research_and_development"
+    "regulatory",
+    "biologics"
   ],
   "_ticker": "JNJ",
   "_quarter": "Q2-2024",

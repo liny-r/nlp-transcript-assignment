@@ -1,27 +1,47 @@
 {
-  "overall_sentiment": 0.35,
+  "overall_sentiment": 0.45,
   "sentiment_bucket": "bullish",
   "wins": [
-    "NIKE brand grew this quarter with a strong mix",
-    "North America delivered over 20% wholesale growth",
-    "Running business grew over 20% for the second consecutive quarter",
+    "North America wholesale grew 8%",
+    "NIKE brand grew this quarter with strong mix",
+    "Running grew over 20% for the second quarter in a row",
     "NIKE Digital reduced promotional activity and is operating more strategically",
     "Inventory is in a healthy and clean position in North America and EMEA"
   ],
   "risks": [
-    "China continues to face significant headwinds with a 16% revenue decline",
-    "Tariffs have added a significant headwind to gross margins",
-    "Inventory obsolescence in Greater China impacted gross margins",
-    "Earnings per share was $0.53, below expectations",
-    "The reset in China requires a fresh approach and new capabilities"
+    "China continues to face headwinds with revenue declining 16%",
+    "Gross margins declined 300 basis points to 40.6%",
+    "Tariffs added a significant headwind to overcome",
+    "Inventory obsolescence in Greater China impacted margins",
+    "Headwinds in Greater China and Converse are expected to continue"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "sport",
     "China",
-    "product",
-    "digital",
-    "pricing"
+    "pricing",
+    "capex"
   ],
   "_ticker": "NKE",
   "_quarter": "Q2-2026",

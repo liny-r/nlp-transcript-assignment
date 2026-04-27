@@ -4,24 +4,45 @@
   "wins": [
     "Record third quarter revenue across all businesses",
     "Positive operating leverage for the firm and each of its 5 businesses",
-    "Strong performance in cross-border transactions and U.S. dollar clearing",
+    "Strong growth in cross-border transactions and U.S. dollar clearing",
     "New partnership with BlackRock for managing $80 billion in assets",
     "Successful integration of Citi Token Services with 24/7 clearing platform"
   ],
   "risks": [
-    "Uncertainty around the timing and regulatory approval for Banamex divestiture",
-    "Potential headwinds from rate cuts and market volatility",
-    "Higher severance costs than originally expected",
-    "Challenges in the corporate nonaccrual loans due to idiosyncratic downgrades",
-    "Regulatory uncertainty and potential impact on capital requirements"
+    "Potential for higher severance costs than originally expected",
+    "Uncertainty around regulatory approvals for Banamex divestiture",
+    "Market volatility and potential for credit losses",
+    "Challenges in achieving efficiency ratio below 60%",
+    "Dependence on continued revenue growth and FX translation"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
-    "digital payments",
-    "capital returns",
-    "Banamex divestiture",
-    "regulatory compliance"
+    "digital_payments",
+    "capital_returns",
+    "regulatory_compliance",
+    "banking_transformation"
   ],
   "_ticker": "C",
   "_quarter": "Q3-2025",

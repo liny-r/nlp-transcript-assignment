@@ -1,0 +1,657 @@
+[
+  {
+    "ticker": "AMD",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.30851063829787234
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.46153846153846156
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.48292682926829267
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.4725274725274725
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.45539906103286387
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.5949367088607594
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.38164251207729466
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.45161290322580644
+  },
+  {
+    "ticker": "AMD",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.39436619718309857
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.07272727272727272
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.21428571428571427
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.323943661971831
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.029850746268656716
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.1717171717171717
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.11926605504587157
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.16666666666666666
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.1320754716981132
+  },
+  {
+    "ticker": "AVGO",
+    "quarter": "Q4-2025",
+    "lm_sentiment": -0.04672897196261682
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.5246636771300448
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.3805309734513274
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.5401069518716578
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.5708502024291497
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.5966386554621849
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.6853146853146853
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.6085106382978723
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.5369127516778524
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.7297297297297297
+  },
+  {
+    "ticker": "BLK",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.57
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.13333333333333333
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q1-2025",
+    "lm_sentiment": -0.03759398496240601
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.0661764705882353
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.3
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.2391304347826087
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.25301204819277107
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q4-2023",
+    "lm_sentiment": -0.09803921568627451
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.2962962962962963
+  },
+  {
+    "ticker": "C",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.2846715328467153
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "2026_01_20",
+    "lm_sentiment": 0.4591194968553459
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q1-2024",
+    "lm_sentiment": -0.015706806282722512
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.14414414414414414
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.2398190045248869
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q2-2024",
+    "lm_sentiment": -0.004291845493562232
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.24193548387096775
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.1308411214953271
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.2636363636363636
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.18518518518518517
+  },
+  {
+    "ticker": "FAST",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.18181818181818182
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.34355828220858897
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.4715447154471545
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.49865229110512127
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q2-2026",
+    "lm_sentiment": 0.36964980544747084
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.4853801169590643
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.3727810650887574
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q3-2026",
+    "lm_sentiment": 0.49407114624505927
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.4658385093167702
+  },
+  {
+    "ticker": "FDX",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.3698630136986301
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.43842364532019706
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.1799163179916318
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.2264808362369338
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.3395348837209302
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.40794223826714804
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.4488888888888889
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.5759493670886076
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.4681647940074906
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.5389048991354467
+  },
+  {
+    "ticker": "GS",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.503448275862069
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.5121951219512195
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.3031674208144796
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.5180722891566265
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.37872340425531914
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.4454828660436137
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.5588235294117647
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.5897435897435898
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.4915254237288136
+  },
+  {
+    "ticker": "INTC",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.46875
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.39285714285714285
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.3312883435582822
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.46308724832214765
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.43252595155709345
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.4561933534743202
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.3072289156626506
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.5548961424332344
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.4897959183673469
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.3375796178343949
+  },
+  {
+    "ticker": "JNJ",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.5131578947368421
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q1-2024",
+    "lm_sentiment": -0.25
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q1-2025",
+    "lm_sentiment": -0.42142857142857143
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q1-2026",
+    "lm_sentiment": -0.20833333333333334
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q2-2024",
+    "lm_sentiment": -0.2596685082872928
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q2-2025",
+    "lm_sentiment": -0.3025210084033613
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q3-2024",
+    "lm_sentiment": -0.4377880184331797
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q3-2025",
+    "lm_sentiment": -0.4488888888888889
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q4-2023",
+    "lm_sentiment": -0.23809523809523808
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q4-2024",
+    "lm_sentiment": -0.1568627450980392
+  },
+  {
+    "ticker": "JPM",
+    "quarter": "Q4-2025",
+    "lm_sentiment": -0.13934426229508196
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.391705069124424
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.595166163141994
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.3188405797101449
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q2-2026",
+    "lm_sentiment": 0.49843260188087773
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.518796992481203
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.33974358974358976
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q3-2026",
+    "lm_sentiment": 0.3641025641025641
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.5059760956175299
+  },
+  {
+    "ticker": "NKE",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.48484848484848486
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.4233128834355828
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q1-2026",
+    "lm_sentiment": 0.38144329896907214
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.20512820512820512
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q2-2026",
+    "lm_sentiment": 0.49714285714285716
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.29936305732484075
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q3-2026",
+    "lm_sentiment": 0.40298507462686567
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.42105263157894735
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.4189189189189189
+  },
+  {
+    "ticker": "NVDA",
+    "quarter": "Q4-2026",
+    "lm_sentiment": 0.46078431372549017
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.02
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q1-2025",
+    "lm_sentiment": -0.023255813953488372
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q2-2024",
+    "lm_sentiment": 0.007518796992481203
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.01694915254237288
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.06422018348623854
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.25
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.0821917808219178
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.22
+  },
+  {
+    "ticker": "PLTR",
+    "quarter": "Q4-2025",
+    "lm_sentiment": -0.1111111111111111
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q1-2024",
+    "lm_sentiment": 0.04285714285714286
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q1-2025",
+    "lm_sentiment": 0.04234527687296417
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q2-2024",
+    "lm_sentiment": -0.03474903474903475
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q2-2025",
+    "lm_sentiment": 0.22935779816513763
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q3-2024",
+    "lm_sentiment": 0.009615384615384616
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q3-2025",
+    "lm_sentiment": 0.36942675159235666
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q4-2023",
+    "lm_sentiment": 0.059880239520958084
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q4-2024",
+    "lm_sentiment": 0.39649122807017545
+  },
+  {
+    "ticker": "WFC",
+    "quarter": "Q4-2025",
+    "lm_sentiment": 0.27017543859649124
+  }
+]

@@ -2,25 +2,46 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Generated strong quarterly and annual earnings with 27% increase in EPS",
-    "Improved returns and ROE by over 500 basis points",
-    "Achieved record revenues in FICC and equity financing",
-    "Raised $115 billion in alternatives",
-    "Announced $0.50 increase in quarterly dividend"
+    "Strong Q4 and full-year earnings with 27% EPS increase",
+    "Improved returns and ROE/ROTE",
+    "Durable revenue growth and margin improvements",
+    "Strategic focus on high-margin segments like AWM",
+    "Successful transition of Apple Card portfolio"
   ],
   "risks": [
-    "Potential for NIM compression in private banking and lending",
-    "Market volatility and macroeconomic uncertainty",
-    "Regulatory changes impacting capital requirements",
-    "Uncertainty around the impact of the Apple Card transition",
-    "Potential for reduced IPO activity compared to historical averages"
+    "Potential for macroeconomic shifts impacting performance",
+    "Regulatory uncertainties and their impact on operations",
+    "Market volatility affecting capital markets activity",
+    "Operating leverage challenges in certain segments",
+    "Competition in the wealth management space"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
-    "wealth_management",
-    "capital_light",
-    "regulatory",
+    "wealth",
+    "capital markets",
+    "regulation",
     "productivity"
   ],
   "_ticker": "GS",

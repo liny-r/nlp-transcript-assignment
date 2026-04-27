@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.15,
+  "overall_sentiment": 0.2,
   "sentiment_bucket": "neutral",
   "wins": [
-    "Accelerating actions to improve profitability and capital efficiency by more than $10 billion in 2025",
-    "Cost reduction plan with head count reduction of greater than 15% by the end of 2025",
-    "Expected reduction in OpEx to approximately $20 billion in 2024",
-    "Introduction of Panther Lake, first client CPU on Intel 18A",
-    "Strong ecosystem for AIPC with over 15 million Windows AIPC shipped"
+    "AIPC category growth from less than 10% to over 50% by 2026",
+    "Lunar Lake delivers superior performance at half the power",
+    "Panther Lake will be first client CPU on Intel 18A with improved cost structure",
+    "Cost reduction plan targeting 15% head count reduction by 2025",
+    "Smart Capital strategy with $11B to $13B net capital spending in 2024"
   ],
   "risks": [
-    "Q3 revenue growth will be slower than expected due to inventory digestion and cyclical businesses",
-    "Lower-than-anticipated revenue in the back half of the year impacting gross margins",
-    "Competitive pricing and unfavorable product mix impacting margins",
-    "Challenges in the client business due to export controls and China market conditions",
-    "Uncertainty in the recovery of the traditional CPU market"
+    "Q3 revenue growth slower than expected due to inventory digestion",
+    "Lunar Lake's reliance on external wafers pressures gross margins",
+    "Mobileye lowers revenue and income guidance for H2 due to China conditions",
+    "Export controls impacting client business in China",
+    "Competitive pricing and unfavorable product mix affecting margins"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "AI",
-    "capital efficiency",
+    "cost_reduction",
+    "capital_efficiency",
     "foundry",
-    "cost reduction",
-    "AIPC"
+    "x86"
   ],
   "_ticker": "INTC",
   "_quarter": "Q2-2024",

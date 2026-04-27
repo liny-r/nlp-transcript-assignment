@@ -5,17 +5,38 @@
     "Strong financial results with 17% growth in diluted earnings per share",
     "Significant headcount reduction over 25% since 2020",
     "Growth in credit card accounts and balances",
-    "Increased deposit balances in both commercial and consumer businesses",
-    "Improved credit performance with lower net charge-offs"
+    "Auto business growth with 19% increase in loan balances",
+    "Increased capital returns with $23 billion excess capital returned to shareholders"
   ],
   "risks": [
     "Potential impact of interest rate changes on net interest income",
-    "Uncertainty around market volatility affecting trading revenue",
-    "Severance expenses impacting profitability",
-    "Credit risk in commercial real estate and industrial sectors",
-    "Regulatory and macroeconomic uncertainties"
+    "Credit risk in commercial real estate and office portfolios",
+    "Market volatility affecting trading and noninterest income",
+    "Severance expenses impacting future earnings",
+    "Uncertainty in regulatory environment and capital requirements"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "capital",
     "credit",

@@ -2,26 +2,43 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strong operational sales growth across all business segments",
+    "Strong operational sales growth across all segments",
     "Significant R&D and M&A investments",
     "New state-of-the-art manufacturing facilities",
     "Positive clinical trial results and regulatory approvals",
-    "Double-digit growth expectations by the end of the decade"
+    "Leadership in key therapeutic areas and market positions"
   ],
   "risks": [
     "Biosimilar competition impacting STELARA sales",
-    "Generic impact on SIMPONI and OPSUMIT in 2026",
+    "Generic impact on SIMPONI and OPSUMIT",
     "Litigation costs and potential legal challenges",
-    "Tariff impacts on MedTech operations",
-    "Market volatility and currency fluctuations"
+    "Tariff impacts on MedTech",
+    "Market dynamics and coverage changes in the U.S."
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "innovative_medicine",
     "medtech",
-    "oncology",
-    "immunology",
-    "cardiovascular"
+    "growth",
+    "pipeline",
+    "capital_allocation"
   ],
   "_ticker": "JNJ",
   "_quarter": "Q4-2025",

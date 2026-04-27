@@ -3,23 +3,46 @@
   "sentiment_bucket": "very_bullish",
   "wins": [
     "Record AUM of nearly $10.5 trillion",
-    "$76 billion long-term net inflows",
+    "Strong long-term net inflows of $76 billion",
     "180 basis points of margin expansion",
-    "$67 billion ETF net inflows",
-    "$15 billion institutional active net inflows"
+    "Bitcoin ETF saw $14 billion of net inflows",
+    "LifePath Target Date franchise grew to nearly $470 billion in assets"
   ],
   "risks": [
-    "$13 billion institutional index net outflows",
-    "$19 billion cash management net outflows",
-    "Seasonal outflows from institutional money market funds"
+    "Institutional index net outflows of $13 billion",
+    "Seasonal cash management outflows of $19 billion",
+    "Uncertainty in regulatory approvals for GIP transaction",
+    "Potential tax legislation changes affecting tax rate",
+    "Market volatility and rate uncertainty"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "ETFs",
-    "private_markets",
-    "technology",
     "AI",
-    "retirement_solutions"
+    "private_markets",
+    "retirement_solutions",
+    "technology"
   ],
   "_ticker": "BLK",
   "_quarter": "Q1-2024",

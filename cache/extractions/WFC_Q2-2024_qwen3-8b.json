@@ -1,26 +1,47 @@
 {
-  "overall_sentiment": 0.45,
+  "overall_sentiment": 0.5,
   "sentiment_bucket": "bullish",
   "wins": [
     "Strong fee-based revenue growth across most categories",
     "Improved credit card portfolio performance",
     "Launch of 9 new credit cards since 2021",
     "Positive momentum in investment banking fees",
-    "Strong capital position and dividend increase"
+    "Successful retention and acquisition strategies in deposit growth"
   ],
   "risks": [
     "Lumpy commercial real estate office losses",
     "Higher deposit costs and potential rate cuts",
-    "Regulatory risks and ongoing customer remediation",
-    "Slower loan demand and loan spread compression",
-    "Uncertainty around NII trough and 2024 guidance"
+    "Regulatory risks and ongoing compliance issues",
+    "Slower loan demand in a higher for longer rate environment",
+    "Uncertainty around the trough of net interest income"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "AI",
     "credit",
-    "capital",
-    "fee-based revenue",
+    "pricing",
+    "capex",
     "regulatory"
   ],
   "_ticker": "WFC",

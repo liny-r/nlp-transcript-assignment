@@ -2,20 +2,41 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strong performance in Q3 with new product innovations driving growth",
+    "Strong performance in North America with holiday sales and unit growth",
     "Successful launch of Air Zoom Alphafly 3 with marathon world record",
-    "Positive consumer response to Air Max Dn and Dynamic Air technology",
-    "Strategic focus on sport and innovation aligning with brand strengths",
-    "Successful pitch for German football contract showcasing brand leadership"
+    "Positive momentum in women's fitness footwear and key apparel franchises",
+    "Growth in Greater China with strong sales from Jordan Year of the Dragon collections",
+    "Healthy inventory levels and improved gross margins"
   ],
   "risks": [
     "Near-term headwinds from franchise life cycle management",
-    "Macro volatility impacting some geographies",
-    "Potential margin pressure from franchise management",
-    "Challenges in digital growth due to promotional environment",
-    "Inventory management complexities during product transition"
+    "Softening consumer demand in some geographies",
+    "Potential gross margin pressure from franchise management",
+    "Macro volatility impacting sales in certain regions",
+    "Challenges in transitioning to a new product portfolio"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "innovation",
     "sport",

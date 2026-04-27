@@ -2,26 +2,47 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Record net revenues and earnings per share",
-    "Strong client engagement and digital channel growth",
     "Record quarterly revenues in Global Banking & Markets",
-    "Significant inflows in Asset & Wealth Management",
-    "Successful acquisition of Innovator"
+    "Strong client engagement and elevated digital channel usage",
+    "Successful acquisition of Innovator adding $31 billion in assets under supervision",
+    "Positive inflows in Asset & Wealth Management despite market volatility",
+    "Confidence in private credit's long-term growth potential"
   ],
   "risks": [
-    "Macro environment volatility and geopolitical tensions",
-    "Private credit industry focus and regulatory scrutiny",
+    "Increased macroeconomic uncertainty and geopolitical tensions",
     "Potential slowdown in IPO activity due to market conditions",
     "Higher energy prices impacting inflation and growth",
-    "Uncertainty around the impact of AI-driven disruption"
+    "Challenges in maintaining ROE with increased provisions",
+    "Uncertainty around regulatory changes affecting capital requirements"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "private_credit",
-    "capital_markets",
-    "wealth_management",
-    "regulation"
+    "capital_structure",
+    "regulation",
+    "global_franchise"
   ],
   "_ticker": "GS",
   "_quarter": "Q1-2026",

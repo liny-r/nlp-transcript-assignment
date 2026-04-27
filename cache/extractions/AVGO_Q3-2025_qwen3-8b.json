@@ -2,26 +2,48 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "very_bullish",
   "wins": [
-    "Record $16 billion revenue up 22% year-on-year",
+    "Record revenue of $16 billion, up 22% year-on-year",
     "AI semiconductor revenue up 63% year-on-year",
-    "Record $110 billion backlog",
-    "VMware Cloud Foundation 9.0 launched",
-    "Q4 revenue guidance of $17.4 billion up 24% year-on-year"
+    "Strong backlog of $110 billion",
+    "Infrastructure software revenue up 17% year-on-year",
+    "Q4 revenue guidance of $17.4 billion, up 24% year-on-year"
   ],
   "risks": [
-    "Non-AI semiconductor revenue flat sequentially",
-    "Non-AI semiconductor revenue expected to be down year-over-year",
-    "Consolidated gross margin to drop 70 basis points sequentially",
-    "Uncertainty around cyclical recovery in non-AI segment",
-    "Competition in Ethernet and ASIC markets"
+    "Non-AI semiconductor revenue is slow to recover",
+    "Q4 non-AI semiconductor revenue guidance is down 7-8% year-on-year",
+    "Consolidated gross margin is expected to drop 70 basis points sequentially"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "other",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "AI",
     "VMware",
     "networking",
-    "capex",
-    "semiconductors"
+    "capex"
   ],
   "_ticker": "AVGO",
   "_quarter": "Q3-2025",

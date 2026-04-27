@@ -1,27 +1,48 @@
 {
   "overall_sentiment": 0.35,
-  "sentiment_bucket": "bullish",
+  "sentiment_bucket": "neutral",
   "wins": [
-    "Record revenue and net income despite notable items",
-    "Strong card and auto loan growth",
-    "Improved NIR outlook and increased investment banking revenue",
-    "Healthy capital generation and buyback capacity",
-    "Positive credit performance in card and auto segments"
+    "Record revenue and net income despite significant items",
+    "Strong loan growth in card",
+    "Healthy pipeline in capital markets activity",
+    "Record client asset net inflows",
+    "Improved NIR outlook"
   ],
   "risks": [
-    "Higher expenses due to FDIC assessment and wage inflation",
-    "Uncertainty around regulatory proposals and SCB requirements",
-    "Potential decline in NII due to rate cuts",
-    "Economic and geopolitical uncertainties",
-    "Deterioration in commercial real estate valuations"
+    "Significant economic and geopolitical uncertainties",
+    "Lower rates decreasing NII",
+    "Credit costs up due to card and single name exposures",
+    "Uncertainty around regulatory proposals",
+    "Muted demand for new loans"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "NII",
+      "direction": "lowered"
+    },
+    {
+      "line": "expenses",
+      "direction": "raised"
+    },
+    {
+      "line": "CET1",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "ROTCE",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "rates",
-    "capital",
-    "technology",
     "AI",
-    "regulation"
+    "capital markets",
+    "credit",
+    "regulation",
+    "technology"
   ],
   "_ticker": "JPM",
   "_quarter": "Q4-2023",

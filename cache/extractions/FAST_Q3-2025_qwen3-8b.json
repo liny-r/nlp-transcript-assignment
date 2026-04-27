@@ -2,26 +2,47 @@
   "overall_sentiment": 0.75,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Delivered double-digit growth and expanded margins",
-    "Gained market share in a flat market",
-    "Strong daily sales growth in July",
-    "Significant growth in nontraditional markets like healthcare and education",
-    "Successful national account signings and deeper penetration in existing accounts"
+    "Double-digit growth in Q3",
+    "Expanded margins",
+    "Gaining market share in a flat market",
+    "Strong digital footprint with 61.3% of sales through FMI and eBusiness",
+    "Positive customer feedback on pricing transparency and partnership"
   ],
   "risks": [
     "Potential margin squeeze in Q4 due to price/cost pressures",
     "Uncertainty around trade policy and tariffs",
-    "Higher organizational overhead costs",
     "Limited visibility on fourth quarter demand",
+    "Higher organizational overhead costs",
     "Inventory growth may remain elevated due to tariffs and inflation"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "pricing",
+    "customer_service",
     "technology",
-    "market expansion",
-    "supply chain",
-    "customer service"
+    "supply_chain",
+    "pricing",
+    "market_share"
   ],
   "_ticker": "FAST",
   "_quarter": "Q3-2025",

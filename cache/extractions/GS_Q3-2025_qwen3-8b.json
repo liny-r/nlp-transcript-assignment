@@ -4,24 +4,45 @@
   "wins": [
     "Record $3.5 trillion in assets under supervision",
     "Raised $33 billion in alternatives fundraising in the quarter",
-    "Announced acquisition of Industry Ventures, a leading venture capital platform",
-    "Strong M&A advisory performance with over $1 trillion in announced volumes for 2025",
+    "Announced acquisition of Industry Ventures to enhance venture capital capabilities",
+    "Strong M&A advisory position with over $1 trillion in announced volumes for 2025",
     "Record $1.8 trillion in client assets in wealth management"
   ],
   "risks": [
-    "Market operates in cycles and disciplined risk management is imperative",
-    "Potential for divergence in AI-driven ventures",
-    "Regulatory environment remains a factor",
-    "Credit risk management challenges in private credit",
-    "Uncertainty around regulatory changes and Basel III endgame"
+    "Market operates in cycles with potential for divergence in tech investments",
+    "Potential risks in private credit and NDFIs despite strong underwriting standards",
+    "Regulatory changes and capital planning challenges",
+    "Competition with nonbanks in varied businesses",
+    "Need for disciplined risk management amid macroeconomic uncertainties"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "M&A",
-    "private credit",
-    "wealth management",
-    "regulatory"
+    "Private Credit",
+    "Regulatory",
+    "Wealth Management"
   ],
   "_ticker": "GS",
   "_quarter": "Q3-2025",

@@ -6,21 +6,42 @@
     "Strong net inflows across AWM",
     "IB fees up 50% year-on-year",
     "Markets revenue up 10% year-on-year",
-    "Dividend increase to $1.25 per share"
+    "Dividend increase announced"
   ],
   "risks": [
-    "Higher deposit costs impacting NII",
-    "Credit costs up due to Card charge-offs",
+    "Credit costs up $820 million year-on-year",
     "Deposit margin compression",
-    "Potential for NII normalization",
-    "Regulatory concerns in advisory space"
+    "NII ex Markets up $7.3 billion or 56%",
+    "Expenses up $2.9 billion or 14% year-on-year",
+    "Potential for NII normalization"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "capital",
     "credit",
-    "NII",
     "dividend",
+    "NII",
     "regulation"
   ],
   "_ticker": "JPM",

@@ -2,26 +2,43 @@
   "overall_sentiment": 0.15,
   "sentiment_bucket": "neutral",
   "wins": [
-    "Successful Onsite and FMI signings",
-    "AI-assisted sourcing tool development",
-    "Improved customer acquisition and execution",
-    "Strong operating cash flow and flexible balance sheet",
-    "Positive customer feedback on FMI technology"
+    "Strong Onsite and FMI signings",
+    "Improved customer acquisition efforts",
+    "Successful deployment of Fastenal Intelligence technology",
+    "Positive growth in national contract accounts",
+    "Enhanced customer service during hurricanes and outages"
   ],
   "risks": [
     "Challenging industrial market conditions",
-    "Price deflation in fasteners and safety products",
+    "Price deflation in safety and non-fastener products",
     "Slower-than-expected revenue growth",
-    "Macro uncertainty and potential prolonged weakness",
-    "Inventory management and cost control pressures"
+    "Persistent low ISM index",
+    "Uncertainty around macroeconomic recovery"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
-    "AI",
     "supply_chain",
+    "AI",
     "industrial",
-    "customer_acquisition",
-    "cost_control"
+    "customer_service",
+    "pricing"
   ],
   "_ticker": "FAST",
   "_quarter": "Q2-2024",

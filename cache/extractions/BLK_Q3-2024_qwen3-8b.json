@@ -2,26 +2,47 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "very_bullish",
   "wins": [
-    "Generated $221 billion of net inflows, highest ever",
-    "Record quarterly revenue and operating income",
-    "Expanded margin by 350 basis points year-over-year",
-    "5% annualized organic base fee growth, highest in 3 years",
-    "Acquired Global Infrastructure Partners, tripling infrastructure AUM"
+    "Record net inflows of $221 billion",
+    "Revenue up 15% year-over-year",
+    "Operating income up 26% year-over-year",
+    "GIP acquisition adds $116 billion AUM",
+    "Strong momentum in ETFs and private markets"
   ],
   "risks": [
-    "Nonoperating results included $108 million of net investment gains",
-    "Total expense was 8% higher year-over-year",
-    "Discrete tax expenses impacted third quarter results",
-    "Uncertainty around regulatory approvals for Preqin acquisition",
-    "Potential outflows in money market business"
+    "Discrete tax expenses impacting EPS",
+    "Potential outflows in money market business",
+    "Integration challenges with GIP and Preqin",
+    "Market volatility affecting fee rates",
+    "Regulatory uncertainty in digital assets"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "private_markets",
-    "technology",
-    "ETFs",
     "AI",
-    "capital_markets"
+    "ETFs",
+    "digital_assets",
+    "technology"
   ],
   "_ticker": "BLK",
   "_quarter": "Q3-2024",

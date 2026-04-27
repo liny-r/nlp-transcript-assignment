@@ -3,24 +3,45 @@
   "sentiment_bucket": "bullish",
   "wins": [
     "Record revenue and net income in 2024",
-    "Strong growth in AWM long-term net inflows",
-    "CET1 ratio increased to 15.7%",
-    "Record revenue in Markets, Payments, and Securities Services",
-    "Positive client investment assets growth"
+    "Strong growth in CCB with 10 million new card accounts",
+    "Record long-term net inflows of $234 billion in AWM",
+    "CIB ranked #1 with 9.3% wallet share in 2024",
+    "Healthy card loan growth and strong client engagement"
   ],
   "risks": [
-    "NII ex Markets down 2% year-on-year",
-    "Credit costs up $428 million year-on-year",
-    "Deposit margin compression",
+    "NII ex Markets down $548 million due to lower rates and deposit margin compression",
+    "Credit costs up $428 million year-on-year driven by Card",
     "Potential for NII normalization to be slower than expected",
-    "Uncertainty around regulatory changes and capital requirements"
+    "Uncertainty around regulatory changes and capital requirements",
+    "Market volatility and policy uncertainty affecting loan demand"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "capital",
     "regulation",
     "credit",
-    "markets",
+    "loan_growth",
     "digital"
   ],
   "_ticker": "JPM",

@@ -2,26 +2,47 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strong revenue growth of $46.8 billion, up 7% YoY",
+    "Strong revenue growth of 7% YoY",
     "Record client asset net inflows of $553 billion for the year",
-    "Robust performance in AWM with $6.5 billion revenue up 13% YoY",
-    "Positive consumer and small business resilience with 7% YoY growth in debit and credit sales",
-    "Optimistic outlook for 2026 with $95 billion NII ex Markets"
+    "Optimistic outlook for 2026 with strong client engagement and deal activity",
+    "Positive trends in consumer and small business resilience",
+    "Successful integration of Apple Card partnership"
   ],
   "risks": [
-    "Potential impact of credit card APR caps on the card business",
-    "Regulatory risks around NBFI lending and stablecoin issues",
-    "Lower deposit growth due to yield-seeking flows",
-    "Market volatility and geopolitical risks affecting the macro environment",
-    "Higher expenses in 2026 due to investments and growth initiatives"
+    "Potential impact of credit card APR caps on the industry",
+    "Regulatory risks related to NBFI lending",
+    "Uncertainty around the implementation of credit card rate caps",
+    "Competitive pressures in the banking industry",
+    "Elevated risk of charge-offs in certain segments"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "credit",
-    "technology",
+    "credit_card",
     "regulation",
+    "technology",
     "capital",
-    "AI"
+    "competition"
   ],
   "_ticker": "JPM",
   "_quarter": "Q4-2025",

@@ -11,22 +11,38 @@
   "risks": [
     "Gaming segment revenue declined 69% year-over-year",
     "Embedded segment revenue decreased 25% year-over-year",
-    "Uncertainty around 2025 guidance and customer adoption",
+    "Uncertainty around 2025 guidance",
     "Potential headwinds from Client business focusing on consumer side",
-    "Market competition in AI and GPU segments"
+    "Possible pause in growth before rack scale in 2026"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",
-    "gpu",
-    "epyc",
     "cloud",
-    "client",
-    "embedded",
-    "chiplet",
-    "rocm",
-    "ztsystems"
+    "enterprise",
+    "gpu"
   ],
   "_ticker": "AMD",
   "_quarter": "Q3-2024",

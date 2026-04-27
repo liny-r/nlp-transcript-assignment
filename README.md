@@ -1,75 +1,112 @@
-# Assignment 1 - Earnings-Call Sentiment, Event Extraction, and Return Prediction
+# Assignment 1 — Earnings-Call Sentiment, Event Extraction, and Return Prediction
 
-NLP for Finance - Spring 2026
+NLP for Finance — Spring 2026
 
 ## Overview
 
-This repository contains an end-to-end pipeline for 131 earnings-call transcripts (14 US tickers), including:
+End-to-end pipeline for 131 earnings-call transcripts (14 US tickers, ~9–10 quarters each):
 
-- transcript parsing
-- LLM event/sentiment extraction
-- quarter-over-quarter feature engineering
-- train/test modeling
-- simple backtests and diagnostics
+- Transcript parsing (prepared remarks + Q&A separation, speaker labelling)
+- LLM event/sentiment extraction via qwen3:8b (Ollama local)
+- Quarter-over-quarter feature engineering (18 features)
+- Train/test modelling with GridSearchCV (LogReg L1/L2, GBC, Ridge, Lasso)
+- Backtest: directional accuracy, rank IC, Sharpe, equity curve vs. SPY
 
-Primary implementation is in `Assignment_1_YueqiLin.ipynb`.
+Primary implementation: `Assignment_1_YueqiLin.ipynb`  
+Writeup: `Assignment_1_writeup_YueqiLin.md`
+
+---
 
 ## Requirements
 
-Install Python dependencies:
-
 ```bash
-pip install pandas numpy yfinance tqdm requests scikit-learn matplotlib pysentiment2
+pip install pandas numpy yfinance tqdm requests scikit-learn matplotlib pysentiment2 pyarrow
 ```
 
-Optional (only needed if re-running extraction instead of using cache):
+LLM extraction (only needed if re-running from scratch — cached output is included):
 
 ```bash
 ollama serve
 ollama pull qwen3:8b
 ```
 
+> **Note:** set `num_ctx` to at least 49152 in the Ollama payload. The longest transcript
+> (JNJ Q4-2024) requires ~45k tokens. The notebook sets this automatically.
+>
+> **Note:** qwen3:8b has thinking mode enabled by default. The notebook sets `think: false`
+> at both the top-level payload and inside `options`. Omitting either causes the model to
+> exhaust its token budget on `<think>` blocks and return empty output.
+
+---
+
 ## Project Layout
 
-```text
-Transcript Assignment/
-|- Assignment_1_YueqiLin.ipynb
-|- Assignment_1_writeup_YueqiLin.pdf
-|- ECT/                      # 131 transcript .txt files
-|- cache/
-|  |- extractions/           # cached LLM JSON extractions (131 files)
-|  |- prices/                # cached yfinance parquet files (tickers + SPY)
-|- backtest_equity_curve.png
-|- baseline_llm_vs_lm.png
-`- README.md
 ```
+Transcript Assignment/
+├── Assignment_1_YueqiLin.ipynb       # main notebook
+├── Assignment_1_writeup_YueqiLin.md  # PDF writeup source
+├── README.md
+├── backtest_equity_curve.png          # §12 equity curve figure
+├── baseline_llm_vs_lm.png            # §8b sentiment comparison figure
+├── lm_vs_llm.png                     # §6c LM vs LLM scatter figure
+├── ls_portfolio.png                   # §11 long-short portfolio figure
+├── ECT/                              # 131 transcript .txt files (not included in zip)
+└── cache/
+    ├── extractions/      # cached LLM JSON extractions (131 files, ~4 MB)
+    ├── prices/                       # cached yfinance parquet files (15 tickers + SPY)
+    └── lm_sentiment.json             # cached Loughran-McDonald scores (131 entries)
+```
+
+---
 
 ## Reproduction Steps
 
-1. Open `Assignment_1_YueqiLin.ipynb`.
-2. Run all cells from top to bottom.
-3. The notebook will load cached extraction JSON from `cache/extractions/` and cached price data from `cache/prices/` when present.
-4. If caches are deleted, extraction/price steps will rebuild them.
+**To reproduce model and backtest results from cache (no LLM needed):**
 
-Notes:
+1. Open `Assignment_1_YueqiLin.ipynb`
+2. Run all cells top to bottom
+3. The notebook loads:
+   - LLM extractions from `cache/extractions/`
+   - Price data from `cache/prices/`
+   - LM sentiment from `cache/lm_sentiment.json`
+4. All three caches are included — no re-extraction or API calls required
 
-- Train/test split is by time within each ticker (first 5 calls train, remaining calls test).
-- Entry convention is T+1 close to avoid look-ahead from after-hours calls.
-- The notebook evaluates multiple horizons and model variants in different sections; check each section header for the exact target used.
+**To re-run LLM extraction from scratch:**
 
-## What to Submit
+1. Ensure Ollama is running (`ollama serve`) with qwen3:8b pulled
+2. Delete or rename `cache/extractions/`
+3. Re-run §4 (LLM Extraction) cells — extraction caches per-transcript as it goes
 
-For a reproducible submission, include at minimum:
+**To refresh price data:**
 
-- `Assignment_1_YueqiLin.ipynb`
-- `Assignment_1_writeup_YueqiLin.pdf`
-- `README.md`
-- `cache/extractions/*.json`
-- `cache/prices/*`
-- generated figures referenced in the writeup
+- Delete `cache/prices/` — §3 rebuilds it via `yfinance`
+- Prices are cached for 24 hours; stale files are auto-refreshed on next run
+
+---
+
+## Key Design Decisions
+
+| Decision | Choice | Rationale |
+|---|---|---|
+| LLM | qwen3:8b (local) | Speed (~1.5 min/transcript on M1 Pro); no API cost |
+| Guidance schema | Structured list `[{line, direction}]` | Retains per-line detail lost in scalar "raised/lowered" |
+| Horizon | 5-day excess return vs. SPY | Short enough to isolate post-earnings drift; excess removes beta |
+| Train/test split | First 5 calls per ticker = train | Time-based split; no future data leaks into training |
+| Final model | LogReg C=0.5 L1 (18 input features, 4 active) | Highest test-set IC (+0.151) at n=46; L1 handles small-n overfitting |
+
+---
+
+## Train/Test Split
+
+- **Train:** first 5 calls per ticker (~70 rows, roughly Q4-2023 – Q1-2025)
+- **Test:** remaining calls (~61 rows, Q2-2025 onward)
+- Split is by call index within each ticker, not randomly, to avoid look-ahead bias
+
+---
 
 ## Known Caveats
 
-- Small out-of-sample size, so metrics are noisy.
-- PLTR has no standard Q&A section in this dataset format, so Q&A-derived features are NaN for PLTR calls.
-- LLM sentiment can be anchored high; delta and auxiliary features are included to mitigate this.
+- **Small test set:** n=46 after NaN filtering on guidance features. All metrics are directional.
+- **PLTR:** uses a pre-recorded format with no Q&A section. Q&A-derived features are NaN for all PLTR calls.
+- **Sentiment anchoring:** qwen3:8b assigns sentiment ≈ 0.85 to most calls. The `sentiment_delta` and `lm_sentiment` features partially compensate.
+- **Guidance schema:** `cache/extractions/` contains the v2 structured guidance (per-line `{line, direction}` objects). An older v1 extraction (scalar `"guidance"` field) was produced during development but is not used by the model.

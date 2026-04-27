@@ -3,24 +3,45 @@
   "sentiment_bucket": "bullish",
   "wins": [
     "Double-digit growth in Q4 with daily sales up just over 11%",
-    "Significant growth in contract customer count by 7%",
-    "Expanded FMI technology and digital footprint",
-    "Strong net sales of $2.03 billion in Q4",
-    "Record annual sales of $8.2 billion for 2025"
+    "Significant growth in FMI devices installed base",
+    "Strong net sales growth of 11% year-over-year",
+    "Record annual sales of $8.2 billion in 2025",
+    "Improved operating margin despite gross margin dip"
   ],
   "risks": [
     "Decline in smaller customer sites",
     "Gross margin decreased 50 basis points",
-    "Supplier rebate timing factors impacting Q4",
-    "Challenges in managing pricing and cost neutrality",
-    "Holiday timing impacting December sales"
+    "Supplier rebate timing impact",
+    "Challenges in pricing neutrality",
+    "Holiday shutdowns impacting December sales"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "mixed"
+    }
+  ],
   "themes": [
     "digital",
     "key_accounts",
-    "technology",
-    "market_share",
+    "pricing",
+    "supply_chain",
     "capital_allocation"
   ],
   "_ticker": "FAST",

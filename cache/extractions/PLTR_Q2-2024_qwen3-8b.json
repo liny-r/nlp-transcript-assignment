@@ -3,25 +3,46 @@
   "sentiment_bucket": "very_bullish",
   "wins": [
     "Revenue growth accelerated to 30% year-over-year and 10% sequential in Q2",
+    "U.S. commercial revenue, excluding strategic commercial contracts, climbed 70% year-over-year",
+    "U.S. commercial ACV closed was up 44% year-over-year and up 19% sequentially",
     "Signed 27 deals worth $10 million or more and closed nearly $1 billion of TCV",
-    "Received a production contract from the Department of Defense Chief Digital and Artificial Intelligence Office",
-    "Generated record GAAP net income of $134 million and GAAP operating income of $105 million",
-    "Raised full year revenue guidance to $2.746 billion, representing 23% year-over-year growth"
+    "Received a production contract from the Department of Defense Chief Digital and Artificial Intelligence Office"
   ],
   "risks": [
     "Revenue from strategic commercial contracts declined to $9 million for the quarter",
     "International commercial revenue declined 1% sequentially due to headwinds in Europe",
-    "Expenses are expected to ramp through the back half of the year",
+    "Anticipate third quarter 2024 revenue from strategic commercial customers to continue declining",
     "Uncertainty around the long-term viability of strategic commercial contracts",
-    "Potential challenges in maintaining growth rates in the face of increased competition"
+    "Potential challenges in maintaining revenue growth in international markets"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "government",
-    "revenue_growth",
-    "productivity",
-    "enterprise_software"
+    "revenue",
+    "product",
+    "international"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q2-2024",

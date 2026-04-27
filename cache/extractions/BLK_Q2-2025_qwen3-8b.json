@@ -1,39 +1,48 @@
 {
   "overall_sentiment": 0.85,
-  "sentiment_bucket": "very_bullish",
+  "sentiment_bucket": "bullish",
   "wins": [
-    "7% organic base fee growth",
-    "$650 billion net inflows over 12 months",
-    "record AUM of $12.5 trillion",
-    "$25.2 billion raised in GIP V",
-    "$116 billion net inflows excluding institutional index outflows",
-    "$68 billion total net inflows",
-    "$80 billion AUM for IBIT",
-    "$50 billion managed for Circle stablecoin cash reserves",
-    "$375 million share repurchases",
-    "$1.5 billion share repurchase target for 2025"
+    "Record AUM of $12.5 trillion",
+    "7% organic base fee growth over the last 12 months",
+    "Double-digit year-over-year growth in revenue, operating income, and earnings per share",
+    "GIP V closed above its $25 billion target",
+    "Acquired HPS Investment Partners, adding $165 billion of client AUM"
   ],
   "risks": [
-    "$48 billion institutional index outflows",
-    "lower performance fees",
-    "$165 billion client AUM from HPS added in July",
-    "$118 billion fee-paying AUM from HPS added in July",
-    "$450 million revenue from HPS in 2025",
-    "$225 million management fees from HPS in Q3 2025",
-    "$116 billion net inflows excluding institutional index outflows"
+    "Low fee institutional index redemptions caused $48 billion of net outflows",
+    "Performance fees decreased from a year ago",
+    "Market and FX movements impacted base fee run rate",
+    "Higher G&A and compensation expenses",
+    "Potential changes in tax legislation affecting effective tax rate"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "private_markets",
     "technology",
     "ETFs",
     "digital_assets",
-    "retirement",
-    "cash_management",
-    "acquisitions",
-    "AI",
-    "global_expansion",
-    "defined_contribution"
+    "retirement"
   ],
   "_ticker": "BLK",
   "_quarter": "Q2-2025",

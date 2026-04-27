@@ -9,19 +9,40 @@
     "Positive momentum in Alternatives fundraising"
   ],
   "risks": [
-    "Narrowing consumer footprint reducing ROE",
-    "Regulatory uncertainty around Basel III revisions",
+    "Regulatory uncertainty and lack of transparency in Basel III revisions",
+    "Consumer footprint narrowing impacting ROE",
     "M&A volumes still below 10-year averages",
-    "Potential competition from nonbank trading venues",
-    "Uncertainty around regulatory outcomes affecting capital requirements"
+    "Uncertainty around the final regulatory outcome",
+    "Potential competition from nonbank trading venues"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "regulation",
+    "regulatory",
     "capital",
+    "markets",
     "wealth_management",
-    "alternatives",
-    "markets"
+    "alternatives"
   ],
   "_ticker": "GS",
   "_quarter": "Q3-2024",

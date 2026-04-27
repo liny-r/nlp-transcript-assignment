@@ -5,23 +5,44 @@
     "Revenue grew 39% year-over-year",
     "U.S. revenue grew 55% year-over-year",
     "U.S. commercial revenue grew 71% year-over-year",
-    "Rule of 40 score increased from 81 to 83",
-    "Closed $810 million in U.S. commercial TCV"
+    "U.S. government revenue grew 45% year-over-year",
+    "Closed $810 million in U.S. commercial TCV with 239% year-over-year growth"
   ],
   "risks": [
     "International commercial revenue declined 5% year-over-year",
     "Headwinds in Europe",
-    "Uncertainty in European AI adoption",
-    "Potential challenges in reindustrialization",
-    "Uncertain future of Rule of 40 score"
+    "Uncertainty in European defense buildup",
+    "Need for continued investment in AIP and technical talent",
+    "Potential challenges in Europe's AI adoption"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "U.S. commercial revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "adjusted operating margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "adjusted free cash flow",
+      "direction": "raised"
+    },
+    {
+      "line": "Rule of 40 score",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "AI",
     "U.S. government",
     "reindustrialization",
-    "Ontology",
-    "AIP"
+    "defense",
+    "software"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q1-2025",

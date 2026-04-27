@@ -3,25 +3,46 @@
   "sentiment_bucket": "neutral",
   "wins": [
     "Reinforcing brand identity and mission",
-    "Reinvesting in brand marketing and storytelling",
-    "Engaging with key partners and stakeholders",
-    "Launching new product lines like Vomero 18 and Pegasus Premium",
-    "Improving consumer engagement through events and campaigns"
+    "Positive reception from retail partners",
+    "Successful product launches like Pegasus 41 and Kobe lineup",
+    "Strong performance in key sports categories like basketball and running",
+    "Positive consumer engagement at marathons and sports events"
   ],
   "risks": [
-    "Declining sales and revenue in key markets",
-    "Inventory overstock and markdown pressures",
+    "Revenue decline and margin pressures",
+    "Inventory overstock and markdowns",
     "Reduced promotional activity impacting traffic",
     "Challenges in repositioning NIKE Direct and wholesale",
     "Short-term financial headwinds from restructuring"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "sport",
     "brand",
     "digital",
-    "supply_chain",
-    "partnerships"
+    "retail",
+    "supply_chain"
   ],
   "_ticker": "NKE",
   "_quarter": "Q2-2025",

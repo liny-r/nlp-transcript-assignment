@@ -1,10 +1,10 @@
 {
-  "overall_sentiment": 0.35,
+  "overall_sentiment": 0.3,
   "sentiment_bucket": "neutral",
   "wins": [
     "Increased dividend from $0.53 to $0.56 per share",
     "Resumed modest buybacks this quarter",
-    "Strong performance in markets with equity up 37% and banking up 38%",
+    "Strong performance in markets with 38% growth in banking",
     "Improved operating leverage across multiple businesses",
     "Tangible progress in transformation and simplification efforts"
   ],
@@ -12,16 +12,37 @@
     "Regulatory actions and data quality management issues",
     "Credit seasonality and normalization of certain vintages",
     "Uncertainty around Basel III endgame and potential impact on buybacks",
-    "Higher credit costs in U.S. Personal Banking",
-    "Potential for slower economic growth and rate cuts"
+    "Slower economy and potential rate cuts affecting credit costs",
+    "Ongoing challenges with regulatory reporting and compliance"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "mixed"
+    }
+  ],
   "themes": [
     "regulatory",
-    "data",
-    "credit",
-    "transformation",
-    "capital"
+    "data_quality",
+    "credit_risk",
+    "capital_return",
+    "transformation"
   ],
   "_ticker": "C",
   "_quarter": "Q2-2024",

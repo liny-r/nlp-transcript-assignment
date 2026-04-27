@@ -1,27 +1,48 @@
 {
   "overall_sentiment": 0.85,
-  "sentiment_bucket": "bullish",
+  "sentiment_bucket": "very_bullish",
   "wins": [
-    "AI semiconductor revenue grew 65% year-over-year to $20 billion",
-    "Record $18 billion revenue in Q4 2025, above guidance",
-    "AI revenue expected to double year-on-year to $8.2 billion in Q1 2026",
-    "Acquired a fifth XPU customer with a $1 billion order",
-    "Strong backlog of $73 billion in AI-related orders"
+    "AI semiconductor revenue grew 74% year-over-year to $6.5 billion",
+    "Record $73 billion AI backlog to be delivered over next 18 months",
+    "AI revenue to double year-on-year to $8.2 billion in Q1 fiscal '26",
+    "Infrastructure software revenue up 19% year-on-year to $6.9 billion",
+    "Dividend increased 10% to $0.65 per share"
   ],
   "risks": [
-    "Non-AI semiconductor revenue is flat year-over-year",
-    "Potential dilution of gross margins due to system sales",
-    "Supply chain challenges with advanced packaging",
-    "Uncertainty around OpenAI's contribution in fiscal 2026",
-    "Global minimum tax impacting non-GAAP tax rate"
+    "Non-AI semiconductor revenue flat year-over-year",
+    "Global minimum tax and geographic mix may increase non-GAAP tax rate",
+    "Supply chain challenges with advanced packaging and silicon",
+    "Customer-owned tooling may reduce XPU content",
+    "Uncertainty around OpenAI contract contribution in fiscal '26"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "semiconductors",
-    "VMware",
-    "supply_chain",
-    "advanced_packaging"
+    "infrastructure_software",
+    "dividends",
+    "supply_chain"
   ],
   "_ticker": "AVGO",
   "_quarter": "Q4-2025",

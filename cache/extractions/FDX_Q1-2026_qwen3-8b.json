@@ -10,18 +10,39 @@
   ],
   "risks": [
     "Continued weakness in the industrial economy",
-    "Pressure from the U.S. Postal Service contract expiration",
-    "Reduced international export demand",
-    "Challenges in the LTL market",
-    "Global trade environment headwinds"
+    "Pressure from the global trade environment",
+    "U.S. Postal Service contract expiration headwind",
+    "International export revenue pressures",
+    "Challenges in the LTL market"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "Network 2.0",
     "AI",
+    "pricing",
+    "capex",
     "global trade",
-    "digital transformation",
-    "cost reduction"
+    "network optimization"
   ],
   "_ticker": "FDX",
   "_quarter": "Q1-2026",

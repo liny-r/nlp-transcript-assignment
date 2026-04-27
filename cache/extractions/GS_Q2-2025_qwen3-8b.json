@@ -2,11 +2,11 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strong Q2 results with $14.6B net revenues and $10.91 EPS",
-    "M&A activity up 30% YoY with notable deals like NRG Energy and Salesforce",
-    "Record FICC and equities financing revenues",
-    "Dividend increased by 33% to $4/share",
-    "Record AWM assets under supervision at $3.3T"
+    "Record FICC financing revenues of $1 billion",
+    "Record equities financing revenues of $1.7 billion",
+    "30th consecutive quarter of long-term fee-based net inflows",
+    "33% increase in quarterly dividend to $4 a share",
+    "Announced M&A volumes up 30% year-over-year"
   ],
   "risks": [
     "Challenging harvesting environment for private equity portfolio assets",
@@ -15,13 +15,34 @@
     "Regulatory uncertainty and capital regime changes",
     "Market volatility in commodities and mortgages"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "M&A",
     "AI",
     "capital",
-    "wealth management",
-    "regulation"
+    "M&A",
+    "regulation",
+    "wealth_management"
   ],
   "_ticker": "GS",
   "_quarter": "Q2-2025",

@@ -1,27 +1,44 @@
 {
-  "overall_sentiment": 0.25,
-  "sentiment_bucket": "neutral",
+  "overall_sentiment": 0.3,
+  "sentiment_bucket": "bullish",
   "wins": [
     "Repositioning of NIKE Direct as a premium destination",
-    "Successful global After Dark run series and increased sell-through",
+    "Successful product launches like Vomero 18 and A'One",
+    "Improved performance in running and training segments",
     "Positive feedback from wholesale partners on new product launches",
-    "Progress in rebalancing sportswear and performance product lines",
-    "Improved inventory management and progress in cleaning up marketplace"
+    "Progress in cleaning up inventory and improving margins"
   ],
   "risks": [
-    "Revenue decline of 12% in Q4",
-    "Gross margin decline of 440 basis points",
-    "Continued headwinds from classic footwear franchises",
-    "Tariff impact of $1 billion",
-    "Inventory remains elevated in several regions"
+    "Decline in classic footwear franchises",
+    "Tariff-related cost headwinds",
+    "Continued challenges in China market",
+    "Digital traffic decline due to repositioning",
+    "Inventory liquidation headwinds in first half of FY '26"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "sport",
     "digital",
-    "tariffs",
     "product",
-    "marketplace"
+    "tariffs",
+    "inventory"
   ],
   "_ticker": "NKE",
   "_quarter": "Q4-2025",

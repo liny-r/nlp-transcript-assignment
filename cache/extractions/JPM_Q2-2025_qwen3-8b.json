@@ -2,26 +2,39 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Revenue growth in Markets up 15%",
-    "Strong performance in Investment Banking with 7% fee increase",
-    "Net income of $15 billion and EPS of $5.24",
-    "Positive outlook with updated guidance on NII and expenses",
-    "Robust credit quality with stable charge-off rates"
+    "Revenue growth in Card Services & Auto",
+    "Strong performance in Investment Banking",
+    "Improved credit quality in consumer segment",
+    "Positive outlook on NII ex Markets",
+    "Increased deposit growth and balance sheet strength"
   ],
   "risks": [
-    "10% year-on-year revenue decline overall",
-    "Higher RWA impacting CET1 ratio",
-    "Lower deposit margin due to rate compression",
-    "Uncertainty around regulatory changes and their impact on lending",
-    "Potential for increased competition in fintech and private credit"
+    "Credit costs and charge-offs remain elevated",
+    "Regulatory complexity and potential for increased scrutiny",
+    "Market volatility and uncertainty",
+    "Potential impact of tariffs on business",
+    "Dependence on macroeconomic conditions"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "NII ex Markets",
+      "direction": "raised"
+    },
+    {
+      "line": "adjusted expense",
+      "direction": "raised"
+    },
+    {
+      "line": "Card net charge-off rate",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "regulation",
-    "capital allocation",
-    "markets",
     "credit",
-    "AI"
+    "capital",
+    "markets",
+    "technology"
   ],
   "_ticker": "JPM",
   "_quarter": "Q2-2025",

@@ -4,24 +4,45 @@
   "wins": [
     "Operating income growth and margin expansion in a declining revenue environment",
     "Reaffirming the midpoint of fiscal '24 adjusted EPS range while narrowing the range",
-    "Significant progress on DRIVE initiatives delivering $550 million in benefits",
-    "Successful implementation of Network 2.0 in over 50 locations",
-    "Announcing the fdx Commerce platform for integrated data-driven commerce solutions"
+    "Improved service levels and customer experience",
+    "Successful execution of DRIVE initiatives delivering $550 million in benefits",
+    "Advancements in digital and data-driven solutions for customer offerings"
   ],
   "risks": [
-    "International trade weakness constraining demand in international business",
-    "Inflationary pressures impacting Express business",
-    "Postal volume headwinds due to USPS contract negotiations",
-    "Continued volume softness and yield pressures at Express",
-    "Uncertainty around the USPS contract renewal and its impact on volume"
+    "International trade weakness and volume challenges",
+    "Inflationary pressures and cost headwinds",
+    "Postal volume headwind due to USPS contract issues",
+    "Service mix shift towards deferred and e-commerce products",
+    "Uncertainty around USPS contract negotiations"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "adjusted_operating_income",
+      "direction": "raised"
+    },
+    {
+      "line": "adjusted_operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "DRIVE",
     "Network 2.0",
-    "e-commerce",
-    "digital transformation",
-    "cost optimization"
+    "Digital transformation",
+    "E-commerce",
+    "International trade"
   ],
   "_ticker": "FDX",
   "_quarter": "Q3-2024",

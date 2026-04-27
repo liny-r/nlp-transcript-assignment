@@ -1,31 +1,48 @@
 {
   "overall_sentiment": 0.85,
-  "sentiment_bucket": "very_bullish",
+  "sentiment_bucket": "bullish",
   "wins": [
     "Data Center segment revenue grew 80% year-over-year",
     "MI300 GPU sales passed $1 billion in less than 2 quarters",
     "EPYC processors gained server CPU revenue share",
-    "AI PC adoption is expected to drive revenue growth",
-    "Turin processors are on track to launch later this year"
+    "Ryzen Pro 8000 series delivered industry-leading performance",
+    "Versal Gen 2 adaptive SoCs offer 3x AI tops per watt improvement"
   ],
   "risks": [
     "Gaming segment revenue declined 48% year-over-year",
-    "Embedded segment revenue decreased 46% year-over-year",
-    "Supply constraints for MI300 could be a challenge",
-    "Lower gross margin in the Gaming segment",
-    "Sequential decline in Client segment revenue"
+    "Embedded segment revenue declined 46% year-over-year",
+    "Supply constraints for MI300 could be a risk",
+    "Gaming segment revenue is expected to decline significantly in Q2",
+    "Inventory levels in embedded market remain a challenge"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",
     "cloud",
-    "epyc",
-    "mi300",
-    "server_cpu",
-    "client_segment",
-    "gaming",
-    "embedded"
+    "enterprise",
+    "server"
   ],
   "_ticker": "AMD",
   "_quarter": "Q1-2024",

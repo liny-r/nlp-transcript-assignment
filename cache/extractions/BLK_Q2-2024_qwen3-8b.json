@@ -1,25 +1,48 @@
 {
-  "overall_sentiment": 0.8,
+  "overall_sentiment": 0.85,
   "sentiment_bucket": "very_bullish",
   "wins": [
-    "Strong Q2 performance with $82 billion net inflows",
     "Record AUM of over $10.6 trillion",
     "Double-digit operating income growth",
-    "160 basis points margin expansion",
-    "Positive organic base fee growth of 3%"
+    "3% annualized organic base fee growth",
+    "Strong ETF flows with $83 billion net inflows",
+    "Bitcoin ETF leading with $18 billion net inflows"
   ],
   "risks": [
-    "$20 billion active fixed income redemption from a large insurance client",
+    "Large insurance client redemption of $20 billion",
     "Institutional index net outflows of $35 billion",
-    "Institutional active net outflows of $2 billion"
+    "Market volatility impacting performance fees",
+    "Potential tax rate changes affecting earnings",
+    "Regulatory approvals for GIP and Preqin acquisitions"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "ETFs",
     "private_markets",
     "technology",
-    "AI",
-    "infrastructure"
+    "data_centers",
+    "AI"
   ],
   "_ticker": "BLK",
   "_quarter": "Q2-2024",

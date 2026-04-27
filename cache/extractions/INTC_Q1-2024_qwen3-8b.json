@@ -2,26 +2,47 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strong Q1 results with revenue in line and EPS above guidance",
-    "Positive momentum in AI PC and data center markets",
-    "Successful AI PC product ramp with Core Ultra",
-    "Significant progress in AI accelerator development with Gaudi 3",
-    "Positive customer engagement and industry partnerships"
+    "Q1 revenue in line with expectations",
+    "EPS above guidance",
+    "Strong AI PC momentum",
+    "Gaudi 3 launch and traction",
+    "Intel Foundry customer growth"
   ],
   "risks": [
-    "Near-term demand weaker than expected",
-    "Challenges with wafer-level assembly supply",
-    "Start-up costs impacting gross margins",
-    "Inventory headwinds in certain segments",
-    "Uncertainty around external foundry revenue"
+    "Supply constraints impacting 2Q",
+    "Inventory headwinds in Mobileye, Altera, and 5G customers",
+    "Foundry P&L challenges in 2024",
+    "Lower gross margin in Q2",
+    "Uncertainty in 5G market recovery"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",
-    "semiconductor",
-    "supply_chain",
-    "foundry"
+    "foundry",
+    "semiconductors",
+    "supply_chain"
   ],
   "_ticker": "INTC",
   "_quarter": "Q1-2024",

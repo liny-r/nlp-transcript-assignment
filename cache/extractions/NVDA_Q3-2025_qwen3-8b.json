@@ -6,24 +6,43 @@
     "NVIDIA H200 sales increased significantly to double-digit billions",
     "NVIDIA H200-powered cloud instances available from AWS, CoreWeave, and Microsoft Azure",
     "NVIDIA AI Enterprise full year revenue expected to increase over 2x from last year",
-    "NVIDIA Blackwell demand is staggering with Oracle and Microsoft deploying at scale"
+    "Blackwell demand is staggering, with Oracle and Microsoft deploying Blackwell-based systems"
   ],
   "risks": [
     "Supply constraints affecting Gaming revenue",
     "Gross margins expected to moderate to the low 70s as Blackwell ramps",
-    "Blackwell ramping may cause sequential decline in Gaming revenue",
-    "China market remains competitive with export controls",
-    "Investor concerns about execution on roadmap and supply chain"
+    "China market remains competitive due to export controls",
+    "Networking revenue sequentially down despite strong demand",
+    "Investor concerns about execution on Blackwell roadmap"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",
-    "cloud",
-    "blackwell",
-    "sovereign_ai",
-    "inference",
-    "training"
+    "china",
+    "pricing",
+    "capex"
   ],
   "_ticker": "NVDA",
   "_quarter": "Q3-2025",

@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.1,
+  "overall_sentiment": 0.15,
   "sentiment_bucket": "neutral",
   "wins": [
-    "Growth in multiple sport dimensions including men's fitness, men's global football, and running footwear",
-    "Positive partner feedback on future product pipeline",
-    "Double-digit growth in Mercurial, Global Football, and G.T. Series",
-    "Strong consumer engagement with new Running campaign",
-    "New product pipeline with innovation in running footwear and apparel"
+    "Growth in multiple sport dimensions including men's fitness, men's global football, and men's and women's running footwear",
+    "Double-digit growth in Mercurial, Global Football, and G.T. Series in basketball",
+    "Positive growth in men's and women's running footwear in Q1",
+    "Strong order book for spring '25 footwear units set to grow double digits",
+    "Positive consumer engagement with new Running campaign"
   ],
   "risks": [
-    "Lower than expected unit sales and revenue decline",
-    "Soft traffic in NIKE Direct and Greater China",
-    "Elevated inventory levels requiring higher promotional activity",
-    "Moderated near-term revenue expectations",
-    "Potential impact from East Coast port strike"
+    "Retail sales underperformed plan including wholesale partners",
+    "Traffic declines across NIKE Direct and partner stores in Greater China",
+    "Inventory levels elevated due to promotional activity",
+    "Q1 revenue declined 10% on a reported basis",
+    "Q2 gross margins expected to decline approximately 150 basis points"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "sport",
     "innovation",
     "digital",
     "china",
-    "supply_chain"
+    "inventory"
   ],
   "_ticker": "NKE",
   "_quarter": "Q1-2025",

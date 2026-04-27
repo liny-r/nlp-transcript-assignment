@@ -1,27 +1,48 @@
 {
   "overall_sentiment": 0.85,
-  "sentiment_bucket": "bullish",
+  "sentiment_bucket": "very_bullish",
   "wins": [
     "8% organic base fee growth",
     "$130 billion net inflows",
     "27% revenue growth year-over-year",
     "44.5% as-adjusted operating margin",
-    "Record ETF net inflows of $132 billion"
+    "Record iShares net inflows of $132 billion"
   ],
   "risks": [
     "Institutional index net outflows of $35 billion",
     "Private credit market volatility",
     "Market dislocation impacting private credit opportunities",
-    "Higher effective tax rate",
-    "Seasonal redemptions from U.S. government funds"
+    "Seasonal redemptions from U.S. government funds",
+    "Uncertainty in geopolitical environment"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
+    "AI",
+    "private_markets",
     "ETFs",
-    "private markets",
-    "technology",
-    "global expansion",
-    "retirement solutions"
+    "tax_aware_investing",
+    "global_expansion"
   ],
   "_ticker": "BLK",
   "_quarter": "Q1-2026",

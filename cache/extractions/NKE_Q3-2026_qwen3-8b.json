@@ -1,21 +1,42 @@
 {
-  "overall_sentiment": 0.3,
-  "sentiment_bucket": "neutral",
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "bullish",
   "wins": [
     "NIKE Running up over 20% for the quarter",
     "Nike Mind platform sold out globally",
-    "Strong NBA All-Star Weekend execution",
+    "Strong sell-through for Air Max 95 reintroduction",
     "Positive growth in all channels in North America for the first time in 2 years",
-    "Successful launch of NikeSKIMS in Australia and Korea"
+    "Confidence in returning to balanced growth in North America"
   ],
   "risks": [
-    "Inventory issues and markdowns across the marketplace",
-    "Sell-through below plan in EMEA and Greater China",
-    "Higher tariffs impacting gross margins",
-    "Converse still facing challenges",
-    "Uncertainty in the macro environment"
+    "Aged inventory remains a headwind",
+    "Promotional activity continues to impact gross margins",
+    "Greater China revenue decline of approximately 20%",
+    "Inventory levels remain elevated in EMEA",
+    "Marketplace management actions continue to create near-term pressure"
   ],
-  "guidance": "mixed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "sport",
     "innovation",

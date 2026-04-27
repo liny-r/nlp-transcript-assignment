@@ -2,24 +2,45 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strategic focus narrowing with successful exits of non-core businesses",
-    "Record financing revenues across Global Banking & Markets",
-    "Surpassing $225 billion fundraising target for alternatives one year early",
-    "24th consecutive quarter of long-term fee-based net inflows",
-    "Improved client franchise with 350 basis points wallet share gains"
+    "Strong M&A backlog replenishment",
+    "Record management and other fees in private banking and lending",
+    "Surpassed $225 billion alternatives fundraising target one year early",
+    "Improved client wallet share and competitive positions",
+    "Increased financing revenues across FICC & Equities"
   ],
   "risks": [
-    "FICC revenues down 24% due to lower activity in rates and macro products",
-    "Potential slowdown in investment banking activity due to macroeconomic uncertainty",
-    "Higher funding costs impacting net interest income",
-    "Uncertainty around Basel III Endgame regulatory changes",
-    "Continued drag from legacy principal investments"
+    "Potential slowdown in FICC activity",
+    "Uncertainty around Basel III Endgame rules",
+    "Reduced on-balance sheet investment pace in 2024",
+    "Macroeconomic headwinds impacting CRE and other sectors",
+    "Market volatility affecting capital returns"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "strategic_focus",
-    "alternatives",
     "capital_markets",
+    "alternatives",
     "client_relations",
     "regulatory"
   ],

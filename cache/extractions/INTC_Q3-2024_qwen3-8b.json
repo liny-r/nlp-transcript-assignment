@@ -6,22 +6,43 @@
     "Significant progress on cost reduction plan",
     "Improved operational performance across Intel Foundry and Intel Products",
     "Strong product roadmap and ecosystem for AIPC",
-    "Positive revenue growth in DCAI and NEX segments"
+    "Positive revenue growth in Intel Products and Foundry"
   ],
   "risks": [
     "Negative impact on Q3 profitability from restructuring charges",
     "Slower-than-expected adoption of Gaudi 3 AI accelerator",
-    "Challenges in achieving 2025 financial commitments",
-    "Uncertainty around 2024 free cash flow due to restructuring charges",
-    "Potential margin pressures from new product designs like Lunar Lake"
+    "Inventory drawdown in client segment",
+    "Potential margin pressure from Lunar Lake's memory-in-package design",
+    "Uncertainty around 2024 free cash flow due to restructuring charges"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "AI",
     "cost_reduction",
-    "capital_expenditures",
     "x86",
-    "foundry"
+    "foundry",
+    "capital_expenditures"
   ],
   "_ticker": "INTC",
   "_quarter": "Q3-2024",

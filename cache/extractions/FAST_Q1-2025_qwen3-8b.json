@@ -15,13 +15,34 @@
     "E-commerce performance needs improvement",
     "Inventory growth may remain elevated"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "supply_chain",
     "tariffs",
     "digital_transformation",
-    "customer_relations",
-    "inventory_management"
+    "inventory",
+    "e_commerce"
   ],
   "_ticker": "FAST",
   "_quarter": "Q1-2025",

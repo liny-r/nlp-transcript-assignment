@@ -9,19 +9,44 @@
     "Strong performance in FICC and equities financing"
   ],
   "risks": [
-    "Increased macroeconomic uncertainty and recession risks",
-    "Market volatility and trade war concerns",
-    "Potential slowdown in client activity due to policy uncertainty",
-    "Deleveraging impacting financing growth",
-    "Challenges in monetization environment"
+    "Uncertainty around trade war and economic slowdown",
+    "Potential impact of policy changes on international revenues",
+    "Market volatility affecting client activity",
+    "Challenges in monetization environment",
+    "Risk of recession and economic uncertainty"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "mixed"
+    }
+  ],
   "themes": [
     "AI",
     "capital",
     "alternatives",
-    "wealth management",
-    "global markets"
+    "wealth_management",
+    "globalization"
   ],
   "_ticker": "GS",
   "_quarter": "Q1-2025",

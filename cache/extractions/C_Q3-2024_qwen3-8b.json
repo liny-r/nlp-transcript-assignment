@@ -4,18 +4,43 @@
   "wins": [
     "Revenue growth of 3% ex divestitures",
     "Positive operating leverage across all 5 businesses",
-    "Fee-based revenue growth of double-digit",
+    "Fee-based revenue growth with double-digit increase",
     "Successful integration of cross-border services with Mastercard Move",
-    "Strong performance in investment banking with 44% fee growth"
+    "Investment banking fees up 44%"
   ],
   "risks": [
     "Lower discretionary spending impacting retail services portfolio",
     "Uncertainty about Basel III end game",
     "China's consumer sentiment and property market concerns",
-    "Potential headwinds from lower interest rates in Argentina",
+    "Potential headwinds from legacy franchise loan and deposit declines",
     "Higher credit losses in Retail Services"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "mixed"
+    }
+  ],
   "themes": [
     "AI",
     "China",

@@ -3,7 +3,7 @@
   "sentiment_bucket": "very_bullish",
   "wins": [
     "Revenue surged 70% year-over-year, highest growth rate as a public company",
-    "U.S. business commands 77% of total revenue, up 93% year-over-year",
+    "U.S. business now commands 77% of total revenue, up 93% year-over-year",
     "Rule of 40 score reached 127%, up 46 points year-over-year",
     "Closed highest TCV quarter ever at $4.3 billion",
     "U.S. government business grew 66% year-over-year with $448 million Navy contract"
@@ -11,12 +11,33 @@
   "risks": [
     "No explicit risks mentioned in the transcript"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "U.S. government",
-    "revenue growth",
-    "product innovation"
+    "pricing",
+    "capex"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q4-2025",

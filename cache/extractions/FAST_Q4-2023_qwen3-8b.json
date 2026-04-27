@@ -2,26 +2,47 @@
   "overall_sentiment": 0.45,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Grew daily sales 3.7%",
-    "EPS grew 8.5% to $0.46",
     "Record operating cash flow of over $1.4 billion",
-    "Paid a fifth dividend in December 2023",
-    "Increased Digital Footprint to 58% of sales"
+    "Paid fifth dividend in company history",
+    "Improved operating margin to 20.1%",
+    "Gross margin increased to 45.5%",
+    "Digital Footprint reached 58% of sales"
   ],
   "risks": [
-    "Sub-50 PMI index impacting industrial space",
-    "Slower than expected Onsite signings",
-    "Soft demand in manufacturing end market",
+    "Sub-50 PMI index impacting industrial demand",
+    "Slower Onsite signings than expected",
     "Muted feedback from regional leadership",
-    "Potential impact from shipping cost increases"
+    "Global shipping cost volatility",
+    "Lower than expected sales growth"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "supply_chain",
     "digital_transformation",
-    "diversification",
-    "capital_allocation",
-    "market_share"
+    "dividend_policy",
+    "market_share",
+    "global_supply_chain"
   ],
   "_ticker": "FAST",
   "_quarter": "Q4-2023",

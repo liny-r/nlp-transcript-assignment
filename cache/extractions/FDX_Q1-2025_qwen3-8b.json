@@ -1,26 +1,47 @@
 {
   "overall_sentiment": 0.35,
-  "sentiment_bucket": "neutral",
+  "sentiment_bucket": "bullish",
   "wins": [
-    "Achieved $390 million in DRIVE-related savings in Q1",
-    "Narrowed FY '25 adjusted EPS outlook to $20 to $21",
-    "Successfully piloted new hold-to-match solution to lower last-mile costs",
-    "Launched FedEx International Deferred Freight service",
-    "Announced strategic alliance with Nimble to enhance e-commerce fulfillment"
+    "Narrowing FY '25 adjusted EPS outlook range to $20 to $21",
+    "Implementing significant new pricing actions relating to demand and fuel surcharges",
+    "Progress on network transformation and Network 2.0 rollout",
+    "Improved service levels and reduced churn in Europe",
+    "Successful pilot of hold-to-match solution to lower last-mile costs"
   ],
   "risks": [
-    "U.S. domestic package market weaker than expected",
-    "International export demand surcharges tapering",
+    "Weaker-than-expected U.S. domestic package market demand",
+    "Pressure from international export demand surcharge tapering",
     "Lower-than-expected revenue growth in FY '25",
     "Challenging industrial economy impacting B2B volumes",
-    "U.S. Postal Service contract termination headwind in Q2"
+    "Potential impact from East Coast port disruptions on air freight volumes"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
-    "DRIVE",
-    "network transformation",
-    "international",
+    "network",
     "pricing",
+    "international",
+    "cost_reduction",
     "e-commerce"
   ],
   "_ticker": "FDX",

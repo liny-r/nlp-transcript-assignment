@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.45,
-  "sentiment_bucket": "bullish",
+  "overall_sentiment": 0.35,
+  "sentiment_bucket": "neutral",
   "wins": [
-    "Revenue up 8% YoY to $46 billion",
+    "Revenue up 8% YoY",
     "NIR ex Markets up 14%",
     "Markets revenue up 21%",
-    "Strong AUM growth in Asset & Wealth Management",
-    "Capital distribution of $11 billion to shareholders"
+    "Strong AWM net inflows",
+    "Capital distribution of $11 billion"
   ],
   "risks": [
-    "Credit costs up $3.3 billion",
+    "Higher credit costs",
     "Uncertainty in macroeconomic outlook",
-    "Potential for higher credit losses in a recession",
-    "Volatility in treasury markets",
-    "Regulatory uncertainty and potential reforms"
+    "Potential recession impact",
+    "Regulatory uncertainty",
+    "Volatility in treasury markets"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "NII ex Markets",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "NII",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "credit card net charge-off rate",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
-    "credit",
     "regulation",
-    "markets",
+    "macro",
+    "credit",
     "capital",
-    "liquidity"
+    "markets"
   ],
   "_ticker": "JPM",
   "_quarter": "Q1-2025",

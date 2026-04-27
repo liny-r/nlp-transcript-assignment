@@ -6,23 +6,43 @@
     "Blackwell platform reached record levels, growing sequentially by 17%",
     "GB300 production shipments began in Q2",
     "GB200 NVL system seeing widespread adoption",
-    "AI infrastructure spend projected at $3 trillion to $4 trillion by end of decade"
+    "New Blackwell Ultra platform generating tens of billions in revenue"
   ],
   "risks": [
     "H20 shipments to China customers not included in Q3 outlook",
     "Geopolitical issues affecting H20 revenue potential",
     "Uncertainty around U.S. government licensing for H20 sales",
-    "Potential shift towards ASICs from merchant silicon",
+    "Potential shift towards ASICs by competitors",
     "Power limitations in data centers affecting revenue"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",
     "china",
-    "networking",
-    "capex",
-    "semiconductors"
+    "pricing",
+    "capex"
   ],
   "_ticker": "NVDA",
   "_quarter": "Q2-2026",

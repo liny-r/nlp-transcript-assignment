@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.95,
-  "sentiment_bucket": "very_bullish",
+  "overall_sentiment": 0.85,
+  "sentiment_bucket": "bullish",
   "wins": [
     "Record Q4 revenue of $22.1 billion, up 22% sequentially and 265% year-on-year",
     "Data Center revenue of $18.4 billion, up 27% sequentially and 409% year-on-year",
     "Hopper GPU and InfiniBand networking drove significant growth",
-    "Collaboration with Google to optimize Gemma language model for NVIDIA GPUs",
-    "Strong demand for Hopper architecture products"
+    "Strong adoption of AI across multiple industries including automotive, healthcare, and financial services",
+    "NVIDIA AI infrastructure is being used in AI factories for generative AI"
   ],
   "risks": [
     "China Data Center revenue declined significantly due to export controls",
-    "Supply constraints for next-gen products like H200",
-    "Uncertainty around future ASIC market participation",
-    "Potential competition from alternative solutions in China",
-    "Seasonal decline in Gaming revenue"
+    "Next generation products may face supply constraints",
+    "Competition in the AI infrastructure market is increasing",
+    "Uncertainty around the long-term demand for AI inference and training",
+    "Potential challenges in maintaining high gross margins as the market evolves"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
-    "Data Center",
     "China",
-    "Networking",
-    "Software"
+    "pricing",
+    "capex",
+    "data_center"
   ],
   "_ticker": "NVDA",
   "_quarter": "Q4-2024",

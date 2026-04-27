@@ -2,26 +2,47 @@
   "overall_sentiment": 0.85,
   "sentiment_bucket": "bullish",
   "wins": [
-    "AI revenue growth of 77% year-on-year",
+    "AI revenue growth of 44% year-on-year",
     "Reaffirmation of $60 billion to $90 billion SAM for 3 hyperscale customers in 2027",
-    "R&D investments in 2-nanometer AI XPU packaging and 100-terabit Tomahawk 6 switch",
     "Strong Q1 revenue growth of 25% year-on-year",
-    "Positive outlook for Q2 AI revenue growth to $4.4 billion"
+    "Record adjusted EBITDA of $10.1 billion",
+    "Positive outlook for Q2 semiconductor revenue growth of 2% sequentially"
   ],
   "risks": [
     "Non-AI semiconductor revenue is expected to be flattish sequentially",
-    "Uncertainty around new regulations impacting AI design wins",
-    "Potential delays in reenactment of Section 174 affecting cash taxes",
-    "High capital expenditures and debt servicing costs",
-    "Dependence on a few key hyperscale customers"
+    "Resales in industrial are expected to be down in Q2",
+    "Uncertainty around new AI regulations potentially impacting design wins",
+    "Dependence on a few key hyperscale customers",
+    "Potential impact of tariffs on chip manufacturing"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "hyperscalers",
     "R&D",
     "networking",
-    "semiconductors"
+    "VMware"
   ],
   "_ticker": "AVGO",
   "_quarter": "Q1-2025",

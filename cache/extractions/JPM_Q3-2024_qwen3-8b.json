@@ -5,20 +5,37 @@
     "Record quarterly revenues in AWM",
     "Strong referral growth in Wealth Management",
     "Higher card NII due to higher revolving balances",
-    "Optimistic outlook on IB fees and Markets revenue",
+    "Optimistic outlook for IB fees and advisory fees",
     "Record long-term net inflows in AWM"
   ],
   "risks": [
     "Deposit margin compression",
+    "Lower deposit balances in Banking & Wealth Management",
     "Net charge-offs up year-on-year",
-    "Sequential decline in NII ex Markets",
     "Uncertainty around M&A and regulatory environment",
-    "Potential for lower deposit growth in 2025"
+    "Potential sequential decline in NII ex Markets"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "NII ex Markets",
+      "direction": "lowered"
+    },
+    {
+      "line": "NII",
+      "direction": "lowered"
+    },
+    {
+      "line": "adjusted expense",
+      "direction": "lowered"
+    },
+    {
+      "line": "Card net charge-off rate",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "NII",
-    "deposit margins",
+    "deposit margin",
     "credit costs",
     "capital deployment",
     "AI"

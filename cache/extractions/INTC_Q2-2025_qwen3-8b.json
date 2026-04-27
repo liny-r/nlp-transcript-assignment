@@ -1,27 +1,44 @@
 {
-  "overall_sentiment": 0.25,
+  "overall_sentiment": 0.3,
   "sentiment_bucket": "neutral",
   "wins": [
     "Revenue above high end of guidance",
-    "Successful monetization of Mobileye",
-    "Progress on Panther Lake launch",
+    "Successful monetization of Mobileye stake",
+    "Launch of Panther Lake SKU by year-end",
     "Improved gross margin excluding charges",
-    "Focus on core business and balance sheet"
+    "Positive feedback from external partners on yield performance"
   ],
   "risks": [
     "Significant impairment and depreciation charges",
-    "Challenges in foundry ramp and customer trust",
-    "Lower gross margin due to Lunar Lake and Panther Lake",
-    "CapEx reduction challenges",
-    "Market share losses in server CPUs"
+    "Severance costs from restructuring",
+    "Uncertainty in foundry customer adoption",
+    "Potential share losses in server market",
+    "High CapEx and ongoing balance sheet deleveraging"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "foundry",
     "x86",
     "AI",
     "capex",
-    "balance sheet"
+    "restructuring"
   ],
   "_ticker": "INTC",
   "_quarter": "Q2-2025",

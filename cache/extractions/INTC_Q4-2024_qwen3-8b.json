@@ -6,22 +6,43 @@
     "Intel Foundry drove incremental operating efficiencies",
     "Intel Products executed to drive revenue in the quarter",
     "Intel Foundry achieved key grant-related milestones",
-    "Intel Foundry received $1.1 billion in grants in Q4"
+    "Intel Foundry is larger than all but one external foundry"
   ],
   "risks": [
     "Lower revenue at Mobileye and Altera",
     "Forecasted decline in foundry services due to end of life on traditional packaging revenue",
-    "Lower gross margin due to Q3 impairments",
-    "Lower revenue and higher period charges impacting full year EPS",
-    "Macroeconomic uncertainty and inventory balancing pressures"
+    "Macroeconomic uncertainty",
+    "Inventory normalization",
+    "Increased competition"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "AI",
-    "foundry",
+    "manufacturing",
     "capex",
-    "semiconductors",
-    "manufacturing"
+    "x86",
+    "foundry"
   ],
   "_ticker": "INTC",
   "_quarter": "Q4-2024",

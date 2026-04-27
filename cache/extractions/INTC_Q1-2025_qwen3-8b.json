@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.3,
+  "overall_sentiment": 0.25,
   "sentiment_bucket": "neutral",
   "wins": [
     "Revenue, gross margins, and EPS above guidance",
     "Flattened leadership structure to improve decision-making",
-    "OpEx and CapEx targets reduced for 2025 and 2026",
-    "Strategic focus on AI and new computing paradigms",
-    "Positive customer feedback and collaboration"
+    "OpEx targets reduced to $17B in 2025 and $16B in 2026",
+    "Intel 18A ramping with Panther Lake SKU by year-end",
+    "Strategic focus on AI workloads and customer feedback"
   ],
   "risks": [
-    "Uncertain macroeconomic environment and potential recession",
-    "Potential pullback in investment due to higher costs",
-    "Tariff-related challenges and supply chain risks",
-    "Intel 7 manufacturing constraints",
-    "Competition from ARM and other foundries"
+    "Potential economic slowdown and recession risk",
+    "Tariff impacts and supply chain uncertainty",
+    "Intel 7 capacity constraints",
+    "Competition from ARM in head nodes",
+    "Uncertainty around Altera divestiture timing"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "AI",
     "foundry",
     "cost_reduction",
-    "manufacturing",
-    "capital_intensive"
+    "capital_intensive",
+    "supply_chain"
   ],
   "_ticker": "INTC",
   "_quarter": "Q1-2025",

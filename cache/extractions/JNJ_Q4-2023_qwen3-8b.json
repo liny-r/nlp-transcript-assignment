@@ -11,17 +11,34 @@
   "risks": [
     "Negative impact from loss of exclusivity of ZYTIGA in Europe",
     "Potential headwinds from STELARA biosimilars in Europe",
-    "Inflationary pressures affecting MedTech inventory",
-    "Impact of Russia sanctions on international sales",
-    "Uncertainty around currency movements affecting sales growth"
+    "Lingering inflation impact in MedTech inventory",
+    "Uncertainty around currency movements affecting sales growth",
+    "Competition pressures affecting IMBRUVICA sales"
   ],
-  "guidance": "reaffirmed",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
-    "Innovative Medicine",
-    "MedTech",
-    "Clinical Trials",
-    "R&D",
-    "Capital Allocation"
+    "innovative_medicine",
+    "medtech",
+    "clinical_trials",
+    "pipeline",
+    "capital_allocation"
   ],
   "_ticker": "JNJ",
   "_quarter": "Q4-2023",

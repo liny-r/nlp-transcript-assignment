@@ -4,24 +4,42 @@
   "wins": [
     "Revenue grew 14% sequentially and 36% year-over-year in Q4",
     "Full year revenue grew 29% year-over-year",
-    "U.S. commercial revenue grew 64% year-over-year",
-    "Rule of 40 score increased to 81",
-    "Closed $1.8 billion of TCV across the business"
+    "U.S. commercial revenue grew 64% year-over-year and 20% sequentially",
+    "U.S. government business revenue grew 45% year-over-year",
+    "Fourth quarter TCV book was $1.79 billion, up 56% year-over-year"
   ],
   "risks": [
-    "Strategic commercial contracts revenue is expected to decline in Q1 2025",
-    "Uncertainty around the future of the Rule of 40 metric",
-    "Increased competition in the AI space",
-    "Potential challenges in maintaining growth rates",
-    "Dependence on U.S. government contracts"
+    "Revenue from strategic commercial contracts is expected to decline in Q1 2025",
+    "Anticipated increase in expenses in 2025 due to technical hires and AI production use cases",
+    "Uncertainty around the Rule of 40 score and potential need for a new rule"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "U.S. government",
-    "Ontology",
-    "AIP",
-    "Warp Speed"
+    "pricing",
+    "capex"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q4-2024",

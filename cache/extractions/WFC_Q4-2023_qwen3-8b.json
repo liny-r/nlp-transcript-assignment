@@ -1,27 +1,48 @@
 {
-  "overall_sentiment": 0.3,
+  "overall_sentiment": 0.35,
   "sentiment_bucket": "neutral",
   "wins": [
-    "Increased common stock dividend from $0.30 to $0.35 per share",
-    "Repurchased $12 billion of common stock in 2023",
-    "CIB revenue grew 26% from a year ago",
-    "Launched new co-branded credit cards with Choice Hotels",
-    "Exceeded $150 million commitment to advance racial equity in home ownership"
+    "New credit card products drove higher consumer spend at an industry-leading rate",
+    "CIB revenue grew 26% year-over-year with increased market share",
+    "Mobile app enhancements added 1.6 million active customers",
+    "Exceeded $150 million commitment to advance racial equity in home ownership",
+    "Launched co-branded credit cards with Choice Hotels"
   ],
   "risks": [
-    "Net loan charge-offs increased from historical low levels",
-    "Net interest income is expected to decline in 2024",
-    "Consumer deposit balances continue to decline",
-    "Credit card revenue declined due to promotional rates and rewards expense",
-    "Uncertainty around Federal Reserve interest rate actions"
+    "Net loan charge-offs increased across commercial real estate and credit card portfolios",
+    "Consumer deposit balances declined due to migration to higher-yielding alternatives",
+    "Uncertainty around Fed rate path impacting net interest income outlook",
+    "Credit quality risks in commercial real estate office portfolios",
+    "Potential for uneven and episodic losses in commercial real estate sector"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "net_interest_income",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "reaffirmed"
+    }
+  ],
   "themes": [
     "credit",
-    "capital",
     "technology",
-    "efficiency",
-    "interest rates"
+    "capital_returns",
+    "interest_rates",
+    "efficiency"
   ],
   "_ticker": "WFC",
   "_quarter": "Q4-2023",

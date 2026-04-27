@@ -2,26 +2,47 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Revenue, gross margin, and earnings per share above guidance",
+    "Fourth consecutive quarter of improved execution",
+    "Revenue, gross margin, and EPS above guidance",
     "Significant improvement in cash position and liquidity",
-    "Accelerated funding from the U.S. government, NVIDIA, and SoftBank Group",
-    "Successful collaboration with NVIDIA to create AI-focused products",
-    "Strong demand for Granite Rapids in hyperscale data centers"
+    "Accelerated funding from U.S. government, NVIDIA, and SoftBank",
+    "Strong demand for Granite Rapids in hyperscalers"
   ],
   "risks": [
-    "Supply constraints on Intel 10 and Intel 7 limiting capacity",
+    "Supply constraints on Intel 10 and Intel 7",
+    "Tight capacity environment expected to persist into 2026",
     "Lower gross margin in Q4 due to product mix and deconsolidation of Altera",
-    "Challenges in transitioning customers from older products to newer AI-focused offerings",
-    "Uncertainty around the timing and scale of 18A yields",
-    "High fixed costs and wafer costs impacting gross margins"
+    "Challenges in transitioning customers off older products",
+    "Uncertainty around 18A yields and capacity ramp"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
-    "x86",
+    "semiconductor manufacturing",
     "foundry",
-    "capex",
-    "semiconductor"
+    "x86",
+    "capex"
   ],
   "_ticker": "INTC",
   "_quarter": "Q3-2025",

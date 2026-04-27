@@ -1,26 +1,43 @@
 {
-  "overall_sentiment": 0.35,
+  "overall_sentiment": 0.3,
   "sentiment_bucket": "bullish",
   "wins": [
+    "Strong performance in running with Vomero 18 and Peg 41",
     "Successful Super Bowl and NBA All-Star Weekend campaigns",
-    "Strong consumer response to new product launches like Peg Premium and Vomero 18",
-    "Progress in elevating brand storytelling and market presence",
-    "Positive momentum in running and performance segments",
-    "Successful retail and digital initiatives in key cities"
+    "Positive consumer response to new product launches like 24/7 and NikeSKIMS",
+    "Improved brand storytelling and consumer engagement",
+    "Progress in repositioning NIKE Digital as a full-price business"
   ],
   "risks": [
     "Decline in classic footwear franchises",
-    "Inventory overhang and markdowns",
-    "Wholesale channel headwinds",
-    "Currency and macroeconomic uncertainties",
-    "Challenges in China market"
+    "Inventory obsolescence and markdowns",
+    "Continued headwinds in Greater China",
+    "Reduced promotional days and discounts impacting sales",
+    "Uncertainty in macroeconomic factors affecting consumer confidence"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "lowered"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
+    "performance",
     "brand",
-    "product",
     "digital",
-    "supply_chain",
+    "inventory",
     "china"
   ],
   "_ticker": "NKE",

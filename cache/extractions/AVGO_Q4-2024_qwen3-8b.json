@@ -3,25 +3,50 @@
   "sentiment_bucket": "very_bullish",
   "wins": [
     "Record $51.6 billion revenue in fiscal 2024",
-    "44% YoY revenue growth",
     "AI revenue grew 220% to $12.2 billion",
     "Semiconductor revenue reached a record $30.1 billion",
-    "Guidance for Q1 revenue of $14.6 billion, up 22% YoY"
+    "Q1 revenue guidance of $14.6 billion, up 22% year-on-year",
+    "Dividend increase to $0.59 per share, 11% increase"
   ],
   "risks": [
-    "Industrial revenue declined 27% YoY",
-    "Broadband revenue hit a bottom at $465 million",
-    "Non-AI semiconductor revenue declined 23% YoY",
-    "Free cash flow as a percentage of revenue declined due to higher interest and tax expenses",
-    "Uncertainty around the timing of recovery for industrial and broadband segments"
+    "Broadband revenue declined 51% year-on-year",
+    "Non-AI semiconductor revenue declined 23% year-on-year",
+    "Free cash flow as a percentage of revenue declined due to higher cash interest expense",
+    "Uncertainty around the timing of recovery for industrial segment",
+    "Potential for quarterly variability in AI revenue growth"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    },
+    {
+      "line": "other",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "semiconductors",
+    "dividends",
     "VMware integration",
-    "capital expenditures",
-    "dividend increase"
+    "capex"
   ],
   "_ticker": "AVGO",
   "_quarter": "Q4-2024",

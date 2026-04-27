@@ -1,5 +1,5 @@
 {
-  "overall_sentiment": 0.75,
+  "overall_sentiment": 0.85,
   "sentiment_bucket": "bullish",
   "wins": [
     "Record data center segment annual revenue",
@@ -11,11 +11,32 @@
   "risks": [
     "Decline in Gaming segment revenue",
     "Embedded segment revenue decreased year-over-year",
-    "Inventory reduction by customers impacting Embedded segment",
+    "Inventory reduction impacting Embedded segment",
     "Potential headwinds from first half of 2024",
     "Significant double-digit decline in Gaming segment revenue"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",

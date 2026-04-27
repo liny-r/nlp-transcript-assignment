@@ -10,18 +10,37 @@
   ],
   "risks": [
     "Seasonal ramp in expenses expected in Q3",
-    "Revenue from strategic commercial contracts is expected to be less than half of 1% of full year revenue",
-    "Uncertainty around future demand for AI-powered software capabilities",
-    "Potential challenges in maintaining growth rates in the back half of the year",
-    "Competition from hyperscaler stacks and other AI providers"
+    "Strategic commercial contracts revenue expected to be less than half of 1% of full year revenue",
+    "International commercial revenue declined 3% year-over-year"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "U.S. government",
     "enterprise software",
-    "ontology",
-    "revenue growth"
+    "unit economics",
+    "product innovation"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q2-2025",

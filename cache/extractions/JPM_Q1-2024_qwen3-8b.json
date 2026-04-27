@@ -2,26 +2,47 @@
   "overall_sentiment": 0.65,
   "sentiment_bucket": "bullish",
   "wins": [
-    "Strong net inflows across AWM, CCB, and Wealth Management business",
+    "Strong net inflows across AWM, CCB, and Wealth Management",
     "Firm-wide IB fees up 18% year-on-year",
     "NII ex Markets up $1.2 billion or 12%",
     "Card outstandings up 13%",
-    "Investment Banking revenue up 27% year-on-year"
+    "CET1 ratio remains at 15%"
   ],
   "risks": [
-    "Deposit margin compression",
-    "Lower deposit balances in CCB",
-    "Credit costs up $116 million",
+    "Higher FDIC special assessment impacting expenses",
+    "Credit costs up $116 million predominantly driven by Card",
     "Markets revenue down $400 million or 5%",
-    "Potential pull-forward of capital markets activity"
+    "Deposit margin compression",
+    "Regulatory headwinds in Advisory business"
   ],
-  "guidance": "lowered",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "lowered"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "mixed"
+    },
+    {
+      "line": "segment",
+      "direction": "lowered"
+    }
+  ],
   "themes": [
     "capital",
-    "markets",
     "credit",
-    "interest rates",
-    "regulation"
+    "markets",
+    "regulation",
+    "interest_rates"
   ],
   "_ticker": "JPM",
   "_quarter": "Q1-2024",

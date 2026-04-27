@@ -1,21 +1,42 @@
 {
   "overall_sentiment": 0.85,
-  "sentiment_bucket": "very_bullish",
+  "sentiment_bucket": "bullish",
   "wins": [
     "AI revenue growth continues strongly",
-    "VMware bookings and revenue acceleration",
-    "Non-AI semiconductor revenue stabilization",
+    "VMware bookings and revenue accelerate",
+    "Non-AI semiconductor revenue stabilized",
     "Q4 revenue guidance raised to $14 billion",
     "Adjusted EBITDA margin expected to reach 64%"
   ],
   "risks": [
     "Broadband revenue remains weak",
     "Industrial resales still down year-on-year",
-    "Higher taxes and restructuring costs impact Q4",
-    "Uncertainty around AI demand beyond 2024",
+    "Higher taxes and integration costs impact Q4",
+    "Uncertainty in AI demand beyond current guidance",
     "Supply constraints for AI accelerators"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "lowered"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "VMware",

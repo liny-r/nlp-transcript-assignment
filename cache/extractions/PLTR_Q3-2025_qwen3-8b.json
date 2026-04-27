@@ -6,22 +6,41 @@
     "Rule of 40 score soared to 114%",
     "Closed highest TCV quarter ever at $2.8 billion",
     "U.S. commercial business grew 121% year-over-year",
-    "Generated highest ever reported adjusted operating margin of 51%"
+    "Generated highest ever reported revenue growth rate of 63%"
   ],
   "risks": [
     "Revenue from strategic commercial contracts is expected to be less than half of 1% of full year revenue",
-    "Anticipated fourth quarter 2025 revenue from these contracts to be between $2 million to $4 million",
-    "Net dollar retention does not yet fully capture the acceleration in U.S. business over the past year",
-    "RPO is primarily comprised of commercial business and does not include government contracts with short terms",
-    "Stock-based compensation expense and equity-related employer payroll tax expense are significant"
+    "Expenses are expected to increase in the fourth quarter",
+    "Net dollar retention does not yet fully capture the acceleration in U.S. business growth"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "raised"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "U.S. government",
+    "enterprise software",
     "revenue growth",
-    "ontology",
-    "customer expansion"
+    "product innovation"
   ],
   "_ticker": "PLTR",
   "_quarter": "Q3-2025",

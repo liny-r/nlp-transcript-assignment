@@ -3,19 +3,40 @@
   "sentiment_bucket": "bullish",
   "wins": [
     "Lifting of the asset cap marks a pivotal milestone in transformation",
+    "Increased dividend to $0.45 per share",
     "Strong credit performance with lower net loan charge-offs",
-    "Increased dividend and stock repurchase program",
     "Growth in fee-based income across segments",
-    "Improved customer satisfaction in digital and mobile services"
+    "Improved customer satisfaction in digital and mobile banking"
   ],
   "risks": [
-    "Economic uncertainty and potential downside scenarios",
-    "Moderate loan growth expectations",
-    "Potential impact of regulatory changes on capital requirements",
-    "Competition in commercial banking and loan markets",
-    "Uncertainty around future capital return and return targets"
+    "Economic uncertainty could impact loan growth",
+    "Potential for higher deposit costs",
+    "Regulatory changes may affect capital requirements",
+    "Market volatility could impact trading revenue",
+    "Competition in commercial banking and loan markets"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "EPS",
+      "direction": "raised"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "capital",
     "credit",

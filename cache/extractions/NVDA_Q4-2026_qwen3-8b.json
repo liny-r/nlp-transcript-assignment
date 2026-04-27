@@ -4,18 +4,39 @@
   "wins": [
     "Record revenue of $68 billion, up 73% YoY",
     "Data center revenue of $194 billion, up 68% YoY",
-    "Networking revenue up more than 3.5x YoY",
+    "Networking revenue of $11 billion, up 3.5x YoY",
     "Strong demand for Blackwell architecture",
     "Significant growth in physical AI revenue"
   ],
   "risks": [
     "Supply constraints for Gaming in Q1 and beyond",
-    "Uncertainty around China market access",
+    "Uncertainty around China's import restrictions",
     "Potential CapEx growth slowdown for cloud providers",
     "Competition from Chinese AI firms",
     "Uncertainty around future CapEx for cloud providers"
   ],
-  "guidance": "raised",
+  "guidance": [
+    {
+      "line": "revenue",
+      "direction": "raised"
+    },
+    {
+      "line": "EPS",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "gross_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "operating_margin",
+      "direction": "reaffirmed"
+    },
+    {
+      "line": "segment",
+      "direction": "raised"
+    }
+  ],
   "themes": [
     "AI",
     "data_center",
